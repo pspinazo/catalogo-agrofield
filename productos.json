@@ -1,0 +1,90 @@
+﻿[
+    {
+        "SKU": "130-150-025",
+        "MARCA": "ROYAL CANIN",
+        "PRODUCTO": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
+        "VARIANTE": "195G",
+        "CATEGORIA": "ALIMENTO HÚMEDO / PERROS",
+        "SUBCATEGORIA": "VHN - PRESCRIPCION",
+        "DESCRIPCION_CORTA": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
+        "DESCRIPCION_LARGA": "Comida húmeda indicada para perros que presentan patologías como: Anorexia o malnutrición, soporte nutricional en cuidados intensivos y post-quirúrgicos, convalecencia, lipidosis hepática felina, gestación, lactancia, crecimiento.",
+        "PRECIO": 38625,
+        "IMAGEN": "130-150-025.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 1,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "130-150-025.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-162",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-162.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 2,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-162.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-167",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-167.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 3,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-167.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "130-219-005",
+        "MARCA": "OLD PRINCE",
+        "PRODUCTO": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
+        "VARIANTE": "15KG",
+        "CATEGORIA": "ALIMENTO SECO / PERROS",
+        "SUBCATEGORIA": "PERRO ADULTO - MEDIANO Y GRANDE",
+        "DESCRIPCION_CORTA": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
+        "DESCRIPCION_LARGA": "Mejora el sistema inmunológico;\nAporta más energía;\nColabora con una piel y un pelo más saludable;\nContribuye en el cuidado dental..",
+        "PRECIO": 408375,
+        "IMAGEN": "130-219-005.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 4,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "130-219-005.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    }
+]
