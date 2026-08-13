@@ -91,7 +91,7 @@
         "SKU": "114-363-485",
         "MARCA": "DOCO",
         "PRODUCTO": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
-        "VARIANTE": "",
+        "VARIANTE": "PEQUEÑO",
         "CATEGORIA": "ARNES",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
@@ -113,7 +113,7 @@
         "SKU": "114-363-917",
         "MARCA": "DOCO",
         "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
-        "VARIANTE": "",
+        "VARIANTE": "PEQUEÑO",
         "CATEGORIA": "COLLARES",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
@@ -135,7 +135,7 @@
         "SKU": "114-363-926",
         "MARCA": "DOCO",
         "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
-        "VARIANTE": "",
+        "VARIANTE": "MEDIANO",
         "CATEGORIA": "COLLARES",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
@@ -157,7 +157,7 @@
         "SKU": "114-363-928",
         "MARCA": "DOCO",
         "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
-        "VARIANTE": "",
+        "VARIANTE": "MEDIANO",
         "CATEGORIA": "COLLARES",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
@@ -179,7 +179,7 @@
         "SKU": "114-363-935",
         "MARCA": "DOCO",
         "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
-        "VARIANTE": "",
+        "VARIANTE": "GRANDE",
         "CATEGORIA": "COLLARES",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
@@ -201,7 +201,7 @@
         "SKU": "114-363-296",
         "MARCA": "DOCO",
         "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
-        "VARIANTE": "",
+        "VARIANTE": "EXTRA GRANDE",
         "CATEGORIA": "PECHERAS",
         "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
@@ -236,6 +236,50 @@
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-411.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-201",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
+        "DESCRIPCION_LARGA": "La correa BUNGEE de nailon con absorción de impactos DOCO® de 4 pies cuenta con una cuerda elástica con absorción de impactos, nailon de doble capa de alta calidad y un asa de neopreno para mayor comodidad. Al corregir suavemente los tirones de su perro, la correa DOCO BUNGEE le hace un favor a sus hombros, brazos y cuello de su perro al absorber los golpes. Esta correa tiene un amortiguador de 8'' (20 cm) y tiene una fuerza de tracción de 280 kg. Los anillos cuadrados totalmente soldados y un broche negro anodizado duradero de 360° se suman a la durabilidad de esta correa. La correa DOCO ® BUNGEE es una excelente correa de entrenamiento para su perro.",
+        "PRECIO": 53625,
+        "IMAGEN": "114-363-201.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 12,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-201.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-212",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
+        "DESCRIPCION_LARGA": "Cuenta con mango acolchado de neopreno para mayor comodidad en la empuñadura. Diseñado con nuestro clip de cuerda patentado que tiene un diseño sobresaliente. Equipado con gancho giratorio de 360° de metal duradero de aleación de zinc pulido en negro. Fácil de colocar en cualquier collar o arnés para perros.",
+        "PRECIO": 30750,
+        "IMAGEN": "114-363-212.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 13,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-212.jpg",
                 "ORDEN": 1,
                 "PRINCIPAL": true
             }

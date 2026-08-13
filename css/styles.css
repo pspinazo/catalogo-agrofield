@@ -1217,143 +1217,6 @@ header {
 
 
 /* ========================================
-   PAGINACIÓN
-======================================== */
-
-.paginacion-productos {
-
-    width: 100%;
-
-    margin-top: 30px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 20px;
-
-    flex-wrap: wrap;
-
-    padding:
-        15px
-        0;
-}
-
-.paginacion-informacion {
-
-    color:
-        var(--agro-texto-secundario);
-
-    font-size: 13px;
-
-    font-weight: 500;
-}
-
-.paginacion-controles {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 5px;
-
-    flex-wrap: wrap;
-}
-
-.btn-paginacion {
-
-    min-width: 38px;
-
-    height: 38px;
-
-    padding:
-        0
-        10px;
-
-    border:
-        1px solid
-        var(--agro-borde);
-
-    border-radius: 8px;
-
-    background: #FFFFFF;
-
-    color: var(--agro-texto);
-
-    font-size: 13px;
-
-    font-weight: 600;
-
-    cursor: pointer;
-
-    transition:
-        background 0.2s,
-        border-color 0.2s,
-        color 0.2s,
-        transform 0.2s;
-}
-
-.btn-paginacion:hover:not(:disabled) {
-
-    background:
-        var(--agro-fondo-suave);
-
-    border-color:
-        var(--agro-verde);
-
-    color:
-        var(--agro-verde-profundo);
-
-    transform:
-        translateY(-1px);
-}
-
-.btn-paginacion.activo {
-
-    background:
-        var(--agro-verde);
-
-    border-color:
-        var(--agro-verde);
-
-    color: #FFFFFF;
-}
-
-.btn-paginacion:disabled {
-
-    opacity: 0.45;
-
-    cursor: not-allowed;
-
-    background:
-        var(--agro-fondo-suave);
-}
-
-.paginacion-separador {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    min-width: 28px;
-
-    height: 38px;
-
-    color: var(--agro-texto-secundario);
-
-    font-size: 13px;
-
-    font-weight: 600;
-}
-
-
-/* ========================================
    SIN RESULTADOS
 ======================================== */
 
@@ -3294,7 +3157,7 @@ header {
 
 
 /* ========================================
-   PAGINACIÓN ADICIONAL
+   PAGINACIÓN
 ======================================== */
 
 .paginacion {
@@ -3309,19 +3172,29 @@ header {
 
     gap: 8px;
 
-    margin:
-        30px
-        0
-        10px;
+    margin-top: 45px;
+
+    margin-bottom: 20px;
+
+    padding:
+        10px
+        0;
 
     flex-wrap: wrap;
+
+    text-align: center;
 }
 
-.paginacion button {
 
-    min-width: 38px;
+/* ========================================
+   BOTONES PAGINACIÓN
+======================================== */
 
-    height: 38px;
+.pagina-boton {
+
+    min-width: 40px;
+
+    height: 40px;
 
     padding:
         0
@@ -3331,26 +3204,39 @@ header {
         1px solid
         var(--agro-borde);
 
-    border-radius: 8px;
+    border-radius: 9px;
 
     background: #FFFFFF;
 
-    color: var(--agro-texto);
+    color:
+        var(--agro-texto);
 
-    font-size: 14px;
+    font-size: 13px;
 
     font-weight: 600;
 
     cursor: pointer;
 
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
     transition:
-        background-color 0.2s ease,
-        color 0.2s ease,
+        background 0.2s ease,
         border-color 0.2s ease,
-        transform 0.15s ease;
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
-.paginacion button:hover:not(:disabled) {
+
+/* ========================================
+   HOVER
+======================================== */
+
+.pagina-boton:hover:not(:disabled) {
 
     background:
         var(--agro-fondo-suave);
@@ -3362,10 +3248,24 @@ header {
         var(--agro-verde-profundo);
 
     transform:
-        translateY(-1px);
+        translateY(-2px);
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            112,
+            172,
+            38,
+            0.12
+        );
 }
 
-.paginacion button.activo {
+
+/* ========================================
+   PÁGINA ACTIVA
+======================================== */
+
+.pagina-boton.pagina-activa {
 
     background:
         var(--agro-verde);
@@ -3373,27 +3273,105 @@ header {
     border-color:
         var(--agro-verde);
 
-    color: #FFFFFF;
+    color:
+        #FFFFFF;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            112,
+            172,
+            38,
+            0.25
+        );
+
+    transform:
+        translateY(-1px);
 }
 
-.paginacion button:disabled {
 
-    opacity: 0.45;
+/* ========================================
+   BOTONES ANTERIOR / SIGUIENTE
+======================================== */
 
-    cursor: not-allowed;
+.pagina-boton.pagina-anterior,
+.pagina-boton.pagina-siguiente {
 
-    transform: none;
-}
-
-.paginacion .pagina-anterior,
-.paginacion .pagina-siguiente {
-
-    min-width: auto;
+    min-width: 105px;
 
     padding:
         0
-        14px;
+        16px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color:
+        var(--agro-texto);
+
+    background:
+        #FFFFFF;
 }
+
+
+/* ========================================
+   HOVER ANTERIOR / SIGUIENTE
+======================================== */
+
+.pagina-boton.pagina-anterior:hover:not(:disabled),
+.pagina-boton.pagina-siguiente:hover:not(:disabled) {
+
+    background:
+        var(--agro-verde);
+
+    border-color:
+        var(--agro-verde);
+
+    color:
+        #FFFFFF;
+
+    box-shadow:
+        0 5px 14px
+        rgba(
+            112,
+            172,
+            38,
+            0.20
+        );
+}
+
+
+/* ========================================
+   BOTONES DESHABILITADOS
+======================================== */
+
+.pagina-boton:disabled {
+
+    opacity: 0.40;
+
+    cursor: not-allowed;
+
+    background:
+        var(--agro-fondo-suave);
+
+    border-color:
+        var(--agro-borde);
+
+    color:
+        var(--agro-texto-secundario);
+
+    transform: none;
+
+    box-shadow: none;
+}
+
+
+/* ========================================
+   INFORMACIÓN PAGINACIÓN
+======================================== */
 
 .paginacion-info {
 
@@ -3407,7 +3385,14 @@ header {
         var(--agro-texto-secundario);
 
     font-size: 13px;
+
+    font-weight: 500;
 }
+
+
+/* ========================================
+   CONTENEDOR PAGINACIÓN
+======================================== */
 
 .contenedor-paginacion {
 
@@ -3429,10 +3414,12 @@ header {
 
         gap: 6px;
 
-        margin-top: 25px;
+        margin-top: 35px;
+
+        margin-bottom: 15px;
     }
 
-    .paginacion button {
+    .pagina-boton {
 
         min-width: 36px;
 
@@ -3440,17 +3427,21 @@ header {
 
         padding:
             0
-            10px;
+            9px;
 
-        font-size: 13px;
+        font-size: 12px;
     }
 
-    .paginacion .pagina-anterior,
-    .paginacion .pagina-siguiente {
+    .pagina-boton.pagina-anterior,
+    .pagina-boton.pagina-siguiente {
+
+        min-width: 92px;
 
         padding:
             0
             11px;
+
+        font-size: 11px;
     }
 }
 
@@ -3464,9 +3455,13 @@ header {
     .paginacion {
 
         gap: 5px;
+
+        margin-top: 30px;
+
+        margin-bottom: 15px;
     }
 
-    .paginacion button {
+    .pagina-boton {
 
         min-width: 34px;
 
@@ -3474,22 +3469,23 @@ header {
 
         padding:
             0
-            8px;
+            7px;
 
-        font-size: 12px;
+        font-size: 11px;
+
+        border-radius: 8px;
     }
 
-    .paginacion .pagina-anterior,
-    .paginacion .pagina-siguiente {
+    .pagina-boton.pagina-anterior,
+    .pagina-boton.pagina-siguiente {
+
+        min-width: auto;
 
         padding:
             0
             9px;
-    }
 
-    .paginacion-info {
-
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -4249,5 +4245,320 @@ header {
         -webkit-print-color-adjust: exact !important;
 
         print-color-adjust: exact !important;
+    }
+}
+
+/* ========================================
+   PAGINACIÓN FINAL - AGROFIELD
+   SOBRESCRITURA DEFINITIVA
+======================================== */
+
+#paginacion-productos {
+
+    width: 100% !important;
+
+    margin-top: 50px !important;
+
+    margin-bottom: 30px !important;
+
+    padding:
+        10px
+        0 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    gap: 8px !important;
+
+    flex-wrap: wrap !important;
+
+    clear: both !important;
+
+    float: none !important;
+
+    box-sizing: border-box !important;
+
+    position: relative !important;
+
+    left: 0 !important;
+
+    right: auto !important;
+}
+
+
+/* ========================================
+   BOTONES
+======================================== */
+
+#paginacion-productos .pagina-boton {
+
+    min-width: 40px !important;
+
+    width: auto !important;
+
+    height: 40px !important;
+
+    padding:
+        0
+        12px !important;
+
+    margin: 0 !important;
+
+    border:
+        1px solid
+        var(--agro-borde) !important;
+
+    border-radius: 9px !important;
+
+    background: #FFFFFF !important;
+
+    color:
+        var(--agro-texto) !important;
+
+    font-size: 13px !important;
+
+    font-weight: 600 !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    cursor: pointer !important;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* ========================================
+   HOVER
+======================================== */
+
+#paginacion-productos
+.pagina-boton:hover:not(:disabled) {
+
+    background:
+        var(--agro-fondo-suave) !important;
+
+    border-color:
+        var(--agro-verde) !important;
+
+    color:
+        var(--agro-verde-profundo) !important;
+
+    transform:
+        translateY(-2px) !important;
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            112,
+            172,
+            38,
+            0.12
+        ) !important;
+}
+
+
+/* ========================================
+   PÁGINA ACTIVA
+======================================== */
+
+#paginacion-productos
+.pagina-boton.pagina-activa {
+
+    background:
+        var(--agro-verde) !important;
+
+    border-color:
+        var(--agro-verde) !important;
+
+    color:
+        #FFFFFF !important;
+
+    font-weight: 700 !important;
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            112,
+            172,
+            38,
+            0.25
+        ) !important;
+
+    transform:
+        translateY(-1px) !important;
+}
+
+
+/* ========================================
+   ANTERIOR / SIGUIENTE
+======================================== */
+
+#paginacion-productos
+.pagina-boton.pagina-anterior,
+
+#paginacion-productos
+.pagina-boton.pagina-siguiente {
+
+    min-width: 105px !important;
+
+    padding:
+        0
+        16px !important;
+
+    font-size: 12px !important;
+
+    font-weight: 700 !important;
+}
+
+
+/* ========================================
+   HOVER ANTERIOR / SIGUIENTE
+======================================== */
+
+#paginacion-productos
+.pagina-boton.pagina-anterior:hover:not(:disabled),
+
+#paginacion-productos
+.pagina-boton.pagina-siguiente:hover:not(:disabled) {
+
+    background:
+        var(--agro-verde) !important;
+
+    border-color:
+        var(--agro-verde) !important;
+
+    color:
+        #FFFFFF !important;
+}
+
+
+/* ========================================
+   DESHABILITADO
+======================================== */
+
+#paginacion-productos
+.pagina-boton:disabled {
+
+    opacity: 0.40 !important;
+
+    cursor: not-allowed !important;
+
+    background:
+        var(--agro-fondo-suave) !important;
+
+    border-color:
+        var(--agro-borde) !important;
+
+    color:
+        var(--agro-texto-secundario) !important;
+
+    transform: none !important;
+
+    box-shadow: none !important;
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 768px) {
+
+    #paginacion-productos {
+
+        margin-top: 40px !important;
+
+        margin-bottom: 25px !important;
+
+        gap: 6px !important;
+    }
+
+    #paginacion-productos
+    .pagina-boton {
+
+        min-width: 36px !important;
+
+        height: 36px !important;
+
+        padding:
+            0
+            9px !important;
+
+        font-size: 12px !important;
+    }
+
+    #paginacion-productos
+    .pagina-boton.pagina-anterior,
+
+    #paginacion-productos
+    .pagina-boton.pagina-siguiente {
+
+        min-width: 92px !important;
+
+        padding:
+            0
+            11px !important;
+
+        font-size: 11px !important;
+    }
+}
+
+
+/* ========================================
+   CELULAR
+======================================== */
+
+@media (max-width: 480px) {
+
+    #paginacion-productos {
+
+        margin-top: 30px !important;
+
+        margin-bottom: 20px !important;
+
+        gap: 5px !important;
+    }
+
+    #paginacion-productos
+    .pagina-boton {
+
+        min-width: 34px !important;
+
+        height: 34px !important;
+
+        padding:
+            0
+            7px !important;
+
+        font-size: 11px !important;
+    }
+
+    #paginacion-productos
+    .pagina-boton.pagina-anterior,
+
+    #paginacion-productos
+    .pagina-boton.pagina-siguiente {
+
+        min-width: auto !important;
+
+        padding:
+            0
+            9px !important;
+
+        font-size: 10px !important;
     }
 }
