@@ -284,5 +284,247 @@
                 "PRINCIPAL": true
             }
         ]
+    },
+    {
+        "SKU": "114-363-102",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- S REF DCSN002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- S REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 18750,
+        "IMAGEN": "114-363-102.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 14,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-102.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-108",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -AZUL MARINO- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -AZUL MARINO- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-108.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 15,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-108.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-109",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -ROJO- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -ROJO- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-109.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 16,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-109.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-110",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-110.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 17,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-110.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-112",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -AZUL MARINO- XL REF DCSN002",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -AZUL MARINO- XL REF DCSN002",
+        "DESCRIPCION_LARGA": "Collar de nylon resistente con acabado Signature, diseñado para brindar máximo confort gracias a su suavidad y ajuste seguro. Fabricado para ofrecer durabilidad en el uso diario, combina solidez y estilo, ideal para mascotas que requieren un collar robusto y elegante.",
+        "PRECIO": 41250,
+        "IMAGEN": "114-363-112.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 18,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-112.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-114",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -VERDE- S REF DCS008",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -VERDE- S REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 24750,
+        "IMAGEN": "114-363-114.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 19,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-114.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-115",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -AZUL- L REF DCS008",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -AZUL- L REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 33750,
+        "IMAGEN": "114-363-115.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 20,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-115.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-116",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -ROJO- L REF DCS008",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -ROJO- L REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 33750,
+        "IMAGEN": "114-363-116.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 21,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-116.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-117",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -MORADO- L REF DCS008",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -MORADO- L REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 33750,
+        "IMAGEN": "114-363-117.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 22,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-117.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-118",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -VERDE- L REF DCS008",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -VERDE- L REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 33750,
+        "IMAGEN": "114-363-118.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 23,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-118.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-119",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO VERDE- S REF DCL002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO VERDE- S REF DCL002",
+        "DESCRIPCION_LARGA": "Los collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 22500,
+        "IMAGEN": "114-363-119.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 24,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-119.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
     }
 ]
