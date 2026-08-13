@@ -1,7 +1,42 @@
 /* ========================================
    CATÁLOGO AGROFIELD
    STYLES.CSS
+   PALETA AGROFIELD
 ======================================== */
+
+
+/* ========================================
+   VARIABLES DE COLOR
+======================================== */
+
+:root {
+
+    --agro-verde: #70AC26;
+
+    --agro-verde-claro: #8DBA3F;
+
+    --agro-verde-oscuro: #4F554A;
+
+    --agro-verde-profundo: #3F5135;
+
+    --agro-negro: #090F10;
+
+    --agro-texto: #4F554A;
+
+    --agro-texto-secundario: #6F756B;
+
+    --agro-fondo: #F5F7F2;
+
+    --agro-fondo-suave: #EEF2E9;
+
+    --agro-borde: #E3E7DF;
+
+    --agro-borde-oscuro: #CDD4C7;
+
+    --agro-blanco: #FFFFFF;
+
+    --agro-destacado: #DCEBBD;
+}
 
 
 /* ========================================
@@ -10,7 +45,9 @@
 
 * {
     box-sizing: border-box;
+
     margin: 0;
+
     padding: 0;
 }
 
@@ -20,6 +57,7 @@
 ======================================== */
 
 body {
+
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -30,11 +68,11 @@ body {
     background:
         linear-gradient(
             135deg,
-            #f5f7fa 0%,
-            #e9ecf1 100%
+            #F5F7F2 0%,
+            #EEF2E9 100%
         );
 
-    color: #1a1a1a;
+    color: var(--agro-negro);
 
     min-height: 100vh;
 }
@@ -45,18 +83,13 @@ body {
 ======================================== */
 
 header {
-    background:
-        linear-gradient(
-            135deg,
-            #0d6e3b 0%,
-            #084e01 100%
-        );
+    background: #ffffff;
 
     padding: 16px 30px;
 
     border-bottom:
         2px solid
-        #064b20;
+        #dfe7e3;
 
     position: sticky;
 
@@ -70,7 +103,7 @@ header {
             0,
             0,
             0,
-            0.15
+            0.08
         );
 }
 
@@ -129,13 +162,7 @@ header {
 
     height: 42px;
 
-    background:
-        rgba(
-            255,
-            255,
-            255,
-            0.35
-        );
+    background: #dfe7e3;
 }
 
 
@@ -144,7 +171,7 @@ header {
 ======================================== */
 
 .header-titulo h1 {
-    color: #ffffff;
+    color: #17452f;
 
     font-size: 19px;
 
@@ -152,25 +179,19 @@ header {
 }
 
 .header-titulo p {
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.75
-        );
+    color: #66736d;
 
     font-size: 12px;
 
     margin-top: 2px;
 }
 
-
 /* ========================================
    CONTENEDOR
 ======================================== */
 
 .contenedor {
+
     width: 100%;
 
     max-width: 1200px;
@@ -189,14 +210,17 @@ header {
 ======================================== */
 
 .busqueda {
+
     margin-bottom: 18px;
 }
 
 .busqueda-contenedor {
+
     position: relative;
 }
 
 .busqueda input {
+
     width: 100%;
 
     padding:
@@ -209,11 +233,13 @@ header {
 
     border:
         2px solid
-        #d5dbe0;
+        var(--agro-borde);
 
     border-radius: 11px;
 
-    background: #ffffff;
+    background: #FFFFFF;
+
+    color: var(--agro-negro);
 
     outline: none;
 
@@ -224,15 +250,17 @@ header {
 }
 
 .busqueda input:focus {
-    border-color: #0d6e3b;
+
+    border-color:
+        var(--agro-verde);
 
     box-shadow:
         0 0 0 4px
         rgba(
-            13,
-            110,
-            59,
-            0.1
+            112,
+            172,
+            38,
+            0.14
         );
 
     transform:
@@ -240,6 +268,7 @@ header {
 }
 
 .icono-busqueda {
+
     position: absolute;
 
     left: 17px;
@@ -262,6 +291,7 @@ header {
 ======================================== */
 
 .filtros {
+
     display: flex;
 
     align-items: end;
@@ -274,25 +304,26 @@ header {
 
     padding: 18px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border:
         1px solid
-        #e1e5e8;
+        var(--agro-borde);
 
     border-radius: 12px;
 
     box-shadow:
         0 3px 12px
         rgba(
-            0,
-            0,
-            0,
-            0.04
+            79,
+            85,
+            74,
+            0.06
         );
 }
 
 .filtro-grupo {
+
     display: flex;
 
     flex-direction: column;
@@ -301,14 +332,16 @@ header {
 }
 
 .filtro-grupo label {
+
     font-size: 12px;
 
     font-weight: 700;
 
-    color: #555;
+    color: var(--agro-texto);
 }
 
 .filtros select {
+
     min-width: 210px;
 
     padding:
@@ -319,11 +352,13 @@ header {
 
     border:
         2px solid
-        #d5dbe0;
+        var(--agro-borde);
 
     border-radius: 9px;
 
-    background: #ffffff;
+    background: #FFFFFF;
+
+    color: var(--agro-texto);
 
     cursor: pointer;
 
@@ -333,34 +368,37 @@ header {
 }
 
 .filtros select:focus {
-    border-color: #0d6e3b;
+
+    border-color:
+        var(--agro-verde);
 
     box-shadow:
         0 0 0 4px
         rgba(
-            13,
-            110,
-            59,
-            0.1
+            112,
+            172,
+            38,
+            0.12
         );
 
     outline: none;
 }
 
 .btn-limpiar {
+
     padding:
         11px
         17px;
 
     border:
         1px solid
-        #d5dbe0;
+        var(--agro-borde-oscuro);
 
     border-radius: 9px;
 
-    background: #f7f8f9;
+    background: var(--agro-fondo-suave);
 
-    color: #555;
+    color: var(--agro-texto);
 
     font-size: 13px;
 
@@ -373,9 +411,11 @@ header {
 }
 
 .btn-limpiar:hover {
-    background: #eef1f2;
 
-    border-color: #bfc6cb;
+    background: #E4EBD9;
+
+    border-color:
+        var(--agro-verde);
 }
 
 
@@ -384,6 +424,7 @@ header {
 ======================================== */
 
 .cabecera-productos {
+
     display: flex;
 
     justify-content: space-between;
@@ -396,13 +437,17 @@ header {
 }
 
 .cabecera-productos h2 {
+
     font-size: 22px;
+
+    color: var(--agro-negro);
 
     margin-bottom: 3px;
 }
 
 .cabecera-productos p {
-    color: #777;
+
+    color: var(--agro-texto-secundario);
 
     font-size: 13px;
 }
@@ -413,6 +458,7 @@ header {
 ======================================== */
 
 .acciones-productos {
+
     display: flex;
 
     align-items: center;
@@ -428,6 +474,7 @@ header {
 ======================================== */
 
 .selector-vista {
+
     display: flex;
 
     align-items: center;
@@ -436,21 +483,22 @@ header {
 
     padding: 4px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border:
         1px solid
-        #dfe3e6;
+        var(--agro-borde);
 
     border-radius: 9px;
 }
 
 .btn-vista {
+
     border: none;
 
     background: transparent;
 
-    color: #777;
+    color: var(--agro-texto-secundario);
 
     padding:
         8px
@@ -469,15 +517,20 @@ header {
 }
 
 .btn-vista:hover {
-    background: #f1f3f4;
 
-    color: #333;
+    background:
+        var(--agro-fondo-suave);
+
+    color:
+        var(--agro-verde-oscuro);
 }
 
 .btn-vista.activo {
-    background: #0d6e3b;
 
-    color: #ffffff;
+    background:
+        var(--agro-verde);
+
+    color: #FFFFFF;
 }
 
 
@@ -486,6 +539,7 @@ header {
 ======================================== */
 
 .btn-pdf {
+
     display: flex;
 
     align-items: center;
@@ -500,13 +554,13 @@ header {
 
     border:
         1px solid
-        #d5dbe0;
+        var(--agro-borde);
 
     border-radius: 9px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
-    color: #555;
+    color: var(--agro-texto);
 
     font-size: 13px;
 
@@ -521,17 +575,22 @@ header {
 }
 
 .btn-pdf:hover {
-    background: #f1f3f4;
 
-    border-color: #bfc6cb;
+    background:
+        var(--agro-fondo-suave);
 
-    color: #333;
+    border-color:
+        var(--agro-verde);
+
+    color:
+        var(--agro-verde-oscuro);
 
     transform:
         translateY(-1px);
 }
 
 .btn-pdf:active {
+
     transform:
         translateY(0);
 }
@@ -542,6 +601,7 @@ header {
 ======================================== */
 
 .grid-productos {
+
     display: grid;
 
     grid-template-columns:
@@ -562,7 +622,8 @@ header {
 ======================================== */
 
 .producto {
-    background: #ffffff;
+
+    background: #FFFFFF;
 
     border-radius: 14px;
 
@@ -570,7 +631,7 @@ header {
 
     border:
         2px solid
-        #e5e8eb;
+        var(--agro-borde);
 
     transition:
         transform 0.3s
@@ -593,19 +654,21 @@ header {
 }
 
 .producto:hover {
+
     transform:
         translateY(-8px);
 
     box-shadow:
         0 15px 35px
         rgba(
-            13,
-            110,
-            59,
-            0.15
+            112,
+            172,
+            38,
+            0.18
         );
 
-    border-color: #0d6e3b;
+    border-color:
+        var(--agro-verde);
 }
 
 
@@ -614,6 +677,7 @@ header {
 ======================================== */
 
 .producto-imagen {
+
     width: 100%;
 
     height: 230px;
@@ -624,12 +688,13 @@ header {
 
     align-items: center;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     padding: 15px;
 }
 
 .producto-imagen img {
+
     max-width: 100%;
 
     max-height: 100%;
@@ -640,6 +705,7 @@ header {
 }
 
 .imagen-sin-producto {
+
     display: flex;
 
     align-items: center;
@@ -650,7 +716,7 @@ header {
 
     height: 100%;
 
-    color: #aaa;
+    color: #A0A5A7;
 
     font-size: 12px;
 }
@@ -661,6 +727,7 @@ header {
 ======================================== */
 
 .producto-info {
+
     padding: 18px;
 
     display: flex;
@@ -671,11 +738,12 @@ header {
 }
 
 .producto-marca {
+
     font-size: 12px;
 
     font-weight: 700;
 
-    color: #0d6e3b;
+    color: var(--agro-verde-profundo);
 
     letter-spacing: 0.5px;
 
@@ -683,10 +751,10 @@ header {
 
     background:
         rgba(
-            13,
-            110,
-            59,
-            0.08
+            112,
+            172,
+            38,
+            0.13
         );
 
     padding:
@@ -701,7 +769,10 @@ header {
 }
 
 .producto-info h3 {
+
     font-size: 18px;
+
+    color: var(--agro-negro);
 
     margin-bottom: 8px;
 
@@ -709,17 +780,23 @@ header {
 }
 
 .producto-presentacion {
+
     font-size: 14px;
 
-    color: #666;
+    color: var(--agro-texto-secundario);
 
     margin-bottom: 12px;
 }
 
 .producto-precio {
+
     font-size: 20px;
 
     font-weight: 700;
+
+    color: var(--agro-verde-profundo);
+
+    margin-top: auto;
 
     margin-bottom: 15px;
 }
@@ -741,8 +818,8 @@ header {
     background:
         linear-gradient(
             135deg,
-            #0d6e3b 0%,
-            #084e01 100%
+            #16804d 0%,
+            #0d6e3b 100%
         );
 
     color: #ffffff;
@@ -764,32 +841,33 @@ header {
         transform 0.1s;
 
     box-shadow:
-        0 4px 12px
+        0 4px 10px
         rgba(
             13,
             110,
             59,
-            0.3
+            0.20
         );
 
     margin-top: auto;
 }
 
 .btn-ver-producto:hover {
+
     background:
         linear-gradient(
             135deg,
-            #0d6e3b 0%,
-            #065838 100%
+            #16804d 0%,
+            #0d6e3b 100%
         );
 
     box-shadow:
         0 6px 20px
         rgba(
-            13,
-            110,
-            59,
-            0.4
+            112,
+            172,
+            38,
+            0.35
         );
 
     transform:
@@ -797,6 +875,7 @@ header {
 }
 
 .btn-ver-producto:active {
+
     transform:
         scale(0.96);
 }
@@ -807,6 +886,7 @@ header {
 ======================================== */
 
 .producto-destacado {
+
     position: absolute;
 
     top: 12px;
@@ -816,13 +896,13 @@ header {
     background:
         linear-gradient(
             135deg,
-            #ffd700 0%,
-            #ffed4e 100%
+            #DCEBBD 0%,
+            #BFD98F 100%
         );
 
     border:
         2px solid
-        #ffc700;
+        var(--agro-verde);
 
     border-radius: 20px;
 
@@ -836,15 +916,15 @@ header {
 
     z-index: 2;
 
-    color: #333;
+    color: var(--agro-verde-profundo);
 
     box-shadow:
         0 4px 10px
         rgba(
-            255,
-            215,
-            0,
-            0.4
+            112,
+            172,
+            38,
+            0.20
         );
 }
 
@@ -854,6 +934,7 @@ header {
 ======================================== */
 
 .grid-productos.vista-listado {
+
     display: flex;
 
     flex-direction: column;
@@ -867,6 +948,7 @@ header {
 ======================================== */
 
 .cabecera-listado {
+
     display: grid;
 
     grid-template-columns:
@@ -889,13 +971,13 @@ header {
     background:
         linear-gradient(
             135deg,
-            #0d6e3b 0%,
-            #084e01 100%
+            #16804d 0%,
+            #0d6e3b 100%
         );
 
     border-radius: 10px;
 
-    color: #ffffff;
+    color: #FFFFFF;
 
     font-size: 11px;
 
@@ -908,14 +990,15 @@ header {
     box-shadow:
         0 3px 10px
         rgba(
-            13,
-            110,
-            59,
-            0.15
+            112,
+            172,
+            38,
+            0.18
         );
 }
 
 .cabecera-listado-imagen {
+
     text-align: center;
 }
 
@@ -925,6 +1008,7 @@ header {
 ======================================== */
 
 .producto-listado {
+
     position: relative;
 
     display: grid;
@@ -946,11 +1030,11 @@ header {
         10px
         15px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border:
         1px solid
-        #e1e5e8;
+        var(--agro-borde);
 
     border-radius: 10px;
 
@@ -963,15 +1047,17 @@ header {
 }
 
 .producto-listado:hover {
-    border-color: #0d6e3b;
+
+    border-color:
+        var(--agro-verde);
 
     box-shadow:
         0 5px 15px
         rgba(
-            0,
-            0,
-            0,
-            0.07
+            112,
+            172,
+            38,
+            0.10
         );
 
     transform:
@@ -984,6 +1070,7 @@ header {
 ======================================== */
 
 .listado-imagen {
+
     width: 65px;
 
     height: 65px;
@@ -994,7 +1081,7 @@ header {
 
     justify-content: center;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border-radius: 8px;
 
@@ -1002,6 +1089,7 @@ header {
 }
 
 .listado-imagen img {
+
     width: 100%;
 
     height: 100%;
@@ -1017,17 +1105,20 @@ header {
 ======================================== */
 
 .listado-campo {
+
     min-width: 0;
 }
 
 .listado-label {
+
     display: none;
 }
 
 .listado-valor {
+
     font-size: 13px;
 
-    color: #333;
+    color: var(--agro-texto);
 
     line-height: 1.3;
 
@@ -1035,11 +1126,12 @@ header {
 }
 
 .listado-producto {
+
     font-size: 14px;
 
     font-weight: 700;
 
-    color: #171717;
+    color: var(--agro-negro);
 
     line-height: 1.3;
 
@@ -1047,21 +1139,23 @@ header {
 }
 
 .listado-marca {
+
     font-size: 12px;
 
     font-weight: 700;
 
-    color: #0d6e3b;
+    color: var(--agro-verde-profundo);
 
     word-break: break-word;
 }
 
 .listado-precio {
+
     font-size: 14px;
 
     font-weight: 800;
 
-    color: #0d6e3b;
+    color: var(--agro-verde-profundo);
 
     white-space: nowrap;
 }
@@ -1072,6 +1166,7 @@ header {
 ======================================== */
 
 .listado-acciones {
+
     display: flex;
 
     justify-content: flex-end;
@@ -1084,6 +1179,7 @@ header {
 }
 
 .btn-listado {
+
     border: none;
 
     border-radius: 7px;
@@ -1092,9 +1188,10 @@ header {
         8px
         11px;
 
-    background: #0d6e3b;
+    background:
+        var(--agro-verde);
 
-    color: #ffffff;
+    color: #FFFFFF;
 
     font-size: 11px;
 
@@ -1110,7 +1207,9 @@ header {
 }
 
 .btn-listado:hover {
-    background: #084e01;
+
+    background:
+        var(--agro-verde-profundo);
 
     transform:
         translateY(-1px);
@@ -1122,6 +1221,7 @@ header {
 ======================================== */
 
 .paginacion-productos {
+
     width: 100%;
 
     margin-top: 30px;
@@ -1142,7 +1242,9 @@ header {
 }
 
 .paginacion-informacion {
-    color: #777;
+
+    color:
+        var(--agro-texto-secundario);
 
     font-size: 13px;
 
@@ -1150,6 +1252,7 @@ header {
 }
 
 .paginacion-controles {
+
     display: flex;
 
     align-items: center;
@@ -1162,6 +1265,7 @@ header {
 }
 
 .btn-paginacion {
+
     min-width: 38px;
 
     height: 38px;
@@ -1172,13 +1276,13 @@ header {
 
     border:
         1px solid
-        #d5dbe0;
+        var(--agro-borde);
 
     border-radius: 8px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
-    color: #555;
+    color: var(--agro-texto);
 
     font-size: 13px;
 
@@ -1194,33 +1298,43 @@ header {
 }
 
 .btn-paginacion:hover:not(:disabled) {
-    background: #f1f3f4;
 
-    border-color: #0d6e3b;
+    background:
+        var(--agro-fondo-suave);
 
-    color: #0d6e3b;
+    border-color:
+        var(--agro-verde);
+
+    color:
+        var(--agro-verde-profundo);
 
     transform:
         translateY(-1px);
 }
 
 .btn-paginacion.activo {
-    background: #0d6e3b;
 
-    border-color: #0d6e3b;
+    background:
+        var(--agro-verde);
 
-    color: #ffffff;
+    border-color:
+        var(--agro-verde);
+
+    color: #FFFFFF;
 }
 
 .btn-paginacion:disabled {
+
     opacity: 0.45;
 
     cursor: not-allowed;
 
-    background: #f5f6f7;
+    background:
+        var(--agro-fondo-suave);
 }
 
 .paginacion-separador {
+
     display: flex;
 
     align-items: center;
@@ -1231,7 +1345,7 @@ header {
 
     height: 38px;
 
-    color: #777;
+    color: var(--agro-texto-secundario);
 
     font-size: 13px;
 
@@ -1244,6 +1358,7 @@ header {
 ======================================== */
 
 .sin-resultados {
+
     grid-column: 1 / -1;
 
     text-align: center;
@@ -1252,7 +1367,8 @@ header {
         60px
         20px;
 
-    color: #666;
+    color:
+        var(--agro-texto-secundario);
 
     animation:
         fadeIn
@@ -1261,6 +1377,7 @@ header {
 }
 
 .sin-resultados p {
+
     font-size: 18px;
 
     font-weight: 500;
@@ -1274,6 +1391,7 @@ header {
 ======================================== */
 
 .modal {
+
     position: fixed;
 
     inset: 0;
@@ -1284,10 +1402,10 @@ header {
 
     background:
         rgba(
-            0,
-            0,
-            0,
-            0.75
+            9,
+            15,
+            16,
+            0.78
         );
 
     display: flex;
@@ -1325,6 +1443,7 @@ header {
 ======================================== */
 
 .oculto {
+
     display: none;
 }
 
@@ -1334,6 +1453,7 @@ header {
 ======================================== */
 
 .modal-contenido {
+
     width: 100%;
 
     max-width: 1050px;
@@ -1344,7 +1464,7 @@ header {
 
     overflow-x: hidden;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border-radius: 20px;
 
@@ -1369,10 +1489,10 @@ header {
     box-shadow:
         0 30px 70px
         rgba(
-            0,
-            0,
-            0,
-            0.3
+            9,
+            15,
+            16,
+            0.30
         );
 
     animation:
@@ -1389,6 +1509,7 @@ header {
 @keyframes slideUp {
 
     from {
+
         opacity: 0;
 
         transform:
@@ -1396,6 +1517,7 @@ header {
     }
 
     to {
+
         opacity: 1;
 
         transform:
@@ -1409,6 +1531,7 @@ header {
 ======================================== */
 
 .cerrar {
+
     position: absolute;
 
     right: 16px;
@@ -1423,9 +1546,10 @@ header {
 
     border-radius: 50%;
 
-    background: #f1f3f4;
+    background:
+        var(--agro-fondo-suave);
 
-    color: #333;
+    color: var(--agro-texto);
 
     font-size: 25px;
 
@@ -1444,7 +1568,9 @@ header {
 }
 
 .cerrar:hover {
-    background: #e4e7e9;
+
+    background:
+        #E0E7D9;
 
     transform:
         rotate(90deg)
@@ -1453,10 +1579,10 @@ header {
     box-shadow:
         0 4px 12px
         rgba(
-            0,
-            0,
-            0,
-            0.1
+            79,
+            85,
+            74,
+            0.12
         );
 }
 
@@ -1466,6 +1592,7 @@ header {
 ======================================== */
 
 .modal-imagen {
+
     width: 100%;
 
     min-width: 0;
@@ -1483,8 +1610,8 @@ header {
     background:
         linear-gradient(
             135deg,
-            #f9fafb 0%,
-            #f3f4f6 100%
+            #F8FAF5 0%,
+            #EEF2E9 100%
         );
 
     border-radius: 16px;
@@ -1493,10 +1620,11 @@ header {
 
     border:
         2px solid
-        #e5e8eb;
+        var(--agro-borde);
 }
 
 .modal-imagen-principal {
+
     width: 100%;
 
     display: flex;
@@ -1508,6 +1636,7 @@ header {
 
 .modal-imagen > img,
 .modal-imagen-principal > img {
+
     width: 100%;
 
     max-width: 440px;
@@ -1525,6 +1654,7 @@ header {
 ======================================== */
 
 .galeria-miniaturas {
+
     width: 100%;
 
     display: flex;
@@ -1548,6 +1678,7 @@ header {
 ======================================== */
 
 .miniatura-producto {
+
     flex:
         0 0 auto;
 
@@ -1561,9 +1692,9 @@ header {
 
     border:
         2px solid
-        #dfe3e6;
+        var(--agro-borde);
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     display: flex;
 
@@ -1580,6 +1711,7 @@ header {
 }
 
 .miniatura-producto img {
+
     width: 100%;
 
     height: 100%;
@@ -1590,51 +1722,53 @@ header {
 }
 
 .miniatura-producto:hover {
+
     transform:
         translateY(-4px)
         scale(1.05);
 
     border-color:
-        #0d6e3b;
+        var(--agro-verde);
 
     box-shadow:
         0 6px 15px
         rgba(
-            13,
-            110,
-            59,
-            0.2
+            112,
+            172,
+            38,
+            0.20
         );
 }
 
 .miniatura-producto.miniatura-activa {
+
     border:
         3px solid
-        #0d6e3b;
+        var(--agro-verde);
 
     background:
         linear-gradient(
             135deg,
             rgba(
-                13,
-                110,
-                59,
-                0.05
+                112,
+                172,
+                38,
+                0.08
             ) 0%,
             rgba(
-                13,
-                110,
-                59,
-                0.02
+                112,
+                172,
+                38,
+                0.03
             ) 100%
         );
 
     box-shadow:
         0 0 0 3px
         rgba(
-            13,
-            110,
-            59,
+            112,
+            172,
+            38,
             0.15
         );
 }
@@ -1645,6 +1779,7 @@ header {
 ======================================== */
 
 .modal-info {
+
     width: 100%;
 
     min-width: 0;
@@ -1656,6 +1791,7 @@ header {
 }
 
 .modal-info h2 {
+
     font-size: 30px;
 
     line-height: 1.18;
@@ -1664,14 +1800,16 @@ header {
 
     padding-right: 35px;
 
-    color: #171717;
+    color: var(--agro-negro);
 }
 
 .modal-marca-contenedor {
+
     margin-bottom: 10px;
 }
 
 .modal-info .producto-marca {
+
     font-size: 13px;
 
     font-weight: 700;
@@ -1680,16 +1818,16 @@ header {
 
     letter-spacing: 1px;
 
-    color: #0d6e3b;
+    color: var(--agro-verde-profundo);
 
     margin-bottom: 0;
 
     background:
         rgba(
-            13,
-            110,
-            59,
-            0.08
+            112,
+            172,
+            38,
+            0.10
         );
 
     padding:
@@ -1707,6 +1845,7 @@ header {
 ======================================== */
 
 .datos-producto {
+
     display: grid;
 
     grid-template-columns:
@@ -1724,20 +1863,23 @@ header {
 }
 
 .dato-producto {
+
     padding:
         13px
         14px;
 
-    background: #f7f8f9;
+    background:
+        var(--agro-fondo-suave);
 
     border:
         1px solid
-        #e4e7e9;
+        var(--agro-borde);
 
     border-radius: 9px;
 }
 
 .dato-label {
+
     display: block;
 
     font-size: 11px;
@@ -1748,17 +1890,19 @@ header {
 
     letter-spacing: 0.5px;
 
-    color: #888;
+    color:
+        var(--agro-texto-secundario);
 
     margin-bottom: 5px;
 }
 
 .dato-producto p {
+
     font-size: 14px;
 
     font-weight: 600;
 
-    color: #333;
+    color: var(--agro-texto);
 
     margin: 0;
 
@@ -1771,32 +1915,33 @@ header {
 ======================================== */
 
 .modal-precio-contenedor {
+
     padding: 18px;
 
     background:
         linear-gradient(
             135deg,
             rgba(
-                13,
-                110,
-                59,
-                0.08
+                112,
+                172,
+                38,
+                0.12
             ),
             rgba(
-                13,
-                110,
-                59,
-                0.03
+                112,
+                172,
+                38,
+                0.04
             )
         );
 
     border:
         1px solid
         rgba(
-            13,
-            110,
-            59,
-            0.15
+            112,
+            172,
+            38,
+            0.20
         );
 
     border-radius: 12px;
@@ -1805,6 +1950,7 @@ header {
 }
 
 .precio-label {
+
     display: block;
 
     font-size: 11px;
@@ -1815,17 +1961,20 @@ header {
 
     letter-spacing: 0.5px;
 
-    color: #777;
+    color:
+        var(--agro-texto-secundario);
 
     margin-bottom: 4px;
 }
 
 .modal-info .producto-precio {
+
     font-size: 28px;
 
     font-weight: 800;
 
-    color: #0d6e3b;
+    color:
+        var(--agro-verde-profundo);
 
     margin: 0;
 }
@@ -1836,31 +1985,36 @@ header {
 ======================================== */
 
 .modal-descripcion {
+
     margin-top: 5px;
 }
 
 .separador-modal {
+
     width: 100%;
 
     height: 1px;
 
-    background: #e5e5e5;
+    background:
+        var(--agro-borde);
 
     margin-bottom: 22px;
 }
 
 .modal-descripcion h3 {
+
     font-size: 18px;
 
     margin-bottom: 12px;
 
-    color: #222;
+    color: var(--agro-negro);
 }
 
 .modal-descripcion > p {
+
     line-height: 1.7;
 
-    color: #555;
+    color: var(--agro-texto);
 
     font-size: 14px;
 }
@@ -1871,13 +2025,14 @@ header {
 ======================================== */
 
 .area-pdf {
+
     display: none;
 
     width: 100%;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
-    color: #171717;
+    color: var(--agro-negro);
 }
 
 
@@ -1886,6 +2041,7 @@ header {
 ======================================== */
 
 .pdf-encabezado {
+
     display: flex;
 
     align-items: center;
@@ -1898,10 +2054,11 @@ header {
 
     border-bottom:
         2px solid
-        #0d6e3b;
+        var(--agro-verde);
 }
 
 .pdf-encabezado img {
+
     width: 150px;
 
     height: 48px;
@@ -1916,19 +2073,21 @@ header {
 }
 
 .pdf-encabezado h1 {
+
     font-size: 20px;
 
     font-weight: 700;
 
-    color: #171717;
+    color: var(--agro-negro);
 
     margin: 0;
 }
 
 .pdf-encabezado p {
+
     font-size: 12px;
 
-    color: #666;
+    color: var(--agro-texto-secundario);
 
     margin-top: 3px;
 }
@@ -1939,21 +2098,24 @@ header {
 ======================================== */
 
 .pdf-info {
+
     margin-bottom: 18px;
 }
 
 .pdf-info h2 {
+
     font-size: 18px;
 
-    color: #171717;
+    color: var(--agro-negro);
 
     margin-bottom: 3px;
 }
 
 .pdf-info p {
+
     font-size: 12px;
 
-    color: #777;
+    color: var(--agro-texto-secundario);
 }
 
 
@@ -1962,6 +2124,7 @@ header {
 ======================================== */
 
 .pdf-productos {
+
     display: flex;
 
     flex-direction: column;
@@ -1977,6 +2140,7 @@ header {
 ======================================== */
 
 .pdf-listado-cabecera {
+
     display: grid;
 
     grid-template-columns:
@@ -1999,9 +2163,10 @@ header {
         7px
         9px;
 
-    background: #0d6e3b;
+    background:
+        var(--agro-verde);
 
-    color: #ffffff;
+    color: #FFFFFF;
 
     border-radius: 5px;
 
@@ -2020,6 +2185,7 @@ header {
 ======================================== */
 
 .pdf-producto {
+
     display: grid;
 
     grid-template-columns:
@@ -2044,11 +2210,11 @@ header {
         5px
         9px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border:
         1px solid
-        #dfe3e6;
+        var(--agro-borde);
 
     border-radius: 5px;
 
@@ -2063,6 +2229,7 @@ header {
 ======================================== */
 
 .pdf-producto-imagen {
+
     width: 48px;
 
     height: 48px;
@@ -2073,10 +2240,11 @@ header {
 
     justify-content: center;
 
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 .pdf-producto-imagen img {
+
     width: 100%;
 
     height: 100%;
@@ -2092,17 +2260,20 @@ header {
 ======================================== */
 
 .pdf-producto-info {
+
     min-width: 0;
 
     width: 100%;
 }
 
 .pdf-producto-marca {
+
     font-size: 7px;
 
     font-weight: 700;
 
-    color: #0d6e3b;
+    color:
+        var(--agro-verde-profundo);
 
     text-transform: uppercase;
 
@@ -2110,13 +2281,14 @@ header {
 }
 
 .pdf-producto-nombre {
+
     font-size: 9px;
 
     font-weight: 700;
 
     line-height: 1.15;
 
-    color: #171717;
+    color: var(--agro-negro);
 
     margin: 0;
 
@@ -2124,9 +2296,10 @@ header {
 }
 
 .pdf-producto-dato {
+
     font-size: 8px;
 
-    color: #555;
+    color: var(--agro-texto);
 
     line-height: 1.25;
 
@@ -2136,17 +2309,20 @@ header {
 }
 
 .pdf-producto-dato strong {
+
     font-weight: 700;
 
-    color: #333;
+    color: var(--agro-negro);
 }
 
 .pdf-producto-precio {
+
     font-size: 9px;
 
     font-weight: 800;
 
-    color: #0d6e3b;
+    color:
+        var(--agro-verde-profundo);
 
     white-space: nowrap;
 }
@@ -2159,9 +2335,10 @@ header {
 .pdf-producto-presentacion,
 .pdf-producto-categoria,
 .pdf-producto-sku {
+
     font-size: 8px;
 
-    color: #444;
+    color: var(--agro-texto);
 
     line-height: 1.25;
 
@@ -2176,6 +2353,7 @@ header {
 @media (max-width: 900px) {
 
     .modal-contenido {
+
         grid-template-columns: 1fr;
 
         gap: 20px;
@@ -2186,15 +2364,18 @@ header {
     }
 
     .modal-imagen {
+
         min-height: 380px;
     }
 
     .modal-imagen > img,
     .modal-imagen-principal > img {
+
         height: 310px;
     }
 
     .modal-info {
+
         padding:
             5px
             5px
@@ -2202,6 +2383,7 @@ header {
     }
 
     .modal-info h2 {
+
         font-size: 26px;
     }
 
@@ -2210,6 +2392,7 @@ header {
 
     .cabecera-listado,
     .producto-listado {
+
         grid-template-columns:
             65px
             minmax(150px, 1.5fr)
@@ -2220,31 +2403,38 @@ header {
 
     .cabecera-listado > div:nth-child(4),
     .producto-listado .listado-presentacion {
+
         display: none;
     }
 
     .cabecera-listado > div:nth-child(5),
     .producto-listado .listado-categoria {
+
         display: none;
     }
 
     .cabecera-listado > div:nth-child(6) {
+
         grid-column: 4;
     }
 
     .cabecera-listado > div:nth-child(7) {
+
         grid-column: 5;
     }
 
     .producto-listado .listado-precio {
+
         grid-column: 4;
     }
 
     .producto-listado .listado-acciones {
+
         grid-column: 5;
     }
 
     .listado-acciones {
+
         justify-content: flex-end;
     }
 
@@ -2253,6 +2443,7 @@ header {
 
     .pdf-listado-cabecera,
     .pdf-producto {
+
         grid-template-columns:
             50px
             minmax(140px, 1.5fr)
@@ -2263,6 +2454,7 @@ header {
 
     .pdf-listado-cabecera > div:nth-child(4),
     .pdf-producto-categoria {
+
         display: none;
     }
 
@@ -2270,10 +2462,12 @@ header {
     /* PAGINACIÓN */
 
     .paginacion-productos {
+
         justify-content: center;
     }
 
     .paginacion-informacion {
+
         width: 100%;
 
         text-align: center;
@@ -2288,34 +2482,41 @@ header {
 @media (max-width: 600px) {
 
     header {
+
         padding:
             12px
             15px;
     }
 
     .header-marca {
+
         gap: 12px;
     }
 
     .logo-agrofield {
+
         width: 135px;
 
         height: 42px;
     }
 
     .header-separador {
+
         height: 32px;
     }
 
     .header-titulo h1 {
+
         font-size: 15px;
     }
 
     .header-titulo p {
+
         font-size: 10px;
     }
 
     .contenedor {
+
         padding:
             25px
             15px
@@ -2323,10 +2524,12 @@ header {
     }
 
     .presentacion h2 {
+
         font-size: 23px;
     }
 
     .cabecera-productos {
+
         align-items: flex-start;
 
         gap: 12px;
@@ -2335,16 +2538,19 @@ header {
     }
 
     .acciones-productos {
+
         width: 100%;
 
         justify-content: space-between;
     }
 
     .selector-vista {
+
         flex-shrink: 0;
     }
 
     .btn-vista {
+
         padding:
             7px
             8px;
@@ -2353,10 +2559,12 @@ header {
     }
 
     .btn-vista span {
+
         display: none;
     }
 
     .btn-pdf {
+
         padding:
             8px
             11px;
@@ -2365,6 +2573,7 @@ header {
     }
 
     .grid-productos {
+
         grid-template-columns:
             repeat(
                 2,
@@ -2375,28 +2584,34 @@ header {
     }
 
     .producto-imagen {
+
         height: 170px;
 
         padding: 10px;
     }
 
     .producto-info {
+
         padding: 12px;
     }
 
     .producto-info h3 {
+
         font-size: 15px;
     }
 
     .producto-presentacion {
+
         font-size: 12px;
     }
 
     .producto-precio {
+
         font-size: 16px;
     }
 
     .btn-ver-producto {
+
         padding:
             10px
             6px;
@@ -2405,22 +2620,26 @@ header {
     }
 
     .filtros {
+
         flex-direction: column;
 
         align-items: stretch;
     }
 
     .filtro-grupo {
+
         width: 100%;
     }
 
     .filtros select {
+
         width: 100%;
 
         min-width: 0;
     }
 
     .btn-limpiar {
+
         width: 100%;
     }
 
@@ -2428,10 +2647,12 @@ header {
     /* LISTADO CELULAR */
 
     .grid-productos.vista-listado {
+
         gap: 8px;
     }
 
     .cabecera-listado {
+
         grid-template-columns:
             55px
             minmax(0, 1fr)
@@ -2450,16 +2671,19 @@ header {
     .cabecera-listado > div:nth-child(4),
     .cabecera-listado > div:nth-child(5),
     .cabecera-listado > div:nth-child(7) {
+
         display: none;
     }
 
     .cabecera-listado > div:nth-child(6) {
+
         grid-column: 3;
 
         text-align: right;
     }
 
     .producto-listado {
+
         grid-template-columns:
             55px
             minmax(0, 1fr)
@@ -2471,25 +2695,30 @@ header {
     }
 
     .listado-imagen {
+
         width: 50px;
 
         height: 50px;
     }
 
     .listado-marca {
+
         font-size: 10px;
     }
 
     .listado-producto {
+
         font-size: 12px;
     }
 
     .listado-presentacion,
     .listado-categoria {
+
         display: none;
     }
 
     .producto-listado .listado-precio {
+
         grid-column: 3;
 
         text-align: right;
@@ -2498,10 +2727,12 @@ header {
     }
 
     .listado-acciones {
+
         display: none;
     }
 
     .listado-label {
+
         display: none;
     }
 
@@ -2509,6 +2740,7 @@ header {
     /* PAGINACIÓN CELULAR */
 
     .paginacion-productos {
+
         margin-top: 20px;
 
         padding:
@@ -2519,16 +2751,19 @@ header {
     }
 
     .paginacion-informacion {
+
         font-size: 12px;
     }
 
     .paginacion-controles {
+
         width: 100%;
 
         gap: 4px;
     }
 
     .btn-paginacion {
+
         min-width: 34px;
 
         height: 34px;
@@ -2541,6 +2776,7 @@ header {
     }
 
     .paginacion-separador {
+
         min-width: 22px;
 
         height: 34px;
@@ -2550,6 +2786,7 @@ header {
     /* MODAL CELULAR */
 
     .modal {
+
         padding: 10px;
 
         align-items:
@@ -2559,6 +2796,7 @@ header {
     }
 
     .modal-contenido {
+
         margin-top: 10px;
 
         padding: 18px;
@@ -2571,6 +2809,7 @@ header {
     }
 
     .modal-imagen {
+
         min-height: 310px;
 
         padding: 15px;
@@ -2578,20 +2817,24 @@ header {
 
     .modal-imagen > img,
     .modal-imagen-principal > img {
+
         height: 250px;
     }
 
     .datos-producto {
+
         grid-template-columns: 1fr;
 
         gap: 10px;
     }
 
     .modal-info h2 {
+
         font-size: 23px;
     }
 
     .modal-info .producto-precio {
+
         font-size: 24px;
     }
 
@@ -2599,12 +2842,14 @@ header {
     /* MINIATURAS */
 
     .galeria-miniaturas {
+
         gap: 8px;
 
         margin-top: 15px;
     }
 
     .miniatura-producto {
+
         width: 65px;
 
         height: 65px;
@@ -2615,6 +2860,7 @@ header {
 
     .pdf-listado-cabecera,
     .pdf-producto {
+
         grid-template-columns:
             45px
             minmax(0, 1fr)
@@ -2627,10 +2873,12 @@ header {
     .pdf-producto-presentacion,
     .pdf-producto-categoria,
     .pdf-producto-sku {
+
         display: none;
     }
 
     .pdf-producto-imagen {
+
         width: 40px;
 
         height: 40px;
@@ -2644,11 +2892,8 @@ header {
 
 @media print {
 
-    /* ====================================
-       CONFIGURACIÓN HOJA
-    ==================================== */
-
     @page {
+
         size: A4 portrait;
 
         margin:
@@ -2658,43 +2903,32 @@ header {
             9mm;
     }
 
-
-    /* ====================================
-       CONFIGURACIÓN GENERAL
-    ==================================== */
-
     html,
     body {
+
         width: 100% !important;
 
         margin: 0 !important;
 
         padding: 0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
     }
 
     body {
+
         min-height: auto !important;
     }
-
-
-    /* ====================================
-       OCULTAR INTERFAZ
-    ==================================== */
 
     body > header,
     body > main,
     body > .modal {
+
         display: none !important;
     }
 
-
-    /* ====================================
-       MOSTRAR PDF
-    ==================================== */
-
     body > .area-pdf {
+
         display: block !important;
 
         visibility: visible !important;
@@ -2705,25 +2939,22 @@ header {
 
         padding: 0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
     }
 
     .area-pdf {
+
         display: block !important;
 
         visibility: visible !important;
 
         width: 100% !important;
 
-        color: #171717 !important;
+        color: var(--agro-negro) !important;
     }
 
-
-    /* ====================================
-       ENCABEZADO PDF
-    ==================================== */
-
     .pdf-encabezado {
+
         display: flex !important;
 
         align-items: center !important;
@@ -2738,10 +2969,11 @@ header {
 
         border-bottom:
             2px solid
-            #0d6e3b !important;
+            var(--agro-verde) !important;
     }
 
     .pdf-encabezado img {
+
         display: block !important;
 
         width: 125px !important;
@@ -2758,12 +2990,14 @@ header {
     }
 
     .pdf-encabezado h1 {
+
         font-size: 17px !important;
 
         margin: 0 !important;
     }
 
     .pdf-encabezado p {
+
         font-size: 9px !important;
 
         margin:
@@ -2773,12 +3007,8 @@ header {
             0 !important;
     }
 
-
-    /* ====================================
-       INFORMACIÓN PDF
-    ==================================== */
-
     .pdf-info {
+
         display: block !important;
 
         width: 100% !important;
@@ -2787,6 +3017,7 @@ header {
     }
 
     .pdf-info h2 {
+
         font-size: 14px !important;
 
         margin:
@@ -2797,17 +3028,14 @@ header {
     }
 
     .pdf-info p {
+
         font-size: 9px !important;
 
         margin: 0 !important;
     }
 
-
-    /* ====================================
-       CONTENEDOR PRODUCTOS
-    ==================================== */
-
     .pdf-productos {
+
         display: block !important;
 
         width: 100% !important;
@@ -2816,11 +3044,6 @@ header {
 
         padding: 0 !important;
     }
-
-
-    /* ====================================
-       CABECERA PDF
-    ==================================== */
 
     .pdf-listado-cabecera {
 
@@ -2852,9 +3075,10 @@ header {
             3px
             0 !important;
 
-        background: #0d6e3b !important;
+        background:
+            var(--agro-verde) !important;
 
-        color: #ffffff !important;
+        color: #FFFFFF !important;
 
         border-radius: 3px !important;
 
@@ -2871,11 +3095,6 @@ header {
         print-color-adjust: exact !important;
     }
 
-
-    /* ====================================
-       FILA PRODUCTO PDF
-    ==================================== */
-
     .pdf-producto {
 
         display: grid !important;
@@ -2888,13 +3107,13 @@ header {
             100px
             90px !important;
 
-        width: 100% !important;
-
-        box-sizing: border-box !important;
-
         align-items: center !important;
 
         gap: 6px !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
 
         min-height: 48px !important;
 
@@ -2908,11 +3127,11 @@ header {
             3px
             0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
 
         border:
             1px solid
-            #dfe3e6 !important;
+            var(--agro-borde) !important;
 
         border-radius: 3px !important;
 
@@ -2920,11 +3139,6 @@ header {
 
         page-break-inside: avoid !important;
     }
-
-
-    /* ====================================
-       IMAGEN PDF
-    ==================================== */
 
     .pdf-producto-imagen {
 
@@ -2938,7 +3152,7 @@ header {
 
         justify-content: center !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
     }
 
     .pdf-producto-imagen img {
@@ -2955,11 +3169,6 @@ header {
 
         object-fit: contain !important;
     }
-
-
-    /* ====================================
-       INFORMACIÓN PDF
-    ==================================== */
 
     .pdf-producto-info {
 
@@ -2978,7 +3187,8 @@ header {
             1px
             0 !important;
 
-        color: #0d6e3b !important;
+        color:
+            var(--agro-verde-profundo) !important;
 
         font-weight: 700 !important;
     }
@@ -3004,7 +3214,7 @@ header {
 
         margin: 0 !important;
 
-        color: #555555 !important;
+        color: var(--agro-texto) !important;
 
         word-break: break-word !important;
     }
@@ -3017,9 +3227,7 @@ header {
 
         margin: 0 !important;
 
-        color: #444444 !important;
-
-        word-break: break-word !important;
+        color: var(--agro-texto) !important;
     }
 
     .pdf-producto-categoria {
@@ -3030,9 +3238,7 @@ header {
 
         margin: 0 !important;
 
-        color: #444444 !important;
-
-        word-break: break-word !important;
+        color: var(--agro-texto) !important;
     }
 
     .pdf-producto-sku {
@@ -3043,9 +3249,7 @@ header {
 
         margin: 0 !important;
 
-        color: #444444 !important;
-
-        word-break: break-word !important;
+        color: var(--agro-texto) !important;
     }
 
     .pdf-producto-precio {
@@ -3054,17 +3258,13 @@ header {
 
         margin: 0 !important;
 
-        color: #0d6e3b !important;
+        color:
+            var(--agro-verde-profundo) !important;
 
         font-weight: 800 !important;
 
         white-space: nowrap !important;
     }
-
-
-    /* ====================================
-       ELEMENTOS INTERACTIVOS
-    ==================================== */
 
     .pdf-producto button,
     .pdf-producto .btn-listado,
@@ -3072,11 +3272,6 @@ header {
 
         display: none !important;
     }
-
-
-    /* ====================================
-       EVITAR DESBORDAMIENTO
-    ==================================== */
 
     .pdf-productos,
     .pdf-producto,
@@ -3086,11 +3281,6 @@ header {
 
         overflow: hidden !important;
     }
-
-
-    /* ====================================
-       COLORES IMPRESIÓN
-    ==================================== */
 
     .pdf-listado-cabecera,
     .pdf-producto-marca,
@@ -3108,6 +3298,7 @@ header {
 ======================================== */
 
 .paginacion {
+
     width: 100%;
 
     display: flex;
@@ -3127,6 +3318,7 @@ header {
 }
 
 .paginacion button {
+
     min-width: 38px;
 
     height: 38px;
@@ -3137,13 +3329,13 @@ header {
 
     border:
         1px solid
-        #d9dfe5;
+        var(--agro-borde);
 
     border-radius: 8px;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
-    color: #333333;
+    color: var(--agro-texto);
 
     font-size: 14px;
 
@@ -3159,23 +3351,33 @@ header {
 }
 
 .paginacion button:hover:not(:disabled) {
-    background: #f1f5f8;
 
-    border-color: #bfc8d0;
+    background:
+        var(--agro-fondo-suave);
+
+    border-color:
+        var(--agro-verde);
+
+    color:
+        var(--agro-verde-profundo);
 
     transform:
         translateY(-1px);
 }
 
 .paginacion button.activo {
-    background: #1f6b45;
 
-    border-color: #1f6b45;
+    background:
+        var(--agro-verde);
 
-    color: #ffffff;
+    border-color:
+        var(--agro-verde);
+
+    color: #FFFFFF;
 }
 
 .paginacion button:disabled {
+
     opacity: 0.45;
 
     cursor: not-allowed;
@@ -3185,6 +3387,7 @@ header {
 
 .paginacion .pagina-anterior,
 .paginacion .pagina-siguiente {
+
     min-width: auto;
 
     padding:
@@ -3193,18 +3396,21 @@ header {
 }
 
 .paginacion-info {
+
     width: 100%;
 
     text-align: center;
 
     margin-top: 10px;
 
-    color: #6b7280;
+    color:
+        var(--agro-texto-secundario);
 
     font-size: 13px;
 }
 
 .contenedor-paginacion {
+
     width: 100%;
 
     margin-top: 20px;
@@ -3220,12 +3426,14 @@ header {
 @media (max-width: 768px) {
 
     .paginacion {
+
         gap: 6px;
 
         margin-top: 25px;
     }
 
     .paginacion button {
+
         min-width: 36px;
 
         height: 36px;
@@ -3239,6 +3447,7 @@ header {
 
     .paginacion .pagina-anterior,
     .paginacion .pagina-siguiente {
+
         padding:
             0
             11px;
@@ -3253,10 +3462,12 @@ header {
 @media (max-width: 480px) {
 
     .paginacion {
+
         gap: 5px;
     }
 
     .paginacion button {
+
         min-width: 34px;
 
         height: 34px;
@@ -3270,15 +3481,18 @@ header {
 
     .paginacion .pagina-anterior,
     .paginacion .pagina-siguiente {
+
         padding:
             0
             9px;
     }
 
     .paginacion-info {
+
         font-size: 12px;
     }
 }
+
 
 /* ========================================
    PDF - VISTA LISTADO
@@ -3313,11 +3527,14 @@ header {
 
 .pdf-listado-cabecera {
 
-    background: #0d6e3b;
+    background:
+        var(--agro-verde);
 
-    color: #ffffff;
+    color: #FFFFFF;
 
-    border: 1px solid #0d6e3b;
+    border:
+        1px solid
+        var(--agro-verde);
 
     padding:
         2mm
@@ -3361,19 +3578,19 @@ header {
         2mm
         2mm;
 
-    background: #ffffff;
+    background: #FFFFFF;
 
     border-left:
         1px solid
-        #dfe3e6;
+        var(--agro-borde);
 
     border-right:
         1px solid
-        #dfe3e6;
+        var(--agro-borde);
 
     border-bottom:
         1px solid
-        #dfe3e6;
+        var(--agro-borde);
 
     font-size: 7pt;
 
@@ -3405,7 +3622,6 @@ header {
 
     margin: 0 auto;
 }
-
 
 .pdf-listado-imagen img {
 
@@ -3448,7 +3664,6 @@ header {
     box-sizing: border-box;
 }
 
-
 .pdf-listado-campo strong {
 
     font-weight: 700;
@@ -3465,7 +3680,8 @@ header {
 
     font-weight: 700;
 
-    color: #0d6e3b;
+    color:
+        var(--agro-verde-profundo);
 
     text-align: right;
 
@@ -3495,12 +3711,6 @@ header {
    OCULTAR PRESENTACIÓN
 ======================================== */
 
-/*
-   IMPORTANTE:
-   La columna Presentación no se muestra
-   en el PDF.
-*/
-
 .pdf-producto-presentacion,
 .pdf-listado-presentacion {
 
@@ -3513,11 +3723,6 @@ header {
 ======================================== */
 
 @media print {
-
-
-    /* ====================================
-       CONFIGURACIÓN DE HOJA
-    ==================================== */
 
     @page {
 
@@ -3544,9 +3749,8 @@ header {
 
         padding: 0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
     }
-
 
     body {
 
@@ -3598,9 +3802,9 @@ header {
 
         padding: 0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
 
-        color: #171717 !important;
+        color: var(--agro-negro) !important;
 
         box-sizing: border-box !important;
     }
@@ -3626,11 +3830,10 @@ header {
 
         border-bottom:
             1.5px solid
-            #0d6e3b !important;
+            var(--agro-verde) !important;
 
         box-sizing: border-box !important;
     }
-
 
     .pdf-encabezado img {
 
@@ -3651,7 +3854,6 @@ header {
         flex-shrink: 0 !important;
     }
 
-
     .pdf-encabezado h1 {
 
         font-size: 14pt !important;
@@ -3660,13 +3862,12 @@ header {
 
         font-weight: 700 !important;
 
-        color: #171717 !important;
+        color: var(--agro-negro) !important;
 
         margin: 0 !important;
 
         padding: 0 !important;
     }
-
 
     .pdf-encabezado p {
 
@@ -3674,7 +3875,8 @@ header {
 
         line-height: 1.2 !important;
 
-        color: #666666 !important;
+        color:
+            var(--agro-texto-secundario) !important;
 
         margin:
             1mm
@@ -3705,14 +3907,13 @@ header {
         padding: 0 !important;
     }
 
-
     .pdf-info h2 {
 
         font-size: 11pt !important;
 
         line-height: 1.15 !important;
 
-        color: #171717 !important;
+        color: var(--agro-negro) !important;
 
         margin:
             0
@@ -3723,14 +3924,14 @@ header {
         padding: 0 !important;
     }
 
-
     .pdf-info p {
 
         font-size: 7.5pt !important;
 
         line-height: 1.15 !important;
 
-        color: #777777 !important;
+        color:
+            var(--agro-texto-secundario) !important;
 
         margin: 0 !important;
 
@@ -3797,13 +3998,14 @@ header {
             1mm
             0 !important;
 
-        background: #0d6e3b !important;
+        background:
+            var(--agro-verde) !important;
 
-        color: #ffffff !important;
+        color: #FFFFFF !important;
 
         border:
             1px solid
-            #0d6e3b !important;
+            var(--agro-verde) !important;
 
         border-radius: 3px !important;
 
@@ -3867,19 +4069,19 @@ header {
 
         margin: 0 !important;
 
-        background: #ffffff !important;
+        background: #FFFFFF !important;
 
         border-left:
             1px solid
-            #dfe3e6 !important;
+            var(--agro-borde) !important;
 
         border-right:
             1px solid
-            #dfe3e6 !important;
+            var(--agro-borde) !important;
 
         border-bottom:
             1px solid
-            #dfe3e6 !important;
+            var(--agro-borde) !important;
 
         break-inside: avoid !important;
 
@@ -3913,7 +4115,6 @@ header {
 
         margin: 0 auto !important;
     }
-
 
     .pdf-listado-imagen img {
 
@@ -3960,7 +4161,6 @@ header {
         padding: 0 !important;
     }
 
-
     .pdf-listado-campo strong {
 
         font-size: 7pt !important;
@@ -3981,7 +4181,8 @@ header {
 
         font-weight: 700 !important;
 
-        color: #0d6e3b !important;
+        color:
+            var(--agro-verde-profundo) !important;
 
         text-align: right !important;
 
