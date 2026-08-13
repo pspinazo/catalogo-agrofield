@@ -1,291 +1,5 @@
 ﻿[
     {
-        "SKU": "130-150-025",
-        "MARCA": "ROYAL CANIN",
-        "PRODUCTO": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
-        "VARIANTE": "195G",
-        "CATEGORIA": "ALIMENTO HÚMEDO / PERROS",
-        "SUBCATEGORIA": "VHN - PRESCRIPCION",
-        "DESCRIPCION_CORTA": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
-        "DESCRIPCION_LARGA": "Comida húmeda indicada para perros que presentan patologías como: Anorexia o malnutrición, soporte nutricional en cuidados intensivos y post-quirúrgicos, convalecencia, lipidosis hepática felina, gestación, lactancia, crecimiento.\n..",
-        "PRECIO": 38625,
-        "IMAGEN": "130-150-025.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 1,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "130-150-025.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-162",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
-        "VARIANTE": "PEQUEÑO",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
-        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
-        "PRECIO": 32250,
-        "IMAGEN": "114-363-162.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 2,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-162.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-167",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
-        "VARIANTE": "GRANDE",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
-        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 48750,
-        "IMAGEN": "114-363-167.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 3,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-167.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "130-219-005",
-        "MARCA": "OLD PRINCE",
-        "PRODUCTO": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
-        "VARIANTE": "15KG",
-        "CATEGORIA": "ALIMENTO SECO / PERROS",
-        "SUBCATEGORIA": "PERRO ADULTO - MEDIANO Y GRANDE",
-        "DESCRIPCION_CORTA": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
-        "DESCRIPCION_LARGA": "Mejora el sistema inmunológico;\nAporta más energía;\nColabora con una piel y un pelo más saludable;\nContribuye en el cuidado dental..",
-        "PRECIO": 408375,
-        "IMAGEN": "130-219-005.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 4,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "130-219-005.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-485",
-        "MARCA": "DOCO",
-        "PRODUCTO": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
-        "VARIANTE": "PEQUEÑO",
-        "CATEGORIA": "ARNES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
-        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 48750,
-        "IMAGEN": "114-363-485.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 5,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-485.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-917",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
-        "VARIANTE": "PEQUEÑO",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
-        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 37500,
-        "IMAGEN": "114-363-917.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 6,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-917.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-926",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
-        "VARIANTE": "MEDIANO",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
-        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 46500,
-        "IMAGEN": "114-363-926.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 7,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-926.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-928",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
-        "VARIANTE": "MEDIANO",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
-        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 46500,
-        "IMAGEN": "114-363-928.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 8,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-928.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-935",
-        "MARCA": "DOCO",
-        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
-        "VARIANTE": "GRANDE",
-        "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
-        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
-        "PRECIO": 60000,
-        "IMAGEN": "114-363-935.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 9,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-935.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-296",
-        "MARCA": "DOCO",
-        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
-        "VARIANTE": "EXTRA GRANDE",
-        "CATEGORIA": "PECHERAS",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
-        "DESCRIPCION_LARGA": "Modelo resistente y cómodo con diseño deportivo para paseos seguros y confortables.",
-        "PRECIO": 82500,
-        "IMAGEN": "114-363-296.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 10,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-296.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-411",
-        "MARCA": "DOCO",
-        "PRODUCTO": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
-        "VARIANTE": "",
-        "CATEGORIA": "DISPENSADOR",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
-        "DESCRIPCION_LARGA": "Dispensador DOCO color turquesa compatible con bolsas recolectoras estándar. Ideal para dueños responsables.",
-        "PRECIO": 22875,
-        "IMAGEN": "114-363-411.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 11,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-411.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-201",
-        "MARCA": "DOCO",
-        "PRODUCTO": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
-        "VARIANTE": "GRANDE",
-        "CATEGORIA": "TIRADOR",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
-        "DESCRIPCION_LARGA": "La correa BUNGEE de nailon con absorción de impactos DOCO® de 4 pies cuenta con una cuerda elástica con absorción de impactos, nailon de doble capa de alta calidad y un asa de neopreno para mayor comodidad. Al corregir suavemente los tirones de su perro, la correa DOCO BUNGEE le hace un favor a sus hombros, brazos y cuello de su perro al absorber los golpes. Esta correa tiene un amortiguador de 8'' (20 cm) y tiene una fuerza de tracción de 280 kg. Los anillos cuadrados totalmente soldados y un broche negro anodizado duradero de 360° se suman a la durabilidad de esta correa. La correa DOCO ® BUNGEE es una excelente correa de entrenamiento para su perro.",
-        "PRECIO": 53625,
-        "IMAGEN": "114-363-201.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 12,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-201.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
-        "SKU": "114-363-212",
-        "MARCA": "DOCO",
-        "PRODUCTO": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
-        "VARIANTE": "PEQUEÑO",
-        "CATEGORIA": "TIRADOR",
-        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
-        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
-        "DESCRIPCION_LARGA": "Cuenta con mango acolchado de neopreno para mayor comodidad en la empuñadura. Diseñado con nuestro clip de cuerda patentado que tiene un diseño sobresaliente. Equipado con gancho giratorio de 360° de metal duradero de aleación de zinc pulido en negro. Fácil de colocar en cualquier collar o arnés para perros.",
-        "PRECIO": 30750,
-        "IMAGEN": "114-363-212.jpg",
-        "ACTIVO": "SI",
-        "DESTACADO": "NO",
-        "ORDEN": 13,
-        "IMAGENES": [
-            {
-                "ARCHIVO": "114-363-212.jpg",
-                "ORDEN": 1,
-                "PRINCIPAL": true
-            }
-        ]
-    },
-    {
         "SKU": "114-363-102",
         "MARCA": "DOCO",
         "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- S REF DCSN002",
@@ -298,7 +12,7 @@
         "IMAGEN": "114-363-102.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 14,
+        "ORDEN": 1,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-102.jpg",
@@ -320,7 +34,7 @@
         "IMAGEN": "114-363-108.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 15,
+        "ORDEN": 2,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-108.jpg",
@@ -342,7 +56,7 @@
         "IMAGEN": "114-363-109.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 16,
+        "ORDEN": 3,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-109.jpg",
@@ -364,7 +78,7 @@
         "IMAGEN": "114-363-110.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 17,
+        "ORDEN": 4,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-110.jpg",
@@ -386,7 +100,7 @@
         "IMAGEN": "114-363-112.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 18,
+        "ORDEN": 5,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-112.jpg",
@@ -408,7 +122,7 @@
         "IMAGEN": "114-363-114.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 19,
+        "ORDEN": 6,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-114.jpg",
@@ -430,7 +144,7 @@
         "IMAGEN": "114-363-115.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 20,
+        "ORDEN": 7,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-115.jpg",
@@ -452,7 +166,7 @@
         "IMAGEN": "114-363-116.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 21,
+        "ORDEN": 8,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-116.jpg",
@@ -474,7 +188,7 @@
         "IMAGEN": "114-363-117.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 22,
+        "ORDEN": 9,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-117.jpg",
@@ -496,7 +210,7 @@
         "IMAGEN": "114-363-118.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 23,
+        "ORDEN": 10,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-118.jpg",
@@ -518,10 +232,2958 @@
         "IMAGEN": "114-363-119.jpg",
         "ACTIVO": "SI",
         "DESTACADO": "NO",
-        "ORDEN": 24,
+        "ORDEN": 11,
         "IMAGENES": [
             {
                 "ARCHIVO": "114-363-119.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-162",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- S REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-162.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 12,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-162.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-167",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-167.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 13,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-167.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-201",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO LARGO BUNGEE -VERDE- L REF DCB1148",
+        "DESCRIPCION_LARGA": "La correa BUNGEE de nailon con absorción de impactos DOCO® de 4 pies cuenta con una cuerda elástica con absorción de impactos, nailon de doble capa de alta calidad y un asa de neopreno para mayor comodidad. Al corregir suavemente los tirones de su perro, la correa DOCO BUNGEE le hace un favor a sus hombros, brazos y cuello de su perro al absorber los golpes. Esta correa tiene un amortiguador de 8'' (20 cm) y tiene una fuerza de tracción de 280 kg. Los anillos cuadrados totalmente soldados y un broche negro anodizado duradero de 360° se suman a la durabilidad de esta correa. La correa DOCO ® BUNGEE es una excelente correa de entrenamiento para su perro.",
+        "PRECIO": 53625,
+        "IMAGEN": "114-363-201.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 14,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-201.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-212",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO DIAMANTE -NEGRO- S REF DPN1048",
+        "DESCRIPCION_LARGA": "Cuenta con mango acolchado de neopreno para mayor comodidad en la empuñadura. Diseñado con nuestro clip de cuerda patentado que tiene un diseño sobresaliente. Equipado con gancho giratorio de 360° de metal duradero de aleación de zinc pulido en negro. Fácil de colocar en cualquier collar o arnés para perros.",
+        "PRECIO": 30750,
+        "IMAGEN": "114-363-212.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 15,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-212.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-296",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
+        "DESCRIPCION_LARGA": "Modelo resistente y cómodo con diseño deportivo para paseos seguros y confortables.",
+        "PRECIO": 82500,
+        "IMAGEN": "114-363-296.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 16,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-296.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-305",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -AZUL- S REF DCS008",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -AZUL- S REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 24750,
+        "IMAGEN": "114-363-305.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 17,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-305.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-306",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -ROJO- S REF DCS008",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -ROJO- S REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 24750,
+        "IMAGEN": "114-363-306.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 18,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-306.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-307",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -AZUL- M REF DCS008",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -AZUL- M REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 29250,
+        "IMAGEN": "114-363-307.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 19,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-307.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-308",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -ROJO- M REF DCS008",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -ROJO- M REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 29250,
+        "IMAGEN": "114-363-308.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 20,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-308.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-310",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PATTERN -VERDE- M REF DCS008",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PATTERN -VERDE- M REF DCS008",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO ® Martini Bean está construido y cosido con filamento de nailon de primera calidad. Usando máquinas de tejer avanzadas para coser nailon de calidad que proporciona un ajuste cómodo entre el collar y el cuello de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar las correas.",
+        "PRECIO": 29250,
+        "IMAGEN": "114-363-310.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 21,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-310.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-317",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO NEGRO/BLANCO- M REF DCL002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO NEGRO/BLANCO- M REF DCL002",
+        "DESCRIPCION_LARGA": "Los collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 26250,
+        "IMAGEN": "114-363-317.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 22,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-317.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-324",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO VARIO -ROSADO- XL REF DCV006",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO VARIO -ROSADO- XL REF DCV006",
+        "DESCRIPCION_LARGA": "El collar DOCO® VARIO está fabricado con nailon reflectante de 2 mm de alta calidad y herrajes de plástico de alta resistencia. \nLa ubicación única de la junta tórica, totalmente soldada, facilita la colocación de la correa. \nSu diseño garantiza un sistema de seguridad que engancha la hebilla y permite reabrochar el collar antes de soltarlo.\nSiéntase seguro con el collar.",
+        "PRECIO": 41250,
+        "IMAGEN": "114-363-324.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 23,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-324.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-325",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -NARANJA- L REF DCA002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -NARANJA- L REF DCA002",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-325.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 24,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-325.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-326",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -NEGRO- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -NEGRO- M REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-326.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 25,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-326.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-327",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -NARANJA- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -NARANJA- M REF DCA002",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-327.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 26,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-327.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-328",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- M REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-328.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 27,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-328.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-329",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -VERDE- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -VERDE- M REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-329.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 28,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-329.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-330",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -TURQUESA- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -TURQUESA- M REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-330.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 29,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-330.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-331",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -GRANATE- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -GRANATE- M REF DCA002",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-331.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 30,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-331.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-332",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -ROSADO- M REF DCA002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -ROSADO- M REF DCA002",
+        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-332.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 31,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-332.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-334",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -GRIS- M REF DCA032",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -GRIS- M REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-334.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 32,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-334.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-336",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -NARANJA- M REF DCA032",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -NARANJA- M REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 40500,
+        "IMAGEN": "114-363-336.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 33,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-336.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-340",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -GRIS- L REF DCA032",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -GRIS- L REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-340.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 34,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-340.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-342",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -NARANJA- L REF DCA032",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -NARANJA- L REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-342.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 35,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-342.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-346",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -GRIS- XL REF DCA032",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -GRIS- XL REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 57000,
+        "IMAGEN": "114-363-346.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 36,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-346.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-347",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO LUNAR -VERDE- XL REF DCA032",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO LUNAR -VERDE- XL REF DCA032",
+        "DESCRIPCION_LARGA": "El collar de malla de aire lunar DOCO® presenta una malla de aire de alta calidad, liviana y duradera que brinda un ajuste cómodo, control total y estilo entre el cuello y el collar de su perro. El diseño ultra cómodo reduce la presión mientras tu compañero tira. Malla de doble capa para una mayor resistencia a la tracción y una mayor función de transpirabilidad. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados. Tubería de cuerda reflectante para garantizar que su amigo esté segur",
+        "PRECIO": 57000,
+        "IMAGEN": "114-363-347.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 37,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-347.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-351",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO VARIO -AZUL MARINO-  P/ 240KG L REF DCV5048",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO VARIO -AZUL MARINO-  P/ 240KG L REF DCV5048",
+        "DESCRIPCION_LARGA": "DOCO® VARIO Easy Snap BUNGEE Leash: características de 6 pies de combinación perfecta de RENDIMIENTO y FUERZA. La correa está diseñada para personas y perros a los que les encanta disfrutar del estilo de vida activo al aire libre. El gancho giratorio de 360° de metal duradero de aleación de zinc pulido es cómodo para enganchar a cualquier collar o arnés de perro. Snap Hook está especialmente diseñado para un fuerte poder de sujeción cuando paseamos al perro y hacemos clic y bloqueamos la función para asegurar al perro. Al corregir suavemente los tirones de su perro, la correa VARIO Bungee le hace un favor a sus hombros, brazos y cuello al absorber los golpes. Easy Snap Handle le permite usar la correa para correr, el tráfico y la función de entrenamiento.",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-351.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 38,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-351.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-352",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO VARIO -ROSADO- L REF DCV5048",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO VARIO -ROSADO- L REF DCV5048",
+        "DESCRIPCION_LARGA": "Correa DOCO® VARIO: características de 4 pies de combinación perfecta de RENDIMIENTO y FUERZA. La correa está diseñada para personas y perros a los que les encanta disfrutar del estilo de vida activo al aire libre. El gancho giratorio de 360 ??° de metal duradero de aleación de zinc pulido con clic y bloqueo es cómodo para enganchar a cualquier collar o arnés de perro. Snap Hook está especialmente diseñado para un fuerte poder de sujeción cuando paseamos al perro y hacemos clic y bloqueamos la función para asegurar al perro.",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-352.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 39,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-352.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-377",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL NEGRO- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL NEGRO- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-377.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 40,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-377.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-378",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL CELESTE- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL CELESTE- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-378.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 41,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-378.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-379",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL ROJO- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL ROJO- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-379.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 42,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-379.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-380",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL ROSADO- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL ROSADO- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-380.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 43,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-380.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-381",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL GRIS- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL GRIS- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-381.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 44,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-381.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-382",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL LILA- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL LILA- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-382.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 45,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-382.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-383",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL VERDE- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL VERDE- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-383.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 46,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-383.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-384",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON P/ GATO DOCO -FURBALL NARANJA- REF DCAT001",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON P/ GATO DOCO -FURBALL NARANJA- REF DCAT001",
+        "DESCRIPCION_LARGA": "El collar de nailon para gatos DOCO® Signature con hebilla de seguridad  está fabricado con nailon 100 % de ALTA calidad. Los collares brindan un ajuste cómodo entre el collar y el cuello de su gato. El collar tiene una hebilla de plástico separable de liberación de seguridad y un deslizamiento triple para que se ajuste fácilmente a su gato. Costuras resistentes para una calidad duradera, anillo en D de metal soldado para sujetar el accesorio de identificación opcional para las etiquetas de su gato.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-384.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 47,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-384.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-393",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE GOMA DOCO JELLY BEAN -NEGRO- L REF DWW002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE GOMA DOCO JELLY BEAN -NEGRO- L REF DWW002",
+        "DESCRIPCION_LARGA": "\nDOCO® Jelly Bean Collar es resistente al agua, no tiene suciedad ni olor. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y suaves con el pelaje y la piel de los perros para evitar la fricción. Este collar es ideal para aventuras y actividades al aire libre.",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-393.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 48,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-393.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-394",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE GOMA DOCO JELLY BEAN -ROSADO- L REF DWW002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE GOMA DOCO JELLY BEAN -ROSADO- L REF DWW002",
+        "DESCRIPCION_LARGA": "\nDOCO® Jelly Bean Collar es resistente al agua, no tiene suciedad ni olor. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y suaves con el pelaje y la piel de los perros para evitar la fricción. Este collar es ideal para aventuras y actividades al aire libre.",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-394.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 49,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-394.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-395",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE GOMA DOCO JELLY BEAN -NARANJA- L REF DWW002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE GOMA DOCO JELLY BEAN -NARANJA- L REF DWW002",
+        "DESCRIPCION_LARGA": "\nDOCO® Jelly Bean Collar es resistente al agua, no tiene suciedad ni olor. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y suaves con el pelaje y la piel de los perros para evitar la fricción. Este collar es ideal para aventuras y actividades al aire libre.",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-395.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 50,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-395.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-401",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE GOMA DOCO JELLY BEAN -NEGRO- M REF DWW1072",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE GOMA DOCO JELLY BEAN -NEGRO- M REF DWW1072",
+        "DESCRIPCION_LARGA": "Producto para mascotas de alta calidad diseñado para mejorar el bienestar, confort y cuidado diario.",
+        "PRECIO": 66000,
+        "IMAGEN": "114-363-401.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 51,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-401.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-405",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE GOMA DOCO JELLY BEAN -NEGRO- L REF DWW1060/1072",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE GOMA DOCO JELLY BEAN -NEGRO- L REF DWW1060/1072",
+        "DESCRIPCION_LARGA": "La correa DOCO® Jelly Bean es impermeable, libre de suciedad y olores. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y se combinan con un gancho giratorio de 360° y es fácil de colocar en cualquier collar o arnés para perros. Esta correa es ideal para aventuras y actividades al aire libre. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-405.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 52,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-405.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-406",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE GOMA DOCO JELLY BEAN -ROSADO- L REF DWW1060/1072",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE GOMA DOCO JELLY BEAN -ROSADO- L REF DWW1060/1072",
+        "DESCRIPCION_LARGA": "La correa DOCO® Jelly Bean es impermeable, libre de suciedad y olores. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y se combinan con un gancho giratorio de 360° y es fácil de colocar en cualquier collar o arnés para perros. Esta correa es ideal para aventuras y actividades al aire libre. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-406.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 53,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-406.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-411",
+        "MARCA": "DOCO",
+        "PRODUCTO": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
+        "VARIANTE": "",
+        "CATEGORIA": "DISPENSADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
+        "DESCRIPCION_LARGA": "Dispensador DOCO color turquesa compatible con bolsas recolectoras estándar. Ideal para dueños responsables.",
+        "PRECIO": 22875,
+        "IMAGEN": "114-363-411.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 54,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-411.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-412",
+        "MARCA": "DOCO",
+        "PRODUCTO": "DISPENSER DOCO P/ RESIDUOS -ROJO- REF DCPD019",
+        "VARIANTE": "",
+        "CATEGORIA": "DISPENSADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "DISPENSER DOCO P/ RESIDUOS -ROJO- REF DCPD019",
+        "DESCRIPCION_LARGA": "Dispensador portátil para bolsas sanitarias, diseñado para mantenerlas siempre al alcance durante las caminatas.",
+        "PRECIO": 22875,
+        "IMAGEN": "114-363-412.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 55,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-412.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-417",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- XL REF DCSN002",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -VERDE- XL REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 41250,
+        "IMAGEN": "114-363-417.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 56,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-417.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-418",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- XS REF DCS006",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- XS REF DCS006",
+        "DESCRIPCION_LARGA": "El collar DOCO® VARIO está construido con nailon de costura reflectante de 2 mm de ALTA calidad y accesorios de plástico de alta resistencia a la tracción. La ubicación única de la junta tórica totalmente soldada permite una fácil fijación de una correa. El diseño asegura un sistema de ruptura que atrapa la hebilla y le permite volver a abrochar el collar antes de que su perro se libere del collar. Anillo de identificación para adjuntar la identificación de su mascota. Siéntete seguro y protegido con el collar.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-418.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 57,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-418.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-419",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- XS REF DCS006",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- XS REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro. Cómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-419.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 58,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-419.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-420",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -ROJO- XS REF DCS006",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -ROJO- XS REF DCS006",
+        "DESCRIPCION_LARGA": "El collar DOCO® VARIO está construido con nailon de costura reflectante de 2 mm de ALTA calidad y accesorios de plástico de alta resistencia a la tracción. La ubicación única de la junta tórica totalmente soldada permite una fácil fijación de una correa. El diseño asegura un sistema de ruptura que atrapa la hebilla y le permite volver a abrochar el collar antes de que su perro se libere del collar. Anillo de identificación para adjuntar la identificación de su mascota. Siéntete seguro y protegido con el collar.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-420.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 59,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-420.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-421",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- XS REF DCS006",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- XS REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro. Cómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 16500,
+        "IMAGEN": "114-363-421.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 60,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-421.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-422",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- S REF DCS006",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- S REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 21000,
+        "IMAGEN": "114-363-422.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 61,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-422.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-425",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- S REF DCS006",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- S REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro. Cómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 21000,
+        "IMAGEN": "114-363-425.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 62,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-425.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-427",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- M REF DCS006",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- M REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 24750,
+        "IMAGEN": "114-363-427.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 63,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-427.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-430",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- L REF DCS006",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -NEGRO- L REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-430.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 64,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-430.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-431",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- L REF DCS006",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -AZUL- L REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-431.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 65,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-431.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-432",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -ROJO- L REF DCS006",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -ROJO- L REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro.\n\nEl collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro.\n\nCosturas resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro.\n\nCómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-432.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 66,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-432.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-433",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- L REF DCS006",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE O-RING  -VERDE- L REF DCS006",
+        "DESCRIPCION_LARGA": "El collar de nailon exclusivo DOCO® está construido con accesorios de plástico y nailon de ALTA calidad que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar tiene una hebilla de plástico de liberación rápida y un deslizamiento triple para que se ajuste fácilmente a su perro. Costuras resistentes para una calidad duradera Anillo en D de metal para las etiquetas y correas de su perro. Cómodo de usar, los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-433.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 67,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-433.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-443",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -GRIS- XS REF DCSN202",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -GRIS- XS REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 33000,
+        "IMAGEN": "114-363-443.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 68,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-443.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-444",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -VERDE- XS REF DCSN202",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -VERDE- XS REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 33000,
+        "IMAGEN": "114-363-444.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 69,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-444.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-445",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NARANJA- XS REF DCSN202",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NARANJA- XS REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 33000,
+        "IMAGEN": "114-363-445.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 70,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-445.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-446",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -CELESTE- XS REF DCSN202",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -CELESTE- XS REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver. ¡Asegúrate de seleccionar la combinación con las correas DOCO ® para completar tu look de amigos!",
+        "PRECIO": 33000,
+        "IMAGEN": "114-363-446.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 71,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-446.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-447",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -GRIS- S REF DCSN202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -GRIS- S REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-447.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 72,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-447.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-448",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -CELESTE- S REF DCSN202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -CELESTE- S REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste.\n\nProporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre.\n\nHebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar.\n\nDiseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia.\n\nCosturas resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.\n\n¡Asegúrate de seleccionar la combinación con las correas DOCO ® para completar tu look de amigos!",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-448.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 73,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-448.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-450",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -CELESTE- M REF DCSN202",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -CELESTE- M REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste.\n\nProporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre.\n\nHebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar.\n\nDiseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia.\n\nCosturas resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.\n\n¡Asegúrate de seleccionar la combinación con las correas DOCO ® para completar tu look de amigos!",
+        "PRECIO": 57750,
+        "IMAGEN": "114-363-450.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 74,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-450.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-451",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NEGRO- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NEGRO- L REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-451.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 75,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-451.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-452",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -ROJO- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -ROJO- L REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste.\n\nProporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre.\n\nHebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar.\n\nDiseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia.\n\nCosturas resistentes para una calidad duradera y dos anillas en D de metal para una correa segura.",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-452.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 76,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-452.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-453",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -GRIS- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -GRIS- L REF DCSN202",
+        "DESCRIPCION_LARGA": "Arnés ligero y resistente para perros, fabricado en nylon de alta calidad. Posee interior acolchado, anillos metálicos seguros y ajuste ergonómico que distribuye la presión sin incomodar. Ideal para paseos diarios.",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-453.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 77,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-453.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-454",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -MORADO- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -MORADO- L REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-454.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 78,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-454.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-455",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -VERDE- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -VERDE- L REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura.",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-455.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 79,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-455.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-456",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NARANJA- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NARANJA- L REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-456.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 80,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-456.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-457",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -CELESTE- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -CELESTE- L REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste.\n\nProporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre.\n\nHebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar.\n\nDiseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia.\n\nCosturas resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.\n\n¡Asegúrate de seleccionar la combinación con las correas DOCO ® para completar tu look de amigos!",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-457.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 81,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-457.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-458",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -GRIS- XL REF DCSN202",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -GRIS- XL REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 111750,
+        "IMAGEN": "114-363-458.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 82,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-458.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-459",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -MORADO- XL REF DCSN202",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -MORADO- XL REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 111750,
+        "IMAGEN": "114-363-459.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 83,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-459.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-461",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -CELESTE- XL REF DCSN202",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -CELESTE- XL REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 111750,
+        "IMAGEN": "114-363-461.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 84,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-461.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-468",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO  -ESTAMPADO TRIANGULO- S REF DCL002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO  -ESTAMPADO TRIANGULO- S REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 22500,
+        "IMAGEN": "114-363-468.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 85,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-468.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-469",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO  -ESTAMPADO AMARILLO- S REF DCL002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO  -ESTAMPADO AMARILLO- S REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 22500,
+        "IMAGEN": "114-363-469.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 86,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-469.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-470",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO VERDE- M REF DCL002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO VERDE- M REF DCL002",
+        "DESCRIPCION_LARGA": "Los collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 26250,
+        "IMAGEN": "114-363-470.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 87,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-470.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-471",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO LILA- M REF DCL002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO LILA- M REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 26250,
+        "IMAGEN": "114-363-471.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 88,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-471.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-472",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO AMARILLO- M REF DCL002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO AMARILLO- M REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 26250,
+        "IMAGEN": "114-363-472.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 89,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-472.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-473",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO TRIANGULO- M REF DCL002",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO TRIANGULO- M REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 26250,
+        "IMAGEN": "114-363-473.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 90,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-473.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-474",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO  -ESTAMPADO CUADROS- L REF DCL002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO  -ESTAMPADO CUADROS- L REF DCL002",
+        "DESCRIPCION_LARGA": "Los collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-474.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 91,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-474.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-476",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO LILA- L REF DCL002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO LILA- L REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-476.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 92,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-476.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-477",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO AMARILLO- L REF DCL002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO AMARILLO- L REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-477.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 93,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-477.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-479",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO -ESTAMPADO TRIANGULO- L REF DCL002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO -ESTAMPADO TRIANGULO- L REF DCL002",
+        "DESCRIPCION_LARGA": "\nLos collares con diseño ecológico de transferencia de calor DOCO ® LOCO están diseñados con el logotipo de nuestro perro LOCO. A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos.",
+        "PRECIO": 32250,
+        "IMAGEN": "114-363-479.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 94,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-479.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-482",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO LILA- S REF DCL202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO LILA- S REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-482.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 95,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-482.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-483",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO AMARILLO- S REF DCL202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO AMARILLO- S REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-483.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 96,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-483.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-484",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO RAYO- S REF DCL202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO RAYO- S REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-484.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 97,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-484.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-485",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-485.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 98,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-485.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-486",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO LILA- M REF DCL202",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO LILA- M REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60750,
+        "IMAGEN": "114-363-486.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 99,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-486.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-487",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO AMARILLO- M REF DCL202",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO AMARILLO- M REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 60750,
+        "IMAGEN": "114-363-487.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 100,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-487.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-488",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO RAYO- M REF DCL202",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO RAYO- M REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60750,
+        "IMAGEN": "114-363-488.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 101,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-488.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-489",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO LILA- L REF DCL202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO LILA- L REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-489.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 102,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-489.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-490",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO AMARILLO- L REF DCL202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO AMARILLO- L REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-490.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 103,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-490.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-491",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO RAYO- L REF DCL202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO RAYO- L REF DCL202",
+        "DESCRIPCION_LARGA": "\n\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-491.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 104,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-491.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-492",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO HEXAGONAL- L REF DCL202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO HEXAGONAL- L REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver.",
+        "PRECIO": 73500,
+        "IMAGEN": "114-363-492.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 105,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-492.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-493",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO CUADROS - L REF DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO CUADROS - L REF DCL1060",
+        "DESCRIPCION_LARGA": "La correa elástica amortiguadora Loco con diseño de transferencia de calor presenta una correa elástica amortiguadora, nailon de doble capa de alta calidad y un mango de neopreno para mayor comodidad. Al corregir suavemente los tirones de su perro, la correa elástica le hace un favor a sus hombros, brazos y cuello de su perro al absorber los golpes. La correa tiene un tope de 8'' (20 cm) y tiene una fuerza de tracción de 480 lb (280 kg). Los anillos cuadrados completamente soldados y un broche negro anodizado duradero 360 se suman a la durabilidad de esta correa. La correa elástica es una excelente correa de entrenamiento para su perro o cuando maneja al perro grande. Los diseños son divertidos y fáciles de ver mientras paseas al perro.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-493.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 106,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-493.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-496",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO VERDE- L REF DCLB1148-DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO VERDE- L REF DCLB1148-DCL1060",
+        "DESCRIPCION_LARGA": "Correa elástica de choque Loco con diseño de transferencia de calor. Tecnología de transferencia de calor de doble capa 100% de alta calidad con diseño de patrón infundido. Asegúrate de seleccionar el collar o el arnés a juego para completar el look de tus amigos. Núcleo BUNGEE que ofrece una fuerza de tracción de 280 kg (480 lb) de potencia de tracción. Mayor resistencia a la tracción. Las correas de transferencia de calor son resistentes al moho, el envejecimiento y la abrasión. Mango acolchado de neopreno para mayor comodidad. Los logotipos de 2 tonos protegen las costuras debajo para una mayor durabilidad. El gancho giratorio Heavy Duty 360 es cómodo para enganchar a cualquier collar de perro o arnés . Color: Negro. Arnés de nailon: DCSN202, DCS202. Collares de nailon: DCS005, DCS006. Mediano: 3/4'' x 48''.Grande: 1,0'' x 48'' (2,5 cm x 120 cm) - SKU: DCPTL560",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-496.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 107,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-496.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-497",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO CELESTE- L REF DCLB1148-DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO CELESTE- L REF DCLB1148-DCL1060",
+        "DESCRIPCION_LARGA": "Correa elástica de choque Loco con diseño de transferencia de calor. Tecnología de transferencia de calor de doble capa 100% de alta calidad con diseño de patrón infundido. Asegúrate de seleccionar el collar o el arnés a juego para completar el look de tus amigos. Núcleo BUNGEE que ofrece una fuerza de tracción de 280 kg (480 lb) de potencia de tracción. Mayor resistencia a la tracción. Las correas de transferencia de calor son resistentes al moho, el envejecimiento y la abrasión. Mango acolchado de neopreno para mayor comodidad. Los logotipos de 2 tonos protegen las costuras debajo para una mayor durabilidad. El gancho giratorio Heavy Duty 360 es cómodo para enganchar a cualquier collar de perro o arnés . Color: Negro. Arnés de nailon: DCSN202, DCS202. Collares de nailon: DCS005, DCS006. Mediano: 3/4'' x 48''.Grande: 1,0'' x 48'' (2,5 cm x 120 cm) - SKU: DCPTL560",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-497.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 108,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-497.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-498",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO LILA- L REF DCLB1148-DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO LILA- L REF DCLB1148-DCL1060",
+        "DESCRIPCION_LARGA": "Las correas para perros DOCO ® LOCO ecológicas con diseño de transferencia de calor están diseñadas con el logotipo de nuestro perro LOCO. Es suave, resistente al deshilachado y está diseñado para un lazo de mano generoso para caminar, caminar y correr con MANGO DE NEOPRENO . A LOCO le encantan los patrones locos y de moda, el hardware único y las piezas de metal anodizado negro totalmente soldadas. Los estampados ecológicos son coloridos y divertidos. El gancho giratorio de 360° de metal duradero de aleación de zinc con acabado negro es cómodo para enganchar en cualquier collar o arnés de perro.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-498.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 109,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-498.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-499",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO AMARILLO- L REF DCLB1148-DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO AMARILLO- L REF DCLB1148-DCL1060",
+        "DESCRIPCION_LARGA": "Tirador fabricado en nylon reforzado, pensado para ofrecer agarre firme y manejo cómodo en cada paseo. Su estructura resistente soporta el uso diario, mientras que su diseño estampado aporta un estilo único y llamativo. Ideal para caminatas seguras y con total control.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-499.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 110,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-499.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-501",
+        "MARCA": "DOCO",
+        "PRODUCTO": "TIRADOR DE NYLON DOCO -ESTAMPADO TRIANGULO- L REF DCLB1148-DCL1060",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "TIRADOR DE NYLON DOCO -ESTAMPADO TRIANGULO- L REF DCLB1148-DCL1060",
+        "DESCRIPCION_LARGA": "Tirador fabricado en nylon reforzado, pensado para ofrecer agarre firme y manejo cómodo en cada paseo. Su estructura resistente soporta el uso diario, mientras que su diseño estampado aporta un estilo único y llamativo. Ideal para caminatas seguras y con total control.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-501.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 111,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-501.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-513",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- XS REF DCA306",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- XS REF DCA306",
+        "DESCRIPCION_LARGA": "Pechera ligera y confortable con detalles reflectivos para mejorar la visibilidad y seguridad.",
+        "PRECIO": 57750,
+        "IMAGEN": "114-363-513.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 112,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-513.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-515",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- XXS REF DCA306",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- XXS REF DCA306",
+        "DESCRIPCION_LARGA": "Diseño ergonómico con materiales resistentes y cómodos para uso diario.",
+        "PRECIO": 57750,
+        "IMAGEN": "114-363-515.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 113,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-515.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-517",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- S REF DCA306",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- S REF DCA306",
+        "DESCRIPCION_LARGA": "Diseñada para brindar libertad de movimiento y un ajuste seguro, ideal para paseos diarios y actividades recreativas.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-517.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 114,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-517.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-518",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROJO- S REF DCA306",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROJO- S REF DCA306",
+        "DESCRIPCION_LARGA": "Ideal para caminatas y paseos, proporcionando comodidad y mejor control de la mascota.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-518.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 115,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-518.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-519",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSADO- S REF DCA306",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSADO- S REF DCA306",
+        "DESCRIPCION_LARGA": "Accesorio reflectivo diseñado para brindar seguridad, confort y libertad de movimiento.",
+        "PRECIO": 62250,
+        "IMAGEN": "114-363-519.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 116,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-519.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-520",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- M REF DCA306",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -NEGRO- M REF DCA306",
+        "DESCRIPCION_LARGA": "Modelo reflectivo con ajuste ergonómico que facilita el control de la mascota y mejora la seguridad en condiciones de baja iluminación.",
+        "PRECIO": 70500,
+        "IMAGEN": "114-363-520.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 117,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-520.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-522",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSADO- M REF DCA306",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSADO- M REF DCA306",
+        "DESCRIPCION_LARGA": "Ayuda a distribuir la presión de manera uniforme y mejora el control durante los paseos.",
+        "PRECIO": 70500,
+        "IMAGEN": "114-363-522.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 118,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-522.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-580",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NARANJA- S REF DCSN202",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NARANJA- S REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 45750,
+        "IMAGEN": "114-363-580.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 119,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-580.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-581",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NARANJA- M REF DCSN202",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NARANJA- M REF DCSN202",
+        "DESCRIPCION_LARGA": "\nEl arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 57750,
+        "IMAGEN": "114-363-581.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 120,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-581.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-582",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -NARANJA- XL REF DCSN202",
+        "VARIANTE": "EXTRA GRANDE",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -NARANJA- XL REF DCSN202",
+        "DESCRIPCION_LARGA": "El arnés DOCO ® Signature Step-In está fabricado con nailon suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura",
+        "PRECIO": 111750,
+        "IMAGEN": "114-363-582.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 121,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-582.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-722",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -NEGRO- XS REF DCSN002",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -NEGRO- XS REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 15000,
+        "IMAGEN": "114-363-722.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 122,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-722.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-724",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -ROJO- XS REF DCSN002",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -ROJO- XS REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 15000,
+        "IMAGEN": "114-363-724.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 123,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-724.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-728",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- XS REF DCSN002",
+        "VARIANTE": "EXTRA PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- XS REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 15000,
+        "IMAGEN": "114-363-728.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 124,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-728.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-730",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -GRIS- S REF DCSN002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -GRIS- S REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 18750,
+        "IMAGEN": "114-363-730.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 125,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-730.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-732",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- S REF DCSN002",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- S REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 18750,
+        "IMAGEN": "114-363-732.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 126,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-732.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-737",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -CELESTE- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-737.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 127,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-737.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-738",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -ROSADO- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -ROSADO- L REF DCSN002",
+        "DESCRIPCION_LARGA": "Collar suave y duradero hecho de nylon premium, con hebilla resistente y anillo metálico para asegurar la correa. Cómodo, ajustable y con diseño clásico para uso diario.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-738.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 128,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-738.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-739",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -GRIS- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -GRIS- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-739.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 129,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-739.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-740",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO SIGNATURE -LILA- L REF DCSN002",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO SIGNATURE -LILA- L REF DCSN002",
+        "DESCRIPCION_LARGA": "El collar de nailon DOCO® Signature está fabricado con nailon de ALTA calidad y herrajes de plástico que proporcionan un ajuste cómodo entre el cuello y el collar de su perro. El collar cuenta con una hebilla de plástico de liberación rápida y un sistema de triple deslizamiento para una fácil colocación. Costuras resistentes para una mayor durabilidad. Anilla en D metálica para las placas y correas de su perro. Cómodo de usar, con colores sólidos y vibrantes fáciles de ver.",
+        "PRECIO": 30000,
+        "IMAGEN": "114-363-740.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 130,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-740.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-770",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO SIGNATURE -AZUL- L REF DCSN202",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "TIRADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO SIGNATURE -AZUL- L REF DCSN202",
+        "DESCRIPCION_LARGA": "La correa multifunción DOCO® Easy-Snap de 6 pies presenta la combinación perfecta de RENDIMIENTO y FUERZA.\n\nLa correa está diseñada para personas y perros a los que les encanta disfrutar del estilo de vida activo al aire libre.\n\nEl gancho giratorio de 360° es cómodo de colocar en cualquier collar o arnés para perros.\n\nLos colores sólidos y vibrantes son fáciles de ver.\n\n¡Asegúrate de seleccionar el collar o el arnés DOCO® a juego para completar el look de tus compañeros!",
+        "PRECIO": 74250,
+        "IMAGEN": "114-363-770.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 131,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-770.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-878",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES + TIRADOR DE NYLON P/ GATO DOCO -NARANJA- REF DCAT2011072",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA GATOS",
+        "DESCRIPCION_CORTA": "ARNES + TIRADOR DE NYLON P/ GATO DOCO -NARANJA- REF DCAT2011072",
+        "DESCRIPCION_LARGA": "\nDOCO® Jelly Bean Collar es resistente al agua, no tiene suciedad ni olor. El collar Jelly Bean no absorberá agua, suciedad ni olores. Simplemente enjuague con agua y es hermoso como nuevo otra vez. Construido con un exclusivo revestimiento de pvc patrón que se seca rápidamente. Los materiales utilizados son ecológicos y suaves con el pelaje y la piel de los perros para evitar la fricción. Este collar es ideal para aventuras y actividades al aire libre.",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-878.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 132,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-878.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-913",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -NEGRO- S REF DCA102",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -NEGRO- S REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 37500,
+        "IMAGEN": "114-363-913.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 133,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-913.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-915",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- S REF DCA102",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- S REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 37500,
+        "IMAGEN": "114-363-915.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 134,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-915.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-917",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 37500,
+        "IMAGEN": "114-363-917.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 135,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-917.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-920",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -VERDE- S REF DCA102",
+        "VARIANTE": "PEQUEÑO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -VERDE- S REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 37500,
+        "IMAGEN": "114-363-920.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 136,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-920.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-924",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- M REF DCA102",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- M REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 46500,
+        "IMAGEN": "114-363-924.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 137,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-924.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-926",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 46500,
+        "IMAGEN": "114-363-926.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 138,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-926.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-928",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
+        "VARIANTE": "MEDIANO",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 46500,
+        "IMAGEN": "114-363-928.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 139,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-928.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-932",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -AZUL- L REF DCA102",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -AZUL- L REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60000,
+        "IMAGEN": "114-363-932.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 140,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-932.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-933",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- L REF DCA102",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -VERDE LIMON- L REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60000,
+        "IMAGEN": "114-363-933.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 141,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-933.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-934",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -NARANJADO- L REF DCA102",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -NARANJADO- L REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60000,
+        "IMAGEN": "114-363-934.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 142,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-934.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-935",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
+        "VARIANTE": "GRANDE",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60000,
+        "IMAGEN": "114-363-935.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 143,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-935.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "130-150-025",
+        "MARCA": "ROYAL CANIN",
+        "PRODUCTO": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
+        "VARIANTE": "195G",
+        "CATEGORIA": "ALIMENTO HÚMEDO / PERROS",
+        "SUBCATEGORIA": "VHN - PRESCRIPCION",
+        "DESCRIPCION_CORTA": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
+        "DESCRIPCION_LARGA": "Comida húmeda indicada para perros que presentan patologías como: Anorexia o malnutrición, soporte nutricional en cuidados intensivos y post-quirúrgicos, convalecencia, lipidosis hepática felina, gestación, lactancia, crecimiento.\n..",
+        "PRECIO": 38625,
+        "IMAGEN": "130-150-025.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 144,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "130-150-025.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "130-219-005",
+        "MARCA": "OLD PRINCE",
+        "PRODUCTO": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
+        "VARIANTE": "15KG",
+        "CATEGORIA": "ALIMENTO SECO / PERROS",
+        "SUBCATEGORIA": "PERRO ADULTO - MEDIANO Y GRANDE",
+        "DESCRIPCION_CORTA": "OLD PRINCE CORDERO Y ARROZ ADULTOS MEDIUM & LARGE X 15 KG",
+        "DESCRIPCION_LARGA": "Mejora el sistema inmunológico;\nAporta más energía;\nColabora con una piel y un pelo más saludable;\nContribuye en el cuidado dental..",
+        "PRECIO": 408375,
+        "IMAGEN": "130-219-005.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 145,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "130-219-005.jpg",
                 "ORDEN": 1,
                 "PRINCIPAL": true
             }
