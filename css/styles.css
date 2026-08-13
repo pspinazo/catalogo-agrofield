@@ -1,0 +1,4052 @@
+/* ========================================
+   CATÁLOGO AGROFIELD
+   STYLES.CSS
+======================================== */
+
+
+/* ========================================
+   RESET
+======================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ========================================
+   CUERPO
+======================================== */
+
+body {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f5f7fa 0%,
+            #e9ecf1 100%
+        );
+
+    color: #1a1a1a;
+
+    min-height: 100vh;
+}
+
+
+/* ========================================
+   ENCABEZADO
+======================================== */
+
+header {
+    background:
+        linear-gradient(
+            135deg,
+            #0d6e3b 0%,
+            #084e01 100%
+        );
+
+    padding: 16px 30px;
+
+    border-bottom:
+        2px solid
+        #064b20;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.15
+        );
+}
+
+.header-contenido {
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.header-marca {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+
+/* ========================================
+   LOGO
+======================================== */
+
+.logo-agrofield {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 190px;
+
+    height: 58px;
+
+    flex-shrink: 0;
+}
+
+.logo-agrofield img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    object-position: left center;
+
+    display: block;
+}
+
+
+/* ========================================
+   SEPARADOR
+======================================== */
+
+.header-separador {
+    width: 1px;
+
+    height: 42px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.35
+        );
+}
+
+
+/* ========================================
+   TÍTULO
+======================================== */
+
+.header-titulo h1 {
+    color: #ffffff;
+
+    font-size: 19px;
+
+    font-weight: 600;
+}
+
+.header-titulo p {
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.75
+        );
+
+    font-size: 12px;
+
+    margin-top: 2px;
+}
+
+
+/* ========================================
+   CONTENEDOR
+======================================== */
+
+.contenedor {
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding:
+        35px
+        20px
+        60px;
+}
+
+
+/* ========================================
+   BUSCADOR
+======================================== */
+
+.busqueda {
+    margin-bottom: 18px;
+}
+
+.busqueda-contenedor {
+    position: relative;
+}
+
+.busqueda input {
+    width: 100%;
+
+    padding:
+        15px
+        18px
+        15px
+        48px;
+
+    font-size: 15px;
+
+    border:
+        2px solid
+        #d5dbe0;
+
+    border-radius: 11px;
+
+    background: #ffffff;
+
+    outline: none;
+
+    transition:
+        border-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.2s;
+}
+
+.busqueda input:focus {
+    border-color: #0d6e3b;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(
+            13,
+            110,
+            59,
+            0.1
+        );
+
+    transform:
+        translateY(-1px);
+}
+
+.icono-busqueda {
+    position: absolute;
+
+    left: 17px;
+
+    top: 50%;
+
+    transform:
+        translateY(-50%);
+
+    font-size: 17px;
+
+    opacity: 0.55;
+
+    pointer-events: none;
+}
+
+
+/* ========================================
+   FILTROS
+======================================== */
+
+.filtros {
+    display: flex;
+
+    align-items: end;
+
+    gap: 14px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+
+    padding: 18px;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #e1e5e8;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(
+            0,
+            0,
+            0,
+            0.04
+        );
+}
+
+.filtro-grupo {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.filtro-grupo label {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #555;
+}
+
+.filtros select {
+    min-width: 210px;
+
+    padding:
+        11px
+        14px;
+
+    font-size: 14px;
+
+    border:
+        2px solid
+        #d5dbe0;
+
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.3s,
+        box-shadow 0.3s;
+}
+
+.filtros select:focus {
+    border-color: #0d6e3b;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(
+            13,
+            110,
+            59,
+            0.1
+        );
+
+    outline: none;
+}
+
+.btn-limpiar {
+    padding:
+        11px
+        17px;
+
+    border:
+        1px solid
+        #d5dbe0;
+
+    border-radius: 9px;
+
+    background: #f7f8f9;
+
+    color: #555;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        all 0.25s;
+}
+
+.btn-limpiar:hover {
+    background: #eef1f2;
+
+    border-color: #bfc6cb;
+}
+
+
+/* ========================================
+   CABECERA PRODUCTOS
+======================================== */
+
+.cabecera-productos {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    gap: 15px;
+}
+
+.cabecera-productos h2 {
+    font-size: 22px;
+
+    margin-bottom: 3px;
+}
+
+.cabecera-productos p {
+    color: #777;
+
+    font-size: 13px;
+}
+
+
+/* ========================================
+   ACCIONES PRODUCTOS
+======================================== */
+
+.acciones-productos {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    flex-shrink: 0;
+}
+
+
+/* ========================================
+   SELECTOR DE VISTA
+======================================== */
+
+.selector-vista {
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    padding: 4px;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #dfe3e6;
+
+    border-radius: 9px;
+}
+
+.btn-vista {
+    border: none;
+
+    background: transparent;
+
+    color: #777;
+
+    padding:
+        8px
+        11px;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        all 0.25s;
+}
+
+.btn-vista:hover {
+    background: #f1f3f4;
+
+    color: #333;
+}
+
+.btn-vista.activo {
+    background: #0d6e3b;
+
+    color: #ffffff;
+}
+
+
+/* ========================================
+   BOTÓN PDF
+======================================== */
+
+.btn-pdf {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    padding:
+        10px
+        14px;
+
+    border:
+        1px solid
+        #d5dbe0;
+
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #555;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        all 0.25s;
+
+    white-space: nowrap;
+}
+
+.btn-pdf:hover {
+    background: #f1f3f4;
+
+    border-color: #bfc6cb;
+
+    color: #333;
+
+    transform:
+        translateY(-1px);
+}
+
+.btn-pdf:active {
+    transform:
+        translateY(0);
+}
+
+
+/* ========================================
+   GRID PRODUCTOS
+======================================== */
+
+.grid-productos {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(
+                220px,
+                1fr
+            )
+        );
+
+    gap: 20px;
+}
+
+
+/* ========================================
+   TARJETA PRODUCTO
+======================================== */
+
+.producto {
+    background: #ffffff;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    border:
+        2px solid
+        #e5e8eb;
+
+    transition:
+        transform 0.3s
+        cubic-bezier(
+            0.34,
+            1.56,
+            0.64,
+            1
+        ),
+        box-shadow 0.3s,
+        border-color 0.3s;
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 100%;
+}
+
+.producto:hover {
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 15px 35px
+        rgba(
+            13,
+            110,
+            59,
+            0.15
+        );
+
+    border-color: #0d6e3b;
+}
+
+
+/* ========================================
+   IMAGEN TARJETA
+======================================== */
+
+.producto-imagen {
+    width: 100%;
+
+    height: 230px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #ffffff;
+
+    padding: 15px;
+}
+
+.producto-imagen img {
+    max-width: 100%;
+
+    max-height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+.imagen-sin-producto {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    height: 100%;
+
+    color: #aaa;
+
+    font-size: 12px;
+}
+
+
+/* ========================================
+   INFORMACIÓN TARJETA
+======================================== */
+
+.producto-info {
+    padding: 18px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.producto-marca {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #0d6e3b;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 6px;
+
+    background:
+        rgba(
+            13,
+            110,
+            59,
+            0.08
+        );
+
+    padding:
+        4px
+        8px;
+
+    border-radius: 6px;
+
+    display: inline-block;
+
+    align-self: flex-start;
+}
+
+.producto-info h3 {
+    font-size: 18px;
+
+    margin-bottom: 8px;
+
+    line-height: 1.25;
+}
+
+.producto-presentacion {
+    font-size: 14px;
+
+    color: #666;
+
+    margin-bottom: 12px;
+}
+
+.producto-precio {
+    font-size: 20px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+
+/* ========================================
+   BOTÓN TARJETA
+======================================== */
+
+.btn-ver-producto {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0d6e3b 0%,
+            #084e01 100%
+        );
+
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        all 0.3s
+        cubic-bezier(
+            0.34,
+            1.56,
+            0.64,
+            1
+        ),
+        transform 0.1s;
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            13,
+            110,
+            59,
+            0.3
+        );
+
+    margin-top: auto;
+}
+
+.btn-ver-producto:hover {
+    background:
+        linear-gradient(
+            135deg,
+            #0d6e3b 0%,
+            #065838 100%
+        );
+
+    box-shadow:
+        0 6px 20px
+        rgba(
+            13,
+            110,
+            59,
+            0.4
+        );
+
+    transform:
+        translateY(-2px);
+}
+
+.btn-ver-producto:active {
+    transform:
+        scale(0.96);
+}
+
+
+/* ========================================
+   PRODUCTO DESTACADO
+======================================== */
+
+.producto-destacado {
+    position: absolute;
+
+    top: 12px;
+
+    left: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffd700 0%,
+            #ffed4e 100%
+        );
+
+    border:
+        2px solid
+        #ffc700;
+
+    border-radius: 20px;
+
+    padding:
+        6px
+        12px;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    z-index: 2;
+
+    color: #333;
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            255,
+            215,
+            0,
+            0.4
+        );
+}
+
+
+/* ========================================
+   VISTA LISTADO
+======================================== */
+
+.grid-productos.vista-listado {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+/* ========================================
+   CABECERA LISTADO
+======================================== */
+
+.cabecera-listado {
+    display: grid;
+
+    grid-template-columns:
+        75px
+        minmax(180px, 1.5fr)
+        minmax(100px, 0.8fr)
+        minmax(130px, 1fr)
+        minmax(120px, 0.8fr)
+        120px
+        70px;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding:
+        10px
+        15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0d6e3b 0%,
+            #084e01 100%
+        );
+
+    border-radius: 10px;
+
+    color: #ffffff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.4px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(
+            13,
+            110,
+            59,
+            0.15
+        );
+}
+
+.cabecera-listado-imagen {
+    text-align: center;
+}
+
+
+/* ========================================
+   FILA LISTADO
+======================================== */
+
+.producto-listado {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns:
+        75px
+        minmax(180px, 1.5fr)
+        minmax(100px, 0.8fr)
+        minmax(130px, 1fr)
+        minmax(120px, 0.8fr)
+        120px
+        70px;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding:
+        10px
+        15px;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #e1e5e8;
+
+    border-radius: 10px;
+
+    transition:
+        box-shadow 0.2s,
+        border-color 0.2s,
+        transform 0.2s;
+
+    width: 100%;
+}
+
+.producto-listado:hover {
+    border-color: #0d6e3b;
+
+    box-shadow:
+        0 5px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.07
+        );
+
+    transform:
+        translateY(-1px);
+}
+
+
+/* ========================================
+   IMAGEN LISTADO
+======================================== */
+
+.listado-imagen {
+    width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #ffffff;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.listado-imagen img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ========================================
+   CAMPOS LISTADO
+======================================== */
+
+.listado-campo {
+    min-width: 0;
+}
+
+.listado-label {
+    display: none;
+}
+
+.listado-valor {
+    font-size: 13px;
+
+    color: #333;
+
+    line-height: 1.3;
+
+    word-break: break-word;
+}
+
+.listado-producto {
+    font-size: 14px;
+
+    font-weight: 700;
+
+    color: #171717;
+
+    line-height: 1.3;
+
+    word-break: break-word;
+}
+
+.listado-marca {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #0d6e3b;
+
+    word-break: break-word;
+}
+
+.listado-precio {
+    font-size: 14px;
+
+    font-weight: 800;
+
+    color: #0d6e3b;
+
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   ACCIONES LISTADO
+======================================== */
+
+.listado-acciones {
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    width: 100%;
+
+    min-width: 0;
+}
+
+.btn-listado {
+    border: none;
+
+    border-radius: 7px;
+
+    padding:
+        8px
+        11px;
+
+    background: #0d6e3b;
+
+    color: #ffffff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        transform 0.2s;
+
+    white-space: nowrap;
+}
+
+.btn-listado:hover {
+    background: #084e01;
+
+    transform:
+        translateY(-1px);
+}
+
+
+/* ========================================
+   PAGINACIÓN
+======================================== */
+
+.paginacion-productos {
+    width: 100%;
+
+    margin-top: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    padding:
+        15px
+        0;
+}
+
+.paginacion-informacion {
+    color: #777;
+
+    font-size: 13px;
+
+    font-weight: 500;
+}
+
+.paginacion-controles {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    flex-wrap: wrap;
+}
+
+.btn-paginacion {
+    min-width: 38px;
+
+    height: 38px;
+
+    padding:
+        0
+        10px;
+
+    border:
+        1px solid
+        #d5dbe0;
+
+    border-radius: 8px;
+
+    background: #ffffff;
+
+    color: #555;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s,
+        color 0.2s,
+        transform 0.2s;
+}
+
+.btn-paginacion:hover:not(:disabled) {
+    background: #f1f3f4;
+
+    border-color: #0d6e3b;
+
+    color: #0d6e3b;
+
+    transform:
+        translateY(-1px);
+}
+
+.btn-paginacion.activo {
+    background: #0d6e3b;
+
+    border-color: #0d6e3b;
+
+    color: #ffffff;
+}
+
+.btn-paginacion:disabled {
+    opacity: 0.45;
+
+    cursor: not-allowed;
+
+    background: #f5f6f7;
+}
+
+.paginacion-separador {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 28px;
+
+    height: 38px;
+
+    color: #777;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+/* ========================================
+   SIN RESULTADOS
+======================================== */
+
+.sin-resultados {
+    grid-column: 1 / -1;
+
+    text-align: center;
+
+    padding:
+        60px
+        20px;
+
+    color: #666;
+
+    animation:
+        fadeIn
+        0.4s
+        ease;
+}
+
+.sin-resultados p {
+    font-size: 18px;
+
+    font-weight: 500;
+
+    margin: 0;
+}
+
+
+/* ========================================
+   MODAL
+======================================== */
+
+.modal {
+    position: fixed;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background:
+        rgba(
+            0,
+            0,
+            0,
+            0.75
+        );
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    z-index: 999;
+
+    overflow: hidden;
+
+    animation:
+        fadeIn
+        0.3s
+        ease;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* ========================================
+   OCULTO
+======================================== */
+
+.oculto {
+    display: none;
+}
+
+
+/* ========================================
+   CONTENIDO MODAL
+======================================== */
+
+.modal-contenido {
+    width: 100%;
+
+    max-width: 1050px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    padding: 34px;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(
+            0,
+            0.95fr
+        )
+        minmax(
+            0,
+            1.05fr
+        );
+
+    gap: 40px;
+
+    position: relative;
+
+    box-shadow:
+        0 30px 70px
+        rgba(
+            0,
+            0,
+            0,
+            0.3
+        );
+
+    animation:
+        slideUp
+        0.4s
+        cubic-bezier(
+            0.34,
+            1.56,
+            0.64,
+            1
+        );
+}
+
+@keyframes slideUp {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* ========================================
+   BOTÓN CERRAR
+======================================== */
+
+.cerrar {
+    position: absolute;
+
+    right: 16px;
+
+    top: 14px;
+
+    width: 40px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #f1f3f4;
+
+    color: #333;
+
+    font-size: 25px;
+
+    line-height: 40px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition:
+        background 0.3s,
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.cerrar:hover {
+    background: #e4e7e9;
+
+    transform:
+        rotate(90deg)
+        scale(1.1);
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            0,
+            0,
+            0,
+            0.1
+        );
+}
+
+
+/* ========================================
+   ÁREA DE IMÁGENES
+======================================== */
+
+.modal-imagen {
+    width: 100%;
+
+    min-width: 0;
+
+    min-height: 500px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f9fafb 0%,
+            #f3f4f6 100%
+        );
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    border:
+        2px solid
+        #e5e8eb;
+}
+
+.modal-imagen-principal {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.modal-imagen > img,
+.modal-imagen-principal > img {
+    width: 100%;
+
+    max-width: 440px;
+
+    height: 390px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ========================================
+   GALERÍA
+======================================== */
+
+.galeria-miniaturas {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 20px;
+
+    padding: 5px;
+
+    flex-wrap: wrap;
+}
+
+
+/* ========================================
+   MINIATURAS
+======================================== */
+
+.miniatura-producto {
+    flex:
+        0 0 auto;
+
+    width: 82px;
+
+    height: 82px;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    border:
+        2px solid
+        #dfe3e6;
+
+    background: #ffffff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.3s,
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.miniatura-producto img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+.miniatura-producto:hover {
+    transform:
+        translateY(-4px)
+        scale(1.05);
+
+    border-color:
+        #0d6e3b;
+
+    box-shadow:
+        0 6px 15px
+        rgba(
+            13,
+            110,
+            59,
+            0.2
+        );
+}
+
+.miniatura-producto.miniatura-activa {
+    border:
+        3px solid
+        #0d6e3b;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(
+                13,
+                110,
+                59,
+                0.05
+            ) 0%,
+            rgba(
+                13,
+                110,
+                59,
+                0.02
+            ) 100%
+        );
+
+    box-shadow:
+        0 0 0 3px
+        rgba(
+            13,
+            110,
+            59,
+            0.15
+        );
+}
+
+
+/* ========================================
+   INFORMACIÓN MODAL
+======================================== */
+
+.modal-info {
+    width: 100%;
+
+    min-width: 0;
+
+    padding:
+        12px
+        5px
+        20px;
+}
+
+.modal-info h2 {
+    font-size: 30px;
+
+    line-height: 1.18;
+
+    margin-bottom: 25px;
+
+    padding-right: 35px;
+
+    color: #171717;
+}
+
+.modal-marca-contenedor {
+    margin-bottom: 10px;
+}
+
+.modal-info .producto-marca {
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    color: #0d6e3b;
+
+    margin-bottom: 0;
+
+    background:
+        rgba(
+            13,
+            110,
+            59,
+            0.08
+        );
+
+    padding:
+        5px
+        9px;
+
+    border-radius: 6px;
+
+    display: inline-block;
+}
+
+
+/* ========================================
+   DATOS PRODUCTO
+======================================== */
+
+.datos-producto {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(
+                0,
+                1fr
+            )
+        );
+
+    gap: 16px;
+
+    margin-bottom: 25px;
+}
+
+.dato-producto {
+    padding:
+        13px
+        14px;
+
+    background: #f7f8f9;
+
+    border:
+        1px solid
+        #e4e7e9;
+
+    border-radius: 9px;
+}
+
+.dato-label {
+    display: block;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    color: #888;
+
+    margin-bottom: 5px;
+}
+
+.dato-producto p {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #333;
+
+    margin: 0;
+
+    word-break: break-word;
+}
+
+
+/* ========================================
+   PRECIO
+======================================== */
+
+.modal-precio-contenedor {
+    padding: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(
+                13,
+                110,
+                59,
+                0.08
+            ),
+            rgba(
+                13,
+                110,
+                59,
+                0.03
+            )
+        );
+
+    border:
+        1px solid
+        rgba(
+            13,
+            110,
+            59,
+            0.15
+        );
+
+    border-radius: 12px;
+
+    margin-bottom: 25px;
+}
+
+.precio-label {
+    display: block;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    color: #777;
+
+    margin-bottom: 4px;
+}
+
+.modal-info .producto-precio {
+    font-size: 28px;
+
+    font-weight: 800;
+
+    color: #0d6e3b;
+
+    margin: 0;
+}
+
+
+/* ========================================
+   DESCRIPCIÓN
+======================================== */
+
+.modal-descripcion {
+    margin-top: 5px;
+}
+
+.separador-modal {
+    width: 100%;
+
+    height: 1px;
+
+    background: #e5e5e5;
+
+    margin-bottom: 22px;
+}
+
+.modal-descripcion h3 {
+    font-size: 18px;
+
+    margin-bottom: 12px;
+
+    color: #222;
+}
+
+.modal-descripcion > p {
+    line-height: 1.7;
+
+    color: #555;
+
+    font-size: 14px;
+}
+
+
+/* ========================================
+   ÁREA PDF
+======================================== */
+
+.area-pdf {
+    display: none;
+
+    width: 100%;
+
+    background: #ffffff;
+
+    color: #171717;
+}
+
+
+/* ========================================
+   ENCABEZADO PDF
+======================================== */
+
+.pdf-encabezado {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 20px;
+
+    border-bottom:
+        2px solid
+        #0d6e3b;
+}
+
+.pdf-encabezado img {
+    width: 150px;
+
+    height: 48px;
+
+    object-fit: contain;
+
+    object-position: left center;
+
+    display: block;
+
+    flex-shrink: 0;
+}
+
+.pdf-encabezado h1 {
+    font-size: 20px;
+
+    font-weight: 700;
+
+    color: #171717;
+
+    margin: 0;
+}
+
+.pdf-encabezado p {
+    font-size: 12px;
+
+    color: #666;
+
+    margin-top: 3px;
+}
+
+
+/* ========================================
+   INFORMACIÓN PDF
+======================================== */
+
+.pdf-info {
+    margin-bottom: 18px;
+}
+
+.pdf-info h2 {
+    font-size: 18px;
+
+    color: #171717;
+
+    margin-bottom: 3px;
+}
+
+.pdf-info p {
+    font-size: 12px;
+
+    color: #777;
+}
+
+
+/* ========================================
+   PRODUCTOS PDF
+======================================== */
+
+.pdf-productos {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 5px;
+}
+
+
+/* ========================================
+   CABECERA PDF
+======================================== */
+
+.pdf-listado-cabecera {
+    display: grid;
+
+    grid-template-columns:
+        48px
+        220px
+        100px
+        120px
+        100px
+        90px;
+
+    align-items: center;
+
+    gap: 6px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding:
+        7px
+        9px;
+
+    background: #0d6e3b;
+
+    color: #ffffff;
+
+    border-radius: 5px;
+
+    font-size: 8px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* ========================================
+   PRODUCTO PDF
+======================================== */
+
+.pdf-producto {
+    display: grid;
+
+    grid-template-columns:
+        48px
+        220px
+        100px
+        120px
+        100px
+        90px;
+
+    align-items: center;
+
+    gap: 6px;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    min-height: 55px;
+
+    padding:
+        5px
+        9px;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #dfe3e6;
+
+    border-radius: 5px;
+
+    break-inside: avoid;
+
+    page-break-inside: avoid;
+}
+
+
+/* ========================================
+   IMAGEN PRODUCTO PDF
+======================================== */
+
+.pdf-producto-imagen {
+    width: 48px;
+
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #ffffff;
+}
+
+.pdf-producto-imagen img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ========================================
+   INFORMACIÓN PRODUCTO PDF
+======================================== */
+
+.pdf-producto-info {
+    min-width: 0;
+
+    width: 100%;
+}
+
+.pdf-producto-marca {
+    font-size: 7px;
+
+    font-weight: 700;
+
+    color: #0d6e3b;
+
+    text-transform: uppercase;
+
+    margin-bottom: 2px;
+}
+
+.pdf-producto-nombre {
+    font-size: 9px;
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    color: #171717;
+
+    margin: 0;
+
+    word-break: break-word;
+}
+
+.pdf-producto-dato {
+    font-size: 8px;
+
+    color: #555;
+
+    line-height: 1.25;
+
+    margin: 0;
+
+    word-break: break-word;
+}
+
+.pdf-producto-dato strong {
+    font-weight: 700;
+
+    color: #333;
+}
+
+.pdf-producto-precio {
+    font-size: 9px;
+
+    font-weight: 800;
+
+    color: #0d6e3b;
+
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   CAMPOS ESPECÍFICOS PDF
+======================================== */
+
+.pdf-producto-presentacion,
+.pdf-producto-categoria,
+.pdf-producto-sku {
+    font-size: 8px;
+
+    color: #444;
+
+    line-height: 1.25;
+
+    word-break: break-word;
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+    .modal-contenido {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 25px;
+
+        max-height: 92vh;
+    }
+
+    .modal-imagen {
+        min-height: 380px;
+    }
+
+    .modal-imagen > img,
+    .modal-imagen-principal > img {
+        height: 310px;
+    }
+
+    .modal-info {
+        padding:
+            5px
+            5px
+            20px;
+    }
+
+    .modal-info h2 {
+        font-size: 26px;
+    }
+
+
+    /* LISTADO TABLET */
+
+    .cabecera-listado,
+    .producto-listado {
+        grid-template-columns:
+            65px
+            minmax(150px, 1.5fr)
+            minmax(100px, 1fr)
+            minmax(100px, 1fr)
+            110px;
+    }
+
+    .cabecera-listado > div:nth-child(4),
+    .producto-listado .listado-presentacion {
+        display: none;
+    }
+
+    .cabecera-listado > div:nth-child(5),
+    .producto-listado .listado-categoria {
+        display: none;
+    }
+
+    .cabecera-listado > div:nth-child(6) {
+        grid-column: 4;
+    }
+
+    .cabecera-listado > div:nth-child(7) {
+        grid-column: 5;
+    }
+
+    .producto-listado .listado-precio {
+        grid-column: 4;
+    }
+
+    .producto-listado .listado-acciones {
+        grid-column: 5;
+    }
+
+    .listado-acciones {
+        justify-content: flex-end;
+    }
+
+
+    /* PDF TABLET */
+
+    .pdf-listado-cabecera,
+    .pdf-producto {
+        grid-template-columns:
+            50px
+            minmax(140px, 1.5fr)
+            minmax(90px, 0.9fr)
+            minmax(100px, 1fr)
+            90px;
+    }
+
+    .pdf-listado-cabecera > div:nth-child(4),
+    .pdf-producto-categoria {
+        display: none;
+    }
+
+
+    /* PAGINACIÓN */
+
+    .paginacion-productos {
+        justify-content: center;
+    }
+
+    .paginacion-informacion {
+        width: 100%;
+
+        text-align: center;
+    }
+}
+
+
+/* ========================================
+   CELULAR
+======================================== */
+
+@media (max-width: 600px) {
+
+    header {
+        padding:
+            12px
+            15px;
+    }
+
+    .header-marca {
+        gap: 12px;
+    }
+
+    .logo-agrofield {
+        width: 135px;
+
+        height: 42px;
+    }
+
+    .header-separador {
+        height: 32px;
+    }
+
+    .header-titulo h1 {
+        font-size: 15px;
+    }
+
+    .header-titulo p {
+        font-size: 10px;
+    }
+
+    .contenedor {
+        padding:
+            25px
+            15px
+            40px;
+    }
+
+    .presentacion h2 {
+        font-size: 23px;
+    }
+
+    .cabecera-productos {
+        align-items: flex-start;
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+    }
+
+    .acciones-productos {
+        width: 100%;
+
+        justify-content: space-between;
+    }
+
+    .selector-vista {
+        flex-shrink: 0;
+    }
+
+    .btn-vista {
+        padding:
+            7px
+            8px;
+
+        font-size: 11px;
+    }
+
+    .btn-vista span {
+        display: none;
+    }
+
+    .btn-pdf {
+        padding:
+            8px
+            11px;
+
+        font-size: 11px;
+    }
+
+    .grid-productos {
+        grid-template-columns:
+            repeat(
+                2,
+                1fr
+            );
+
+        gap: 12px;
+    }
+
+    .producto-imagen {
+        height: 170px;
+
+        padding: 10px;
+    }
+
+    .producto-info {
+        padding: 12px;
+    }
+
+    .producto-info h3 {
+        font-size: 15px;
+    }
+
+    .producto-presentacion {
+        font-size: 12px;
+    }
+
+    .producto-precio {
+        font-size: 16px;
+    }
+
+    .btn-ver-producto {
+        padding:
+            10px
+            6px;
+
+        font-size: 12px;
+    }
+
+    .filtros {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .filtro-grupo {
+        width: 100%;
+    }
+
+    .filtros select {
+        width: 100%;
+
+        min-width: 0;
+    }
+
+    .btn-limpiar {
+        width: 100%;
+    }
+
+
+    /* LISTADO CELULAR */
+
+    .grid-productos.vista-listado {
+        gap: 8px;
+    }
+
+    .cabecera-listado {
+        grid-template-columns:
+            55px
+            minmax(0, 1fr)
+            80px;
+
+        gap: 8px;
+
+        padding:
+            8px
+            9px;
+
+        font-size: 9px;
+    }
+
+    .cabecera-listado > div:nth-child(3),
+    .cabecera-listado > div:nth-child(4),
+    .cabecera-listado > div:nth-child(5),
+    .cabecera-listado > div:nth-child(7) {
+        display: none;
+    }
+
+    .cabecera-listado > div:nth-child(6) {
+        grid-column: 3;
+
+        text-align: right;
+    }
+
+    .producto-listado {
+        grid-template-columns:
+            55px
+            minmax(0, 1fr)
+            80px;
+
+        gap: 8px;
+
+        padding: 8px;
+    }
+
+    .listado-imagen {
+        width: 50px;
+
+        height: 50px;
+    }
+
+    .listado-marca {
+        font-size: 10px;
+    }
+
+    .listado-producto {
+        font-size: 12px;
+    }
+
+    .listado-presentacion,
+    .listado-categoria {
+        display: none;
+    }
+
+    .producto-listado .listado-precio {
+        grid-column: 3;
+
+        text-align: right;
+
+        font-size: 11px;
+    }
+
+    .listado-acciones {
+        display: none;
+    }
+
+    .listado-label {
+        display: none;
+    }
+
+
+    /* PAGINACIÓN CELULAR */
+
+    .paginacion-productos {
+        margin-top: 20px;
+
+        padding:
+            10px
+            0;
+
+        gap: 12px;
+    }
+
+    .paginacion-informacion {
+        font-size: 12px;
+    }
+
+    .paginacion-controles {
+        width: 100%;
+
+        gap: 4px;
+    }
+
+    .btn-paginacion {
+        min-width: 34px;
+
+        height: 34px;
+
+        padding:
+            0
+            7px;
+
+        font-size: 11px;
+    }
+
+    .paginacion-separador {
+        min-width: 22px;
+
+        height: 34px;
+    }
+
+
+    /* MODAL CELULAR */
+
+    .modal {
+        padding: 10px;
+
+        align-items:
+            flex-start;
+
+        overflow-y: auto;
+    }
+
+    .modal-contenido {
+        margin-top: 10px;
+
+        padding: 18px;
+
+        border-radius: 14px;
+
+        max-height: none;
+
+        overflow: visible;
+    }
+
+    .modal-imagen {
+        min-height: 310px;
+
+        padding: 15px;
+    }
+
+    .modal-imagen > img,
+    .modal-imagen-principal > img {
+        height: 250px;
+    }
+
+    .datos-producto {
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+    }
+
+    .modal-info h2 {
+        font-size: 23px;
+    }
+
+    .modal-info .producto-precio {
+        font-size: 24px;
+    }
+
+
+    /* MINIATURAS */
+
+    .galeria-miniaturas {
+        gap: 8px;
+
+        margin-top: 15px;
+    }
+
+    .miniatura-producto {
+        width: 65px;
+
+        height: 65px;
+    }
+
+
+    /* PDF CELULAR */
+
+    .pdf-listado-cabecera,
+    .pdf-producto {
+        grid-template-columns:
+            45px
+            minmax(0, 1fr)
+            75px;
+    }
+
+    .pdf-listado-cabecera > div:nth-child(3),
+    .pdf-listado-cabecera > div:nth-child(4),
+    .pdf-listado-cabecera > div:nth-child(5),
+    .pdf-producto-presentacion,
+    .pdf-producto-categoria,
+    .pdf-producto-sku {
+        display: none;
+    }
+
+    .pdf-producto-imagen {
+        width: 40px;
+
+        height: 40px;
+    }
+}
+
+
+/* ========================================
+   IMPRESIÓN / PDF
+======================================== */
+
+@media print {
+
+    /* ====================================
+       CONFIGURACIÓN HOJA
+    ==================================== */
+
+    @page {
+        size: A4 portrait;
+
+        margin:
+            9mm
+            9mm
+            9mm
+            9mm;
+    }
+
+
+    /* ====================================
+       CONFIGURACIÓN GENERAL
+    ==================================== */
+
+    html,
+    body {
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: #ffffff !important;
+    }
+
+    body {
+        min-height: auto !important;
+    }
+
+
+    /* ====================================
+       OCULTAR INTERFAZ
+    ==================================== */
+
+    body > header,
+    body > main,
+    body > .modal {
+        display: none !important;
+    }
+
+
+    /* ====================================
+       MOSTRAR PDF
+    ==================================== */
+
+    body > .area-pdf {
+        display: block !important;
+
+        visibility: visible !important;
+
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: #ffffff !important;
+    }
+
+    .area-pdf {
+        display: block !important;
+
+        visibility: visible !important;
+
+        width: 100% !important;
+
+        color: #171717 !important;
+    }
+
+
+    /* ====================================
+       ENCABEZADO PDF
+    ==================================== */
+
+    .pdf-encabezado {
+        display: flex !important;
+
+        align-items: center !important;
+
+        width: 100% !important;
+
+        gap: 15px !important;
+
+        padding-bottom: 8px !important;
+
+        margin-bottom: 10px !important;
+
+        border-bottom:
+            2px solid
+            #0d6e3b !important;
+    }
+
+    .pdf-encabezado img {
+        display: block !important;
+
+        width: 125px !important;
+
+        height: 38px !important;
+
+        max-width: 125px !important;
+
+        max-height: 38px !important;
+
+        object-fit: contain !important;
+
+        object-position: left center !important;
+    }
+
+    .pdf-encabezado h1 {
+        font-size: 17px !important;
+
+        margin: 0 !important;
+    }
+
+    .pdf-encabezado p {
+        font-size: 9px !important;
+
+        margin:
+            1px
+            0
+            0
+            0 !important;
+    }
+
+
+    /* ====================================
+       INFORMACIÓN PDF
+    ==================================== */
+
+    .pdf-info {
+        display: block !important;
+
+        width: 100% !important;
+
+        margin-bottom: 8px !important;
+    }
+
+    .pdf-info h2 {
+        font-size: 14px !important;
+
+        margin:
+            0
+            0
+            2px
+            0 !important;
+    }
+
+    .pdf-info p {
+        font-size: 9px !important;
+
+        margin: 0 !important;
+    }
+
+
+    /* ====================================
+       CONTENEDOR PRODUCTOS
+    ==================================== */
+
+    .pdf-productos {
+        display: block !important;
+
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    /* ====================================
+       CABECERA PDF
+    ==================================== */
+
+    .pdf-listado-cabecera {
+
+        display: grid !important;
+
+        grid-template-columns:
+            48px
+            220px
+            100px
+            120px
+            100px
+            90px !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+
+        align-items: center !important;
+
+        gap: 6px !important;
+
+        padding:
+            6px
+            7px !important;
+
+        margin:
+            0
+            0
+            3px
+            0 !important;
+
+        background: #0d6e3b !important;
+
+        color: #ffffff !important;
+
+        border-radius: 3px !important;
+
+        font-size: 7px !important;
+
+        font-weight: 700 !important;
+
+        text-transform: uppercase;
+
+        letter-spacing: 0.2px;
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+
+
+    /* ====================================
+       FILA PRODUCTO PDF
+    ==================================== */
+
+    .pdf-producto {
+
+        display: grid !important;
+
+        grid-template-columns:
+            48px
+            220px
+            100px
+            120px
+            100px
+            90px !important;
+
+        width: 100% !important;
+
+        box-sizing: border-box !important;
+
+        align-items: center !important;
+
+        gap: 6px !important;
+
+        min-height: 48px !important;
+
+        padding:
+            4px
+            7px !important;
+
+        margin:
+            0
+            0
+            3px
+            0 !important;
+
+        background: #ffffff !important;
+
+        border:
+            1px solid
+            #dfe3e6 !important;
+
+        border-radius: 3px !important;
+
+        break-inside: avoid !important;
+
+        page-break-inside: avoid !important;
+    }
+
+
+    /* ====================================
+       IMAGEN PDF
+    ==================================== */
+
+    .pdf-producto-imagen {
+
+        width: 42px !important;
+
+        height: 42px !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        background: #ffffff !important;
+    }
+
+    .pdf-producto-imagen img {
+
+        display: block !important;
+
+        width: 42px !important;
+
+        height: 42px !important;
+
+        max-width: 42px !important;
+
+        max-height: 42px !important;
+
+        object-fit: contain !important;
+    }
+
+
+    /* ====================================
+       INFORMACIÓN PDF
+    ==================================== */
+
+    .pdf-producto-info {
+
+        min-width: 0 !important;
+
+        width: 100% !important;
+    }
+
+    .pdf-producto-marca {
+
+        font-size: 6px !important;
+
+        margin:
+            0
+            0
+            1px
+            0 !important;
+
+        color: #0d6e3b !important;
+
+        font-weight: 700 !important;
+    }
+
+    .pdf-producto-nombre {
+
+        font-size: 8px !important;
+
+        line-height: 1.15 !important;
+
+        margin: 0 !important;
+
+        font-weight: 700 !important;
+
+        word-break: break-word !important;
+    }
+
+    .pdf-producto-dato {
+
+        font-size: 7px !important;
+
+        line-height: 1.2 !important;
+
+        margin: 0 !important;
+
+        color: #555555 !important;
+
+        word-break: break-word !important;
+    }
+
+    .pdf-producto-presentacion {
+
+        font-size: 7px !important;
+
+        line-height: 1.2 !important;
+
+        margin: 0 !important;
+
+        color: #444444 !important;
+
+        word-break: break-word !important;
+    }
+
+    .pdf-producto-categoria {
+
+        font-size: 7px !important;
+
+        line-height: 1.2 !important;
+
+        margin: 0 !important;
+
+        color: #444444 !important;
+
+        word-break: break-word !important;
+    }
+
+    .pdf-producto-sku {
+
+        font-size: 7px !important;
+
+        line-height: 1.2 !important;
+
+        margin: 0 !important;
+
+        color: #444444 !important;
+
+        word-break: break-word !important;
+    }
+
+    .pdf-producto-precio {
+
+        font-size: 8px !important;
+
+        margin: 0 !important;
+
+        color: #0d6e3b !important;
+
+        font-weight: 800 !important;
+
+        white-space: nowrap !important;
+    }
+
+
+    /* ====================================
+       ELEMENTOS INTERACTIVOS
+    ==================================== */
+
+    .pdf-producto button,
+    .pdf-producto .btn-listado,
+    .pdf-producto .listado-acciones {
+
+        display: none !important;
+    }
+
+
+    /* ====================================
+       EVITAR DESBORDAMIENTO
+    ==================================== */
+
+    .pdf-productos,
+    .pdf-producto,
+    .pdf-listado-cabecera {
+
+        max-width: 100% !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* ====================================
+       COLORES IMPRESIÓN
+    ==================================== */
+
+    .pdf-listado-cabecera,
+    .pdf-producto-marca,
+    .pdf-producto-precio {
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+}
+
+
+/* ========================================
+   PAGINACIÓN ADICIONAL
+======================================== */
+
+.paginacion {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin:
+        30px
+        0
+        10px;
+
+    flex-wrap: wrap;
+}
+
+.paginacion button {
+    min-width: 38px;
+
+    height: 38px;
+
+    padding:
+        0
+        12px;
+
+    border:
+        1px solid
+        #d9dfe5;
+
+    border-radius: 8px;
+
+    background: #ffffff;
+
+    color: #333333;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.15s ease;
+}
+
+.paginacion button:hover:not(:disabled) {
+    background: #f1f5f8;
+
+    border-color: #bfc8d0;
+
+    transform:
+        translateY(-1px);
+}
+
+.paginacion button.activo {
+    background: #1f6b45;
+
+    border-color: #1f6b45;
+
+    color: #ffffff;
+}
+
+.paginacion button:disabled {
+    opacity: 0.45;
+
+    cursor: not-allowed;
+
+    transform: none;
+}
+
+.paginacion .pagina-anterior,
+.paginacion .pagina-siguiente {
+    min-width: auto;
+
+    padding:
+        0
+        14px;
+}
+
+.paginacion-info {
+    width: 100%;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+.contenedor-paginacion {
+    width: 100%;
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ========================================
+   RESPONSIVE PAGINACIÓN
+======================================== */
+
+@media (max-width: 768px) {
+
+    .paginacion {
+        gap: 6px;
+
+        margin-top: 25px;
+    }
+
+    .paginacion button {
+        min-width: 36px;
+
+        height: 36px;
+
+        padding:
+            0
+            10px;
+
+        font-size: 13px;
+    }
+
+    .paginacion .pagina-anterior,
+    .paginacion .pagina-siguiente {
+        padding:
+            0
+            11px;
+    }
+}
+
+
+/* ========================================
+   CELULARES PEQUEÑOS
+======================================== */
+
+@media (max-width: 480px) {
+
+    .paginacion {
+        gap: 5px;
+    }
+
+    .paginacion button {
+        min-width: 34px;
+
+        height: 34px;
+
+        padding:
+            0
+            8px;
+
+        font-size: 12px;
+    }
+
+    .paginacion .pagina-anterior,
+    .paginacion .pagina-siguiente {
+        padding:
+            0
+            9px;
+    }
+
+    .paginacion-info {
+        font-size: 12px;
+    }
+}
+
+/* ========================================
+   PDF - VISTA LISTADO
+   CONFIGURACIÓN ÚNICA
+======================================== */
+
+.pdf-listado-cabecera,
+.pdf-listado-fila {
+
+    display: grid;
+
+    grid-template-columns:
+        18mm
+        58mm
+        32mm
+        60mm
+        18mm;
+
+    align-items: center;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    column-gap: 0;
+}
+
+
+/* ========================================
+   CABECERA PDF
+======================================== */
+
+.pdf-listado-cabecera {
+
+    background: #0d6e3b;
+
+    color: #ffffff;
+
+    border: 1px solid #0d6e3b;
+
+    padding:
+        2mm
+        2mm;
+
+    font-size: 7pt;
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.2px;
+
+    border-radius: 3px;
+
+    break-inside: avoid;
+
+    page-break-inside: avoid;
+
+    break-after: avoid;
+
+    page-break-after: avoid;
+
+    -webkit-print-color-adjust: exact;
+
+    print-color-adjust: exact;
+}
+
+
+/* ========================================
+   FILA PRODUCTO PDF
+======================================== */
+
+.pdf-listado-fila {
+
+    min-height: 22mm;
+
+    padding:
+        2mm
+        2mm;
+
+    background: #ffffff;
+
+    border-left:
+        1px solid
+        #dfe3e6;
+
+    border-right:
+        1px solid
+        #dfe3e6;
+
+    border-bottom:
+        1px solid
+        #dfe3e6;
+
+    font-size: 7pt;
+
+    line-height: 1.2;
+
+    break-inside: avoid;
+
+    page-break-inside: avoid;
+}
+
+
+/* ========================================
+   IMAGEN PRODUCTO
+======================================== */
+
+.pdf-listado-imagen {
+
+    width: 14mm;
+
+    height: 14mm;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+
+.pdf-listado-imagen img {
+
+    width: 100%;
+
+    height: 100%;
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ========================================
+   CAMPOS PRODUCTO
+======================================== */
+
+.pdf-listado-campo {
+
+    min-width: 0;
+
+    max-width: 100%;
+
+    font-size: 7pt;
+
+    line-height: 1.2;
+
+    white-space: normal;
+
+    overflow: hidden;
+
+    overflow-wrap: break-word;
+
+    word-break: normal;
+
+    box-sizing: border-box;
+}
+
+
+.pdf-listado-campo strong {
+
+    font-weight: 700;
+}
+
+
+/* ========================================
+   PRECIO
+======================================== */
+
+.pdf-listado-precio {
+
+    font-size: 7.5pt;
+
+    font-weight: 700;
+
+    color: #0d6e3b;
+
+    text-align: right;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: clip;
+
+    -webkit-print-color-adjust: exact;
+
+    print-color-adjust: exact;
+}
+
+
+/* ========================================
+   ETIQUETAS
+======================================== */
+
+.pdf-listado-label {
+
+    display: none !important;
+}
+
+
+/* ========================================
+   OCULTAR PRESENTACIÓN
+======================================== */
+
+/*
+   IMPORTANTE:
+   La columna Presentación no se muestra
+   en el PDF.
+*/
+
+.pdf-producto-presentacion,
+.pdf-listado-presentacion {
+
+    display: none !important;
+}
+
+
+/* ========================================
+   IMPRESIÓN A4
+======================================== */
+
+@media print {
+
+
+    /* ====================================
+       CONFIGURACIÓN DE HOJA
+    ==================================== */
+
+    @page {
+
+        size: A4 portrait;
+
+        margin:
+            8mm
+            8mm
+            8mm
+            8mm;
+    }
+
+
+    /* ====================================
+       DOCUMENTO
+    ==================================== */
+
+    html,
+    body {
+
+        width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: #ffffff !important;
+    }
+
+
+    body {
+
+        min-height: auto !important;
+    }
+
+
+    /* ====================================
+       OCULTAR INTERFAZ
+    ==================================== */
+
+    body > header,
+    body > main,
+    body > .modal,
+    header,
+    nav,
+    .filtros,
+    .barra-filtros,
+    .controles-vista,
+    .selector-vista,
+    .acciones-productos,
+    .paginacion,
+    .paginacion-productos,
+    .contenedor-paginacion,
+    button,
+    .no-print {
+
+        display: none !important;
+    }
+
+
+    /* ====================================
+       MOSTRAR ÁREA PDF
+    ==================================== */
+
+    body > .area-pdf,
+    #area-pdf,
+    .area-pdf {
+
+        display: block !important;
+
+        visibility: visible !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: #ffffff !important;
+
+        color: #171717 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* ====================================
+       ENCABEZADO PDF
+    ==================================== */
+
+    .pdf-encabezado {
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        width: 100% !important;
+
+        gap: 12px !important;
+
+        padding-bottom: 5mm !important;
+
+        margin-bottom: 4mm !important;
+
+        border-bottom:
+            1.5px solid
+            #0d6e3b !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .pdf-encabezado img {
+
+        display: block !important;
+
+        width: 32mm !important;
+
+        height: 10mm !important;
+
+        max-width: 32mm !important;
+
+        max-height: 10mm !important;
+
+        object-fit: contain !important;
+
+        object-position: left center !important;
+
+        flex-shrink: 0 !important;
+    }
+
+
+    .pdf-encabezado h1 {
+
+        font-size: 14pt !important;
+
+        line-height: 1.1 !important;
+
+        font-weight: 700 !important;
+
+        color: #171717 !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    .pdf-encabezado p {
+
+        font-size: 8pt !important;
+
+        line-height: 1.2 !important;
+
+        color: #666666 !important;
+
+        margin:
+            1mm
+            0
+            0
+            0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    /* ====================================
+       INFORMACIÓN PDF
+    ==================================== */
+
+    .pdf-info {
+
+        display: block !important;
+
+        width: 100% !important;
+
+        margin:
+            0
+            0
+            3mm
+            0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    .pdf-info h2 {
+
+        font-size: 11pt !important;
+
+        line-height: 1.15 !important;
+
+        color: #171717 !important;
+
+        margin:
+            0
+            0
+            1mm
+            0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    .pdf-info p {
+
+        font-size: 7.5pt !important;
+
+        line-height: 1.15 !important;
+
+        color: #777777 !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    /* ====================================
+       CONTENEDOR PRODUCTOS
+    ==================================== */
+
+    .pdf-productos,
+    #pdf-productos {
+
+        display: block !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        box-sizing: border-box !important;
+
+        overflow: visible !important;
+    }
+
+
+    /* ====================================
+       CABECERA TABLA
+    ==================================== */
+
+    .pdf-listado-cabecera {
+
+        display: grid !important;
+
+        grid-template-columns:
+            18mm
+            58mm
+            32mm
+            36mm
+            32mm
+            18mm !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+
+        align-items: center !important;
+
+        column-gap: 0 !important;
+
+        padding:
+            2mm
+            2mm !important;
+
+        margin:
+            0
+            0
+            1mm
+            0 !important;
+
+        background: #0d6e3b !important;
+
+        color: #ffffff !important;
+
+        border:
+            1px solid
+            #0d6e3b !important;
+
+        border-radius: 3px !important;
+
+        font-size: 7pt !important;
+
+        line-height: 1.15 !important;
+
+        font-weight: 700 !important;
+
+        text-transform: uppercase !important;
+
+        letter-spacing: 0.2px !important;
+
+        break-inside: avoid !important;
+
+        page-break-inside: avoid !important;
+
+        break-after: avoid !important;
+
+        page-break-after: avoid !important;
+
+        overflow: hidden !important;
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+
+
+    /* ====================================
+       FILA PRODUCTO
+    ==================================== */
+
+    .pdf-listado-fila {
+
+        display: grid !important;
+
+        grid-template-columns:
+            18mm
+            58mm
+            32mm
+            36mm
+            32mm
+            18mm !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+
+        align-items: center !important;
+
+        column-gap: 0 !important;
+
+        min-height: 22mm !important;
+
+        padding:
+            2mm
+            2mm !important;
+
+        margin: 0 !important;
+
+        background: #ffffff !important;
+
+        border-left:
+            1px solid
+            #dfe3e6 !important;
+
+        border-right:
+            1px solid
+            #dfe3e6 !important;
+
+        border-bottom:
+            1px solid
+            #dfe3e6 !important;
+
+        break-inside: avoid !important;
+
+        page-break-inside: avoid !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* ====================================
+       IMAGEN
+    ==================================== */
+
+    .pdf-listado-imagen {
+
+        width: 14mm !important;
+
+        height: 14mm !important;
+
+        max-width: 14mm !important;
+
+        max-height: 14mm !important;
+
+        display: flex !important;
+
+        align-items: center !important;
+
+        justify-content: center !important;
+
+        overflow: hidden !important;
+
+        margin: 0 auto !important;
+    }
+
+
+    .pdf-listado-imagen img {
+
+        width: 100% !important;
+
+        height: 100% !important;
+
+        max-width: 100% !important;
+
+        max-height: 100% !important;
+
+        object-fit: contain !important;
+
+        display: block !important;
+    }
+
+
+    /* ====================================
+       CAMPOS
+    ==================================== */
+
+    .pdf-listado-campo {
+
+        min-width: 0 !important;
+
+        max-width: 100% !important;
+
+        font-size: 7pt !important;
+
+        line-height: 1.2 !important;
+
+        white-space: normal !important;
+
+        overflow: hidden !important;
+
+        overflow-wrap: break-word !important;
+
+        word-break: normal !important;
+
+        box-sizing: border-box !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    }
+
+
+    .pdf-listado-campo strong {
+
+        font-size: 7pt !important;
+
+        font-weight: 700 !important;
+    }
+
+
+    /* ====================================
+       PRECIO
+    ==================================== */
+
+    .pdf-listado-precio {
+
+        font-size: 7.5pt !important;
+
+        line-height: 1.15 !important;
+
+        font-weight: 700 !important;
+
+        color: #0d6e3b !important;
+
+        text-align: right !important;
+
+        white-space: nowrap !important;
+
+        overflow: hidden !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+
+
+    /* ====================================
+       OCULTAR PRESENTACIÓN
+    ==================================== */
+
+    .pdf-producto-presentacion,
+    .pdf-listado-presentacion {
+
+        display: none !important;
+    }
+
+
+    /* ====================================
+       EVITAR DESBORDAMIENTO
+    ==================================== */
+
+    .pdf-productos,
+    #pdf-productos,
+    .pdf-listado-cabecera,
+    .pdf-listado-fila,
+    .pdf-listado-campo {
+
+        overflow: hidden !important;
+
+        max-width: 100% !important;
+    }
+
+
+    /* ====================================
+       EVITAR CORTAR PRODUCTOS
+    ==================================== */
+
+    .pdf-listado-fila {
+
+        break-inside: avoid !important;
+
+        page-break-inside: avoid !important;
+    }
+
+
+    /* ====================================
+       COLORES DE IMPRESIÓN
+    ==================================== */
+
+    .pdf-listado-cabecera,
+    .pdf-listado-precio {
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+}
