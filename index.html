@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Catálogo Comercial Agrofield</title>
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+    <link rel="manifest" href="manifest.json">
+    
+</head>
+
+
+<body>
+
+    <!-- =====================================
+         ENCABEZADO
+    ====================================== -->
+
+    <header>
+
+        <div class="header-contenido">
+
+            <div class="header-marca">
+
+                <div class="logo-agrofield">
+
+                    <img
+                        src="img/logo-agrofield.png"
+                        alt="Agrofield"
+                    >
+
+                </div>
+
+
+                <div class="header-separador"></div>
+
+
+                <div class="header-titulo">
+
+                    <h1>
+                        Catálogo Comercial
+                    </h1>
+
+                    <p>
+                        Productos y soluciones
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================
+         CONTENIDO PRINCIPAL
+    ====================================== -->
+
+    <main class="contenedor">
+
+
+        <!-- =====================================
+             BUSCADOR
+        ====================================== -->
+
+        <section class="busqueda">
+
+            <div class="busqueda-contenedor">
+
+                <span class="icono-busqueda">
+                    🔍
+                </span>
+
+                <input
+                    type="text"
+                    id="buscador"
+                    placeholder="Buscar producto, código o marca..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FILTROS
+        ====================================== -->
+
+        <section class="filtros">
+
+            <div class="filtro-grupo">
+
+                <label for="filtro-categoria">
+                    Categoría
+                </label>
+
+                <select id="filtro-categoria">
+
+                    <option value="todas">
+                        Todas las categorías
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="filtro-grupo">
+
+                <label for="filtro-marca">
+                    Marca
+                </label>
+
+                <select id="filtro-marca">
+
+                    <option value="todas">
+                        Todas las marcas
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="filtro-grupo">
+
+                <label for="orden-productos">
+                    Ordenar
+                </label>
+
+                <select id="orden-productos">
+
+                    <option value="recomendados">
+                        Recomendados
+                    </option>
+
+                    <option value="nombre-az">
+                        Nombre A-Z
+                    </option>
+
+                    <option value="nombre-za">
+                        Nombre Z-A
+                    </option>
+
+                    <option value="precio-menor">
+                        Precio menor
+                    </option>
+
+                    <option value="precio-mayor">
+                        Precio mayor
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button
+                id="limpiar-filtros"
+                class="btn-limpiar"
+                type="button"
+            >
+                Limpiar filtros
+            </button>
+
+        </section>
+
+
+        <!-- =====================================
+             CABECERA PRODUCTOS
+        ====================================== -->
+
+        <section class="cabecera-productos">
+
+            <div>
+
+                <h2>
+                    Productos
+                </h2>
+
+                <p id="contador-productos">
+                    0 productos
+                </p>
+
+            </div>
+
+
+            <!-- =====================================
+                 CAMBIO DE VISTA + PDF
+            ====================================== -->
+
+            <div class="acciones-productos">
+
+                <div class="selector-vista">
+
+                    <button
+                        id="vista-tarjetas"
+                        class="btn-vista activo"
+                        type="button"
+                        title="Vista de tarjetas"
+                    >
+
+                        🃏
+
+                        <span>
+                            Tarjetas
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        id="vista-listado"
+                        class="btn-vista"
+                        type="button"
+                        title="Vista de listado"
+                    >
+
+                        ☰
+
+                        <span>
+                            Listado
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <button
+                    id="generar-pdf"
+                    class="btn-pdf"
+                    type="button"
+                    title="Generar PDF"
+                >
+
+                    📄
+
+                    <span>
+                        Generar PDF
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             LISTA DE PRODUCTOS
+        ====================================== -->
+
+        <section
+            id="lista-productos"
+            class="grid-productos"
+        >
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         ÁREA DE IMPRESIÓN / PDF
+    ====================================== -->
+
+    <section
+        id="area-pdf"
+        class="area-pdf"
+    >
+
+        <div class="pdf-encabezado">
+
+            <img
+                src="img/logo-agrofield.png"
+                alt="Agrofield"
+            >
+
+            <div>
+
+                <h1>
+                    Catálogo Comercial
+                </h1>
+
+                <p>
+                    Productos y soluciones
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="pdf-info">
+
+            <h2>
+                Catálogo de productos
+            </h2>
+
+            <p id="pdf-contador">
+                0 productos
+            </p>
+
+        </div>
+
+
+        <div
+            id="pdf-productos"
+            class="pdf-productos"
+        >
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         MODAL DEL PRODUCTO
+    ====================================== -->
+
+    <div
+        id="modal-producto"
+        class="modal oculto"
+    >
+
+        <div class="modal-contenido">
+
+            <!-- BOTÓN CERRAR -->
+
+            <button
+                id="cerrar-modal"
+                class="cerrar"
+                aria-label="Cerrar"
+                type="button"
+            >
+                &times;
+            </button>
+
+
+            <!-- =====================================
+                 ÁREA DE IMÁGENES
+            ====================================== -->
+
+            <div class="modal-imagen">
+
+                <div class="modal-imagen-principal">
+
+                    <img
+                        id="modal-img"
+                        src=""
+                        alt=""
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 INFORMACIÓN
+            ====================================== -->
+
+            <div class="modal-info">
+
+                <div class="modal-marca-contenedor">
+
+                    <p
+                        id="modal-marca"
+                        class="producto-marca"
+                    ></p>
+
+                </div>
+
+
+                <h2
+                    id="modal-producto-nombre"
+                ></h2>
+
+
+                <!-- DATOS -->
+
+                <div class="datos-producto">
+
+                    <div class="dato-producto">
+
+                        <span class="dato-label">
+                            Presentación
+                        </span>
+
+                        <p
+                            id="modal-variante"
+                        ></p>
+
+                    </div>
+
+
+                    <div class="dato-producto">
+
+                        <span class="dato-label">
+                            SKU
+                        </span>
+
+                        <p
+                            id="modal-sku"
+                        ></p>
+
+                    </div>
+
+
+                    <div class="dato-producto">
+
+                        <span class="dato-label">
+                            Categoría
+                        </span>
+
+                        <p
+                            id="modal-categoria"
+                        ></p>
+
+                    </div>
+
+
+                    <div class="dato-producto">
+
+                        <span class="dato-label">
+                            Subcategoría
+                        </span>
+
+                        <p
+                            id="modal-subcategoria"
+                        ></p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRECIO -->
+
+                <div class="modal-precio-contenedor">
+
+                    <span class="precio-label">
+                        Precio
+                    </span>
+
+                    <p
+                        id="modal-precio"
+                        class="producto-precio"
+                    ></p>
+
+                </div>
+
+
+                <!-- DESCRIPCIÓN -->
+
+                <div class="modal-descripcion">
+
+                    <div class="separador-modal"></div>
+
+                    <h3>
+                        Descripción
+                    </h3>
+
+                    <p
+                        id="modal-descripcion"
+                    ></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         JAVASCRIPT
+    ====================================== -->
+
+    <script src="js/app.js"></script>
+    
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("service-worker.js")
+                    .then(() => {
+                        console.log("Service Worker registrado correctamente");
+                    })
+                    .catch((error) => {
+                        console.error("Error al registrar el Service Worker:", error);
+                    });
+            });
+        }
+    </script>
+    
+</body>
+
+</html>
