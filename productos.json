@@ -7,7 +7,7 @@
         "CATEGORIA": "ALIMENTO HÚMEDO / PERROS",
         "SUBCATEGORIA": "VHN - PRESCRIPCION",
         "DESCRIPCION_CORTA": "RCF LATA RECOVERY FEL/CAN CAN X 195G",
-        "DESCRIPCION_LARGA": "Comida húmeda indicada para perros que presentan patologías como: Anorexia o malnutrición, soporte nutricional en cuidados intensivos y post-quirúrgicos, convalecencia, lipidosis hepática felina, gestación, lactancia, crecimiento.",
+        "DESCRIPCION_LARGA": "Comida húmeda indicada para perros que presentan patologías como: Anorexia o malnutrición, soporte nutricional en cuidados intensivos y post-quirúrgicos, convalecencia, lipidosis hepática felina, gestación, lactancia, crecimiento.\n..",
         "PRECIO": 38625,
         "IMAGEN": "130-150-025.jpg",
         "ACTIVO": "SI",
@@ -49,9 +49,9 @@
         "PRODUCTO": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
         "VARIANTE": "GRANDE",
         "CATEGORIA": "COLLARES",
-        "SUBCATEGORIA": "ACCESORIOS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
         "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO REFLECTIVA -AZUL- L REF DCA002",
-        "DESCRIPCION_LARGA": "El collar de malla de aire de doble capa DOCO® Athletica con costuras reflectantes está hecho de malla de aire ligera, duradera y de alta calidad que proporciona un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Su diseño ultraconfortable reduce la presión mientras su compañero tira del cuello. Doble capa para mayor resistencia a la tracción y mayor transpirabilidad. Fácil de poner y quitar, con hebilla de plástico de liberación lateral duradera y ajuste Tri-Glide para un ajuste personalizado.",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
         "PRECIO": 48750,
         "IMAGEN": "114-363-167.jpg",
         "ACTIVO": "SI",
@@ -82,6 +82,160 @@
         "IMAGENES": [
             {
                 "ARCHIVO": "130-219-005.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-485",
+        "MARCA": "DOCO",
+        "PRODUCTO": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
+        "VARIANTE": "",
+        "CATEGORIA": "ARNES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "ARNES DOCO -ESTAMPADO HEXAGONAL- S REF DCL202",
+        "DESCRIPCION_LARGA": "\nEl arnés paso a paso con diseño ecológico de transferencia de calor DOCO® LOCO cuenta con un material suave y resistente al desgaste. Proporciona un ajuste más cómodo y menos presión alrededor del cuello que los collares clásicos para facilitar el entrenamiento y las actividades al aire libre. Hebilla lateral de plástico en la correa del pecho que se cierra rápidamente y permanece en su lugar. Diseñado con correas de pecho ajustables de tres deslizamientos para un ajuste rápido y ajustes personalizados para diferentes tamaños de circunferencia. Costuras resistentes para una calidad duradera y dos anillas en D de metal para una correa segura. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 48750,
+        "IMAGEN": "114-363-485.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 5,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-485.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-917",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- S REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 37500,
+        "IMAGEN": "114-363-917.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 6,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-917.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-926",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- M REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 46500,
+        "IMAGEN": "114-363-926.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 7,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-926.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-928",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -ROSADO- M REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 46500,
+        "IMAGEN": "114-363-928.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 8,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-928.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-935",
+        "MARCA": "DOCO",
+        "PRODUCTO": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
+        "VARIANTE": "",
+        "CATEGORIA": "COLLARES",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "COLLAR DE NYLON DOCO PUFFY -CELESTE- L REF DCA102",
+        "DESCRIPCION_LARGA": "\nEl collar de malla de aire de doble capa DOCO ® Athletica con costuras reflectantes presenta una malla de aire liviana y duradera de alta calidad que brinda un ajuste cómodo, control total y estilo entre el collar y el cuello de su perro. Diseño ultra cómodo que ejerce menos presión mientras tu compañero tira del cuello. Doble capa para una mayor resistencia a la tracción y una función más transpirable. Fácil de poner y quitar, duradera hebilla de plástico de liberación lateral con tres deslizamientos ajustables para ajustes personalizados.\n\nLos ribetes tienen costuras reflectantes para garantizar que tu compañero esté seguro y visible en todo momento. Costuras resistentes para una calidad duradera y anillos en D de metal para sujetar etiquetas de identificación y correas. Los colores sólidos y vibrantes son fáciles de ver",
+        "PRECIO": 60000,
+        "IMAGEN": "114-363-935.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 9,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-935.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-296",
+        "MARCA": "DOCO",
+        "PRODUCTO": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
+        "VARIANTE": "",
+        "CATEGORIA": "PECHERAS",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "PECHERA DOCO ATLETICA REFLECTIVA -ROSA- XL REF DCA306",
+        "DESCRIPCION_LARGA": "Modelo resistente y cómodo con diseño deportivo para paseos seguros y confortables.",
+        "PRECIO": 82500,
+        "IMAGEN": "114-363-296.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 10,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-296.jpg",
+                "ORDEN": 1,
+                "PRINCIPAL": true
+            }
+        ]
+    },
+    {
+        "SKU": "114-363-411",
+        "MARCA": "DOCO",
+        "PRODUCTO": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
+        "VARIANTE": "",
+        "CATEGORIA": "DISPENSADOR",
+        "SUBCATEGORIA": "ACCESORIOS PARA PERROS",
+        "DESCRIPCION_CORTA": "DISPENSER DOCO P/ RESIDUOS -TUERQUESA- REF DCPD019",
+        "DESCRIPCION_LARGA": "Dispensador DOCO color turquesa compatible con bolsas recolectoras estándar. Ideal para dueños responsables.",
+        "PRECIO": 22875,
+        "IMAGEN": "114-363-411.jpg",
+        "ACTIVO": "SI",
+        "DESTACADO": "NO",
+        "ORDEN": 11,
+        "IMAGENES": [
+            {
+                "ARCHIVO": "114-363-411.jpg",
                 "ORDEN": 1,
                 "PRINCIPAL": true
             }
