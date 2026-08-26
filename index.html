@@ -16,8 +16,9 @@
         rel="stylesheet"
         href="css/styles.css"
     >
+
     <link rel="manifest" href="manifest.json">
-    
+
 </head>
 
 
@@ -102,6 +103,8 @@
 
         <section class="filtros">
 
+            <!-- CATEGORÍA -->
+
             <div class="filtro-grupo">
 
                 <label for="filtro-categoria">
@@ -119,6 +122,8 @@
             </div>
 
 
+            <!-- MARCA -->
+
             <div class="filtro-grupo">
 
                 <label for="filtro-marca">
@@ -135,6 +140,8 @@
 
             </div>
 
+
+            <!-- ORDENAMIENTO -->
 
             <div class="filtro-grupo">
 
@@ -168,6 +175,40 @@
 
             </div>
 
+
+            <!-- =====================================
+                 LISTA DE PRECIOS
+            ====================================== -->
+
+            <div class="filtro-grupo">
+
+                <label for="lista-precios">
+                    Lista de precios
+                </label>
+
+                <select id="lista-precios">
+
+                    <option
+                        value="LISTA_PRECIO2"
+                        selected
+                    >
+                        Lista Precio 2
+                    </option>
+
+                    <option value="LISTA_PRECIO3">
+                        Lista Precio 3
+                    </option>
+
+                    <option value="DISTRIBUIDOR">
+                        Distribuidor
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- LIMPIAR FILTROS -->
 
             <button
                 id="limpiar-filtros"
@@ -494,21 +535,37 @@
     ====================================== -->
 
     <script src="js/app.js"></script>
-    
+
     <script>
+
         if ("serviceWorker" in navigator) {
+
             window.addEventListener("load", () => {
-                navigator.serviceWorker.register("service-worker.js")
+
+                navigator.serviceWorker
+                    .register("service-worker.js")
                     .then(() => {
-                        console.log("Service Worker registrado correctamente");
+
+                        console.log(
+                            "Service Worker registrado correctamente"
+                        );
+
                     })
                     .catch((error) => {
-                        console.error("Error al registrar el Service Worker:", error);
+
+                        console.error(
+                            "Error al registrar el Service Worker:",
+                            error
+                        );
+
                     });
+
             });
+
         }
+
     </script>
-    
+
 </body>
 
 </html>

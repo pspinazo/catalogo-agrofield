@@ -38,6 +38,12 @@ const filtroMarca =
 const ordenProductos =
     document.getElementById("orden-productos");
 
+const listaPrecios =
+    document.getElementById("lista-precios");
+
+let listaPrecioActual =
+    "LISTA_PRECIO2";
+
 const limpiarFiltros =
     document.getElementById("limpiar-filtros");
 
@@ -110,6 +116,26 @@ const modalPrecio =
 
 const modalDescripcion =
     document.getElementById("modal-descripcion");
+
+// ========================================
+// PRECIO SEGÚN LISTA SELECCIONADA
+// ========================================
+
+function obtenerPrecio(producto) {
+
+    if (!producto) {
+        return 0;
+    }
+
+    const precio =
+        Number(
+            producto[listaPrecioActual] || 0
+        );
+
+    return Number.isFinite(precio)
+        ? precio
+        : 0;
+}
 
 // ========================================
 // MOSTRAR PRODUCTOS
@@ -327,7 +353,7 @@ function mostrarVistaTarjetas(lista) {
                     <p class="producto-precio">
                         Gs.
                         ${Number(
-                            producto.PRECIO || 0
+                            obtenerPrecio(producto)
                         ).toLocaleString("es-PY")}
                     </p>
 
@@ -523,7 +549,7 @@ function mostrarVistaListado(lista) {
 
                         Gs.
                         ${Number(
-                            producto.PRECIO || 0
+                            obtenerPrecio(producto)
                         ).toLocaleString("es-PY")}
 
                     </div>
@@ -1010,10 +1036,10 @@ function ordenarProductos(lista) {
             return copia.sort(
                 (a, b) =>
                     Number(
-                        a.PRECIO || 0
+                        obtenerPrecio(a)
                     ) -
                     Number(
-                        b.PRECIO || 0
+                        obtenerPrecio(b)
                     )
             );
 
@@ -1022,10 +1048,10 @@ function ordenarProductos(lista) {
             return copia.sort(
                 (a, b) =>
                     Number(
-                        b.PRECIO || 0
+                        obtenerPrecio(b)
                     ) -
                     Number(
-                        a.PRECIO || 0
+                        obtenerPrecio(a)
                     )
             );
 
@@ -1179,7 +1205,7 @@ function abrirModal(producto) {
         modalPrecio.textContent =
             "Gs. " +
             Number(
-                producto.PRECIO || 0
+                obtenerPrecio(producto)
             ).toLocaleString(
                 "es-PY"
             );
@@ -1751,6 +1777,25 @@ if (ordenProductos) {
 
 }
 
+if (listaPrecios) {
+
+    listaPrecios.addEventListener(
+        "change",
+        function () {
+
+            listaPrecioActual =
+                listaPrecios.value ||
+                "LISTA_PRECIO2";
+
+            paginaActual = 1;
+
+            filtrarProductos();
+
+        }
+    );
+
+}
+
 // ========================================
 // LIMPIAR FILTROS
 // ========================================
@@ -1786,6 +1831,16 @@ if (limpiarFiltros) {
 
                 ordenProductos.value =
                     "recomendados";
+
+            }
+
+            if (listaPrecios) {
+
+                listaPrecios.value =
+                    "LISTA_PRECIO2";
+
+                listaPrecioActual =
+                    "LISTA_PRECIO2";
 
             }
 
@@ -1924,7 +1979,7 @@ function prepararPdf() {
 
             const precio =
                 Number(
-                    producto.PRECIO || 0
+                    obtenerPrecio(producto)
                 ).toLocaleString(
                     "es-PY"
                 );
@@ -2087,6 +2142,16 @@ fetch(
             cargarCategorias();
 
             cargarMarcas();
+
+            if (listaPrecios) {
+
+                listaPrecios.value =
+                    "LISTA_PRECIO2";
+
+                listaPrecioActual =
+                    "LISTA_PRECIO2";
+
+            }
 
             paginaActual = 1;
 
