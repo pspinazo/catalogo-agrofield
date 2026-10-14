@@ -7,15 +7,14 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     >
+
+    <meta name="theme-color" content="#3F5135">
 
     <title>Catálogo Comercial Agrofield</title>
 
-    <link
-        rel="stylesheet"
-        href="css/styles.css"
-    >
+    <link rel="stylesheet" href="css/styles.css">
 
     <link rel="manifest" href="manifest.json">
 
@@ -25,37 +24,58 @@
 <body>
 
     <!-- =====================================
-         ENCABEZADO
+         ENCABEZADO (logo + buscador)
+         En móvil el buscador baja a una 2da fila
     ====================================== -->
 
-    <header>
+    <header class="topbar">
 
-        <div class="header-contenido">
+        <div class="topbar-contenido">
 
-            <div class="header-marca">
+            <div class="marca">
 
                 <div class="logo-agrofield">
-
-                    <img
-                        src="img/logo-agrofield.png"
-                        alt="Agrofield"
-                    >
-
+                    <img src="img/logo-agrofield.png" alt="Agrofield">
                 </div>
-
 
                 <div class="header-separador"></div>
 
-
                 <div class="header-titulo">
+                    <h1>Catálogo Comercial</h1>
+                    <p>Productos y soluciones</p>
+                </div>
 
-                    <h1>
-                        Catálogo Comercial
-                    </h1>
+            </div>
 
-                    <p>
-                        Productos y soluciones
-                    </p>
+
+            <div class="topbar-busqueda">
+
+                <div class="campo-busqueda">
+
+                    <svg class="icono-busqueda" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <path d="M20 20l-3.5-3.5"></path>
+                    </svg>
+
+                    <input
+                        type="search"
+                        id="buscador"
+                        placeholder="Buscar producto, código o marca..."
+                        autocomplete="off"
+                        aria-label="Buscar productos"
+                    >
+
+                    <button
+                        id="limpiar-busqueda"
+                        class="btn-limpiar-busqueda"
+                        type="button"
+                        aria-label="Borrar búsqueda"
+                        hidden
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 6l12 12M18 6L6 18"></path>
+                        </svg>
+                    </button>
 
                 </div>
 
@@ -70,246 +90,217 @@
          CONTENIDO PRINCIPAL
     ====================================== -->
 
-    <main class="contenedor">
+    <main class="layout">
 
 
         <!-- =====================================
-             BUSCADOR
+             PANEL DE FILTROS
+             Escritorio: barra lateral fija
+             Tablet: panel lateral deslizante
+             Móvil: panel inferior (bottom sheet)
         ====================================== -->
 
-        <section class="busqueda">
-
-            <div class="busqueda-contenedor">
-
-                <span class="icono-busqueda">
-                    🔍
-                </span>
-
-                <input
-                    type="text"
-                    id="buscador"
-                    placeholder="Buscar producto, código o marca..."
-                    autocomplete="off"
-                >
-
-            </div>
-
-        </section>
-
-
-        <!-- =====================================
-             FILTROS
-        ====================================== -->
-
-        <section class="filtros">
-
-            <!-- CATEGORÍA -->
-
-            <div class="filtro-grupo">
-
-                <label for="filtro-categoria">
-                    Categoría
-                </label>
-
-                <select id="filtro-categoria">
-
-                    <option value="todas">
-                        Todas las categorías
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <!-- MARCA -->
-
-            <div class="filtro-grupo">
-
-                <label for="filtro-marca">
-                    Marca
-                </label>
-
-                <select id="filtro-marca">
-
-                    <option value="todas">
-                        Todas las marcas
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <!-- ORDENAMIENTO -->
-
-            <div class="filtro-grupo">
-
-                <label for="orden-productos">
-                    Ordenar
-                </label>
-
-                <select id="orden-productos">
-
-                    <option value="recomendados">
-                        Recomendados
-                    </option>
-
-                    <option value="nombre-az">
-                        Nombre A-Z
-                    </option>
-
-                    <option value="nombre-za">
-                        Nombre Z-A
-                    </option>
-
-                    <option value="precio-menor">
-                        Precio menor
-                    </option>
-
-                    <option value="precio-mayor">
-                        Precio mayor
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <!-- =====================================
-                 LISTA DE PRECIOS
-            ====================================== -->
-
-            <div class="filtro-grupo">
-
-                <label for="lista-precios">
-                    Lista de precios
-                </label>
-
-                <select id="lista-precios">
-
-                    <option
-                        value="LISTA_PRECIO2"
-                        selected
-                    >
-                        Lista Precio 2
-                    </option>
-
-                    <option value="LISTA_PRECIO3">
-                        Lista Precio 3
-                    </option>
-
-                    <option value="DISTRIBUIDOR">
-                        Distribuidor
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <!-- LIMPIAR FILTROS -->
-
-            <button
-                id="limpiar-filtros"
-                class="btn-limpiar"
-                type="button"
-            >
-                Limpiar filtros
-            </button>
-
-        </section>
-
-
-        <!-- =====================================
-             CABECERA PRODUCTOS
-        ====================================== -->
-
-        <section class="cabecera-productos">
-
-            <div>
-
-                <h2>
-                    Productos
-                </h2>
-
-                <p id="contador-productos">
-                    0 productos
-                </p>
-
-            </div>
-
-
-            <!-- =====================================
-                 CAMBIO DE VISTA + PDF
-            ====================================== -->
-
-            <div class="acciones-productos">
-
-                <div class="selector-vista">
-
-                    <button
-                        id="vista-tarjetas"
-                        class="btn-vista activo"
-                        type="button"
-                        title="Vista de tarjetas"
-                    >
-
-                        🃏
-
-                        <span>
-                            Tarjetas
-                        </span>
-
-                    </button>
-
-
-                    <button
-                        id="vista-listado"
-                        class="btn-vista"
-                        type="button"
-                        title="Vista de listado"
-                    >
-
-                        ☰
-
-                        <span>
-                            Listado
-                        </span>
-
-                    </button>
-
-                </div>
-
+        <aside
+            id="panel-filtros"
+            class="panel-filtros"
+            aria-label="Filtros"
+        >
+
+            <div class="panel-cabecera">
+
+                <h2>Filtros</h2>
 
                 <button
-                    id="generar-pdf"
-                    class="btn-pdf"
+                    id="cerrar-filtros"
+                    class="btn-icono"
                     type="button"
-                    title="Generar PDF"
+                    aria-label="Cerrar filtros"
                 >
-
-                    📄
-
-                    <span>
-                        Generar PDF
-                    </span>
-
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 6l12 12M18 6L6 18"></path>
+                    </svg>
                 </button>
 
             </div>
 
-        </section>
+
+            <div class="panel-cuerpo">
+
+                <!-- CATEGORÍA -->
+
+                <div class="filtro-grupo">
+                    <label for="filtro-categoria">Categoría</label>
+                    <select id="filtro-categoria">
+                        <option value="todas">Todas las categorías</option>
+                    </select>
+                </div>
+
+
+                <!-- MARCA -->
+
+                <div class="filtro-grupo">
+                    <label for="filtro-marca">Marca</label>
+                    <select id="filtro-marca">
+                        <option value="todas">Todas las marcas</option>
+                    </select>
+                </div>
+
+
+                <!-- ORDENAMIENTO -->
+
+                <div class="filtro-grupo">
+                    <label for="orden-productos">Ordenar por</label>
+                    <select id="orden-productos">
+                        <option value="recomendados">Recomendados</option>
+                        <option value="nombre-az">Nombre A-Z</option>
+                        <option value="nombre-za">Nombre Z-A</option>
+                        <option value="precio-menor">Precio menor</option>
+                        <option value="precio-mayor">Precio mayor</option>
+                    </select>
+                </div>
+
+
+                <!-- LISTA DE PRECIOS -->
+
+                <div class="filtro-grupo filtro-lista">
+                    <label for="lista-precios">Lista de precios</label>
+                    <select id="lista-precios">
+                        <option value="LISTA_PRECIO2" selected>Lista Precio 2</option>
+                        <option value="LISTA_PRECIO3">Lista Precio 3</option>
+                        <option value="DISTRIBUIDOR">Distribuidor</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="panel-pie">
+
+                <button
+                    id="limpiar-filtros"
+                    class="btn-secundario"
+                    type="button"
+                >
+                    Limpiar
+                </button>
+
+                <button
+                    id="aplicar-filtros"
+                    class="btn-primario"
+                    type="button"
+                >
+                    Ver productos
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- Fondo oscuro detrás del panel en tablet/móvil -->
+
+        <div id="overlay-filtros" class="overlay"></div>
 
 
         <!-- =====================================
-             LISTA DE PRODUCTOS
+             RESULTADOS
         ====================================== -->
 
-        <section
-            id="lista-productos"
-            class="grid-productos"
-        >
+        <section class="contenido">
+
+            <div class="barra-resultados">
+
+                <div class="resultados-titulo">
+                    <h2>Productos</h2>
+                    <p id="contador-productos">Cargando...</p>
+                </div>
+
+
+                <div class="acciones-productos">
+
+                    <!-- Solo visible en tablet y móvil -->
+
+                    <button
+                        id="abrir-filtros"
+                        class="btn-filtros"
+                        type="button"
+                        aria-controls="panel-filtros"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 6h16M7 12h10M10 18h4"></path>
+                        </svg>
+                        <span>Filtros</span>
+                        <span id="contador-filtros" class="badge-filtros" hidden>0</span>
+                    </button>
+
+
+                    <div class="selector-vista" role="group" aria-label="Tipo de vista">
+
+                        <button
+                            id="vista-tarjetas"
+                            class="btn-vista activo"
+                            type="button"
+                            title="Vista de tarjetas"
+                            aria-pressed="true"
+                        >
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="4" y="4" width="6.5" height="6.5" rx="1.5"></rect>
+                                <rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"></rect>
+                                <rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"></rect>
+                                <rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"></rect>
+                            </svg>
+                            <span>Tarjetas</span>
+                        </button>
+
+                        <button
+                            id="vista-listado"
+                            class="btn-vista"
+                            type="button"
+                            title="Vista de listado"
+                            aria-pressed="false"
+                        >
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M9 6h11M9 12h11M9 18h11"></path>
+                                <circle cx="5" cy="6" r="1"></circle>
+                                <circle cx="5" cy="12" r="1"></circle>
+                                <circle cx="5" cy="18" r="1"></circle>
+                            </svg>
+                            <span>Listado</span>
+                        </button>
+
+                    </div>
+
+
+                    <button
+                        id="generar-pdf"
+                        class="btn-pdf"
+                        type="button"
+                        title="Generar PDF"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path>
+                            <path d="M14 3v5h5M12 11v6M9.5 14.5L12 17l2.5-2.5"></path>
+                        </svg>
+                        <span>Generar PDF</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Chips con los filtros activos -->
+
+            <div id="filtros-activos" class="filtros-activos"></div>
+
+
+            <!-- Lista de productos (la paginación se agrega debajo desde JS) -->
+
+            <div
+                id="lista-productos"
+                class="grid-productos"
+                aria-live="polite"
+            ></div>
 
         </section>
 
@@ -320,68 +311,49 @@
          ÁREA DE IMPRESIÓN / PDF
     ====================================== -->
 
-    <section
-        id="area-pdf"
-        class="area-pdf"
-    >
+    <section id="area-pdf" class="area-pdf">
 
         <div class="pdf-encabezado">
 
-            <img
-                src="img/logo-agrofield.png"
-                alt="Agrofield"
-            >
+            <img src="img/logo-agrofield.png" alt="Agrofield">
 
-            <div>
+            <div class="pdf-titulo">
+                <h1>Catálogo Comercial</h1>
+                <p>Productos y soluciones</p>
+            </div>
 
-                <h1>
-                    Catálogo Comercial
-                </h1>
-
-                <p>
-                    Productos y soluciones
-                </p>
-
+            <div class="pdf-meta">
+                <p id="pdf-fecha"></p>
+                <p id="pdf-lista"></p>
             </div>
 
         </div>
 
 
         <div class="pdf-info">
-
-            <h2>
-                Catálogo de productos
-            </h2>
-
-            <p id="pdf-contador">
-                0 productos
-            </p>
-
+            <h2>Catálogo de productos</h2>
+            <p id="pdf-contador">0 productos</p>
         </div>
 
 
-        <div
-            id="pdf-productos"
-            class="pdf-productos"
-        >
-
-        </div>
+        <div id="pdf-productos" class="pdf-productos"></div>
 
     </section>
 
 
     <!-- =====================================
-         MODAL DEL PRODUCTO
+         MODAL / FICHA DEL PRODUCTO
     ====================================== -->
 
     <div
         id="modal-producto"
         class="modal oculto"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-producto-nombre"
     >
 
         <div class="modal-contenido">
-
-            <!-- BOTÓN CERRAR -->
 
             <button
                 id="cerrar-modal"
@@ -389,48 +361,65 @@
                 aria-label="Cerrar"
                 type="button"
             >
-                &times;
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 6l12 12M18 6L6 18"></path>
+                </svg>
             </button>
 
 
-            <!-- =====================================
-                 ÁREA DE IMÁGENES
-            ====================================== -->
+            <!-- IMÁGENES -->
 
             <div class="modal-imagen">
 
                 <div class="modal-imagen-principal">
 
-                    <img
-                        id="modal-img"
-                        src=""
-                        alt=""
-                    >
+                    <img id="modal-img" src="" alt="">
+
+                    <div class="modal-sin-imagen">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                            <circle cx="9" cy="10" r="2"></circle>
+                            <path d="M21 16l-5-5-9 9"></path>
+                        </svg>
+                        <span>Sin imagen</span>
+                    </div>
 
                 </div>
+
+                <div id="galeria-miniaturas" class="galeria-miniaturas"></div>
 
             </div>
 
 
-            <!-- =====================================
-                 INFORMACIÓN
-            ====================================== -->
+            <!-- INFORMACIÓN -->
 
             <div class="modal-info">
 
                 <div class="modal-marca-contenedor">
-
-                    <p
-                        id="modal-marca"
-                        class="producto-marca"
-                    ></p>
-
+                    <p id="modal-marca" class="producto-marca"></p>
+                    <span id="modal-destacado" class="etiqueta-destacado" hidden>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"></path>
+                        </svg>
+                        Destacado
+                    </span>
                 </div>
 
+                <h2 id="modal-producto-nombre"></h2>
 
-                <h2
-                    id="modal-producto-nombre"
-                ></h2>
+
+                <!-- PRECIO -->
+
+                <div class="modal-precio-contenedor">
+
+                    <div>
+                        <span class="precio-label">Precio</span>
+                        <p id="modal-precio" class="producto-precio"></p>
+                    </div>
+
+                    <span id="modal-lista-precio" class="modal-lista-precio"></span>
+
+                </div>
 
 
                 <!-- DATOS -->
@@ -438,71 +427,24 @@
                 <div class="datos-producto">
 
                     <div class="dato-producto">
-
-                        <span class="dato-label">
-                            Presentación
-                        </span>
-
-                        <p
-                            id="modal-variante"
-                        ></p>
-
+                        <span class="dato-label">Presentación</span>
+                        <p id="modal-variante"></p>
                     </div>
-
 
                     <div class="dato-producto">
-
-                        <span class="dato-label">
-                            SKU
-                        </span>
-
-                        <p
-                            id="modal-sku"
-                        ></p>
-
+                        <span class="dato-label">SKU</span>
+                        <p id="modal-sku"></p>
                     </div>
-
 
                     <div class="dato-producto">
-
-                        <span class="dato-label">
-                            Categoría
-                        </span>
-
-                        <p
-                            id="modal-categoria"
-                        ></p>
-
+                        <span class="dato-label">Categoría</span>
+                        <p id="modal-categoria"></p>
                     </div>
-
 
                     <div class="dato-producto">
-
-                        <span class="dato-label">
-                            Subcategoría
-                        </span>
-
-                        <p
-                            id="modal-subcategoria"
-                        ></p>
-
+                        <span class="dato-label">Subcategoría</span>
+                        <p id="modal-subcategoria"></p>
                     </div>
-
-                </div>
-
-
-                <!-- PRECIO -->
-
-                <div class="modal-precio-contenedor">
-
-                    <span class="precio-label">
-                        Precio
-                    </span>
-
-                    <p
-                        id="modal-precio"
-                        class="producto-precio"
-                    ></p>
 
                 </div>
 
@@ -510,17 +452,8 @@
                 <!-- DESCRIPCIÓN -->
 
                 <div class="modal-descripcion">
-
-                    <div class="separador-modal"></div>
-
-                    <h3>
-                        Descripción
-                    </h3>
-
-                    <p
-                        id="modal-descripcion"
-                    ></p>
-
+                    <h3>Descripción</h3>
+                    <p id="modal-descripcion"></p>
                 </div>
 
             </div>
@@ -528,6 +461,11 @@
         </div>
 
     </div>
+
+
+    <!-- Aviso flotante (reemplaza al alert) -->
+
+    <div id="aviso" class="aviso" role="status" hidden></div>
 
 
     <!-- =====================================
@@ -545,19 +483,10 @@
                 navigator.serviceWorker
                     .register("service-worker.js")
                     .then(() => {
-
-                        console.log(
-                            "Service Worker registrado correctamente"
-                        );
-
+                        console.log("Service Worker registrado correctamente");
                     })
                     .catch((error) => {
-
-                        console.error(
-                            "Error al registrar el Service Worker:",
-                            error
-                        );
-
+                        console.error("Error al registrar el Service Worker:", error);
                     });
 
             });
