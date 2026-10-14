@@ -32,7 +32,11 @@ const CONFIG = {
 
     productosPorPagina: 12,
 
+    // Única lista de precios activa (columna del productos.json)
     listaPorDefecto: "LISTA_PRECIO2",
+
+    // Nombre que se muestra en la ficha y en el PDF
+    nombreListaPorDefecto: "Lista Precio 2",
 
     // Clave para recordar la vista elegida (tarjetas / listado)
     claveVista: "agrofield-catalogo-vista",
@@ -236,9 +240,10 @@ function nombreListaActual() {
             ? el.listaPrecios.selectedOptions[0]
             : null;
 
+    // Sin selector en la página → se usa el nombre fijo de CONFIG
     return opcion
         ? opcion.textContent.trim()
-        : listaPrecioActual;
+        : CONFIG.nombreListaPorDefecto;
 }
 
 function textoProductos(n) {
