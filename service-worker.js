@@ -1,4 +1,4 @@
-const CACHE_NAME = "catalogo-agrofield-v4";
+const CACHE_NAME = "catalogo-agrofield-v5";
 
 const ARCHIVOS = [
     "./",
